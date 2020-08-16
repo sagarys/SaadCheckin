@@ -1,0 +1,556 @@
+PATCH RELEASE NOTES
+===============================================================================
+Siebel ID : FIT000276288
+Product   : EFI_Prince-2_0-J
+Creator   : sagars
+===============================================================================
+
+===============================================================================
+Section 1 : Overview
+===============================================================================
+ Risk Level (Low | Medium | High)          : Medium
+ List Affected Modules                     :  dlc,vfwrap,pageman and Trpc_jobm
+ Risk Areas (please specify)               : Server Core
+ Pre-requisites (identify all)             : SP1_FIT102047768, SP2_FIT102204194
+ Obsoleted Patches (identify all)          :FIT102067970
+ Default action [Reboot | Restart | Later] : Reboot
+ Requires an extra reboot [Yes | No]       : No
+ This is an exclusive patch [Yes|No]       : No
+ Reason to be an exclusive patch           : No
+ Localization Testing [Yes | No]           : No
+ Additional Test Cases                     : See section 2 for details
+
+ How to test the affected area beyond the steps in FIT                                                         : Same as FIT
+ Does the patch update modules that may result in incompatibilities with pre-existing jobs on the server?      : No
+ Does the patch update or delete SPOT COLORS or Color Profiles?                                                : No
+ Are there changes in Adobe Libs, if so is certification required?                                             : No
+ Does this patch update any files contained in EFS?                                                            : No
+ Are MIB values being modified with this change?                                                               : No
+ Code/Change review?                                                                                           : Yes
+ Other areas of concern?.                                                                                      : N/A
+ EFI has standardized on L2B for wrapping up solutions for Fiery.
+ If there is any reason why L2B could not be used, describe that issue here else state that L2B was used.      : No
+ If L2B or other mechanisms were used, is there an uninstall mechanism for the solution?                       : No
+ Is this a non-reproducible issue (or hard to reproduce) or does it need help from QA to do initial validation?
+ If so, use 'For Review' status in FIT.                                                                        : No
+ Is this an engineering/evaluation patch?  If so, use 'For Review' status in FIT.                              : No
+ Multi-fix patch?                                                                                              : No
+ Is this for a Specific Customer Only (SPAR-Only or One-Off solution)?                                         : No
+ Does this patch impact any existing customer-specific (SPAR-Only or One-Off) solution?                        : No
+ Is this a Mandatory or Optionalpatch?                                                                         : Mandatory
+ Configspec checked into ClearCase?                                                                            : Yes
+ Debug and Release builds copied to DT-DATA or equivalent location in Bangalore?                               : Yes
+
+
+Notes:
+ "Default Action" - this is the default action that is required when the .PS
+                    patch is made into a .EXE patch.
+    Reboot        - Reboot everything including the Operating System.
+    Restart       - Restart the fiery services only.
+    Later         - User will manually initiate a reboot or a restart.
+ "Extra Reboot"   - After the patch is downloaded, the server rebooted thus
+                    effectively installing the patch, is there a need to do
+                    1 more reboot for the patch to take full effect?
+ "Exclusive Path" - patch must be installed independently of all other patches.
+ "Obsolete Patch" - Older patches that have the exact set of binaries being
+                    updated/replaced by this patch. These obsolete patches can
+                    be made inactive on GRAD.
+
+===============================================================================
+Section 2 : Test Performed by Engineering
+===============================================================================
+                Test case                                        Mark OK
+ Verify that the patch installs correctly and all the updated  : OK
+     or added components are present in the system
+ Verify that the server comes to IDLE                          : OK
+ Verify that all defects listed in Section 3 are resolved      : OK
+ Verify that the update log lists the Siebel ID above          : OK
+
+ Additional Test Cases (list any extra test cases that were done with results)
+ 
+===============================================================================
+Section 3 : List of defects
+===============================================================================
+ FIT000276288 : [FT][NR]After proof printing, the job remains in Printing queue.
+
+===============================================================================
+Section 4 : Binaries / Files included in the patch
+===============================================================================
+ - List all binaries of the fiery controller that are updated or added -
+system/pageman.dll
+system/dlc.dll
+system/trpc_jobm.dll
+system/vfwrap.dll
+
+===============================================================================
+Section 5 : Installation Instructions:
+===============================================================================
+ Manual (.PS):
+   1) Import the patch from direct queue.
+   2) Wait until Ready to Print message is seen on LCD/CWS.
+   3) Reboot/Restart the Fiery controller as per selection in Section 1 above.
+
+ Manual (.EXE):
+   Execute the downloader (.exe patch) and follow the instructions provided.
+   
+ System Updates:
+   GRAD should be configured to reboot the Fiery controller.
+ 
+===============================================================================
+Section 6 : Clearcase label comments
+===============================================================================
+ (List all the labels specifically for the defect(s) mentioned above with
+  the clearcase comments)
+ victork.prince.12_AUG_20
+victork.vfwrap.19_JUN_20
+shekarh.pgm.prince.merge.latest.fixes.EPRINCEJR-125.20200507
+shekarh.f7.pageman.merge.changes.20191104
+shekarh.prince2.jmi.cancel.prevail.over.riperr.20191104
+trux.jmi.proofprint.fix.deadlock.20190910
+
+
+===============================================================================
+Section 7 : Clearcase configuration specification used
+===============================================================================
+element * victork.prince.12_AUG_20
+element * victork.vfwrap.19_JUN_20
+element * shekarh.pgm.prince.merge.latest.fixes.EPRINCEJR-125.20200507
+element * shekarh.f7.pageman.merge.changes.20191104
+element * shekarh.prince2.jmi.cancel.prevail.over.riperr.20191104
+element * trux.jmi.proofprint.fix.deadlock.20190910
+## FIT102246144(Paganini)
+## Covers: None
+## Modifies: EYE2DOUBLESORT.ps, EYE2SHRTSORT.ps
+## Prereqs: SP1_FIT102047768, SP2_FIT102204194
+## Obsoletes: None
+element * luf.EYE2DOUBLESORT.ps.heading.match.preview.20190911
+element * luf.paul.update.EYE2SHRTSORT.ps.EYE2DOUBLESORT.ps.20190712
+## FIT000276288(J)
+## Covers: FIT102092688(R)
+## Modifies: pageman.dll, trpc_jobm.dll, vfwrap.dll
+## Prereqs: SP1_FIT102047768, SP2_FIT102204194
+## Obsoletes: FIT102067970
+element * victork.vfwrap.19_JUN_20
+element * shekarh.pgm.prince.merge.latest.fixes.EPRINCEJR-125.20200507
+element * shekarh.f7.pageman.merge.changes.20191104
+element * shekarh.prince2.jmi.cancel.prevail.over.riperr.20191104
+element * trux.jmi.proofprint.fix.deadlock.20190910
+## FIT102230786(R)
+## Covers: FIT102236364(Paganini)
+## Modifies: commonlcd\flowscript.xml, cl.dll, commonlcd.exe, gui_metis2.dll
+## Prereqs: SP1_FIT102047768,SP2_FIT102204194
+## Obsoletes: FIT102196776
+element * pavanika.lcd.adc.changes.06_22_2020
+element * pavanika.lcd.adc.changes.FIT000283295.06_19_2020
+element * pavanika.lcd.adc.defect.FIT000283295.06_19_2020
+## FIT102227856(R)
+## Covers: FIT102240766(J), FIT102240756(Paganini)
+## Modifies: dlc.dll
+## Prereqs: SP1_FIT102047768,SP2_FIT102204194
+## Obsoletes: None
+element * victork.bowie2.29_JUN_20
+## FIT102210491(R)
+## Covers: FIT102092688(R), FIT102237572(J), FIT102237571(Paganini)
+## Modifies: Agali-5.1.44
+## Prereqs: SP1_FIT102047768,SP2_FIT102204194
+## Obsoletes: None
+element * M_Agali-5.1.44.00.06_APR_20
+## FIT102211123 (J)
+## Covers: None
+## Modifies: FieryXJ
+## Prereqs: SP1_FIT102047768
+## Obsoletes: None
+element * dhananja.FieryXJ.Prince.rm.optim.gray.via.CMYK.02_JUN_2020
+## SP2_FIT102204194
+## Covers: None
+## Prereqs: SP1_FIT102047768
+## Obsoletes: None
+## Patches Included:
+## FIT000277742, FIT102055262, FIT000276919, FIT102047663, FIT102047671, FIT000276761, FIT102067970
+## FIT102081908, FIT102093215, FIT102091702, FIT102079526, FIT102088308, FIT000276807, FIT102185060
+## FIT102185060(R) - Feature Request
+## Covers: FIT102185054(R), FIT102197294(J), FIT102197295(Paganini)
+## Modifies: video.dll
+## Prereqs: SP1_FIT102047768
+## Obsoletes: FIT102047671,FIT102093215,FIT102091702,FIT102088308,FIT102185054
+## ALL CUSTOMERS
+element * vasub.pp2.FIT102185054.FR.video.add.piramid.master.check.19May2020
+element * vasub.pp2.FIT102185060.FR.video.fix.null.ptr.06May2020
+element * vasub.pp2.FIT102185060.FR.video.PMP.status.update.change.28Apr2020
+element * vasub.pp2.FIT102185054.FR.video.add.piramid.master.check.23Apr2020
+element * vasub.pp2.FIT102185054.FR.video.add.piramid.master.check.14Apr2020
+element * vasub.pp2.FIT102185054.FR.video.add.piramid.master.check.09Apr2020
+## FIT102196776(R)
+## Covers: FIT102205170(J), FIT102205178(Paganini)
+## Modifies: flowscript.xml
+## Prereqs: SP1_FIT102047768
+## Obsoletes: None
+element * pavanika.lcd.aplwindow.exit.workaround.FIT102196776.05_06_2020
+## Fix compile error
+## Note: For PPD updates, though the defect is logged only on any one of the products like Bowie2 OR Prince2 or Bing2.
+##       We need to spin all. Check for all projects folder in \vobs\server_config\ricoh_recsa\capapp\flame7.0_bowie
+element * M_capapp.ricoh_recsa_flame7.0_bowie.2020.04.22_02.50
+## FIT102192672(R)
+## Covers : FIT102192669(J),FIT102192668
+## Modifies : factsvrhlp.dll
+## Prereqs : SP1_FIT102047768
+## Obsoletes : FIT102031866,FIT000277742
+element * wenjunzh.bowie2.0.factsvrhlp.force.marginzero.false.when.ScaleToImageableArea.05_FEB_2020
+## FIT102184838(Paganini) - CUSTOMER SPECIFIC
+## Covers: None
+## Modifies: fpss_network.dll
+## Prereqs: SP1_FIT102047768
+## Obsoletes: None
+## Notes: This requires a flag file (E:\efi\server\persist\allow_windows_firewall.txt).
+## element * manjunat.allow.win.firewall.to.run.18_MAR_2020
+## FIT102079526(J)
+## Covers : None
+## Modifies : lpd.exe, trpc_dl.dll, trpc_jobm.dll
+## Prereqs : SP1_FIT102047768
+## Obsoletes : FIT102047663
+element * sutirthb.lpd.revert.utf.18_MAR_2020
+element * pavanv.dl_jmi.lpr.user.12.Mar.2020
+element * pavanv.Bowie2.Prince2.jmi.unknown.lpr.user.fix.12.Mar.2020
+## FIT000276807
+## Covers : FIT102189853,FIT102189855
+## Modifies : commonlcd.exe, gui.dll
+## Prereqs : SP1_FIT102047768, FIT000276919
+## Obsoletes : None
+element * amitkum.clcd.FIT000276807.tempfix.11_28_2019
+element * amitkum.clcd.screenoverride.FIT000276807.10_12_2019
+## FIT102088308(R)
+## Covers : FIT102190912(J), FIT102190910(Paganini)
+## Modifies : video.dll
+## Prereqs : SP1_FIT102047768
+## Obsoletes : FIT102047671,FIT102093215,FIT102091702
+element * amithkmr.TrayAssociationFix.FIT102088308.20200603
+element * amithkmr.TrayAssociationFix.Feb192020
+## FIT102091702(R)
+## Covers: FIT102106250(J), FIT102106249(Paganini)
+## Modifies : video.dll
+## Prereqs : SP1_FIT102047768
+## Obsoletes : FIT102047671,FIT102093215
+element * nitishku.PP2.IGUAZU.sheetConversion.fix.17FEB2020
+## FIT102093215
+## Covers : FIT102105359(J), FIT102105352(Paganini)
+## Modifies : video.dll
+## Prereqs : SP1_FIT102047768
+## Obsoletes : FIT102047671
+element * amithkmr.BBPP20.AutoCalibrationPatchPostionInfoFix.20200106
+element * amithkmr.BBPP20.AutoCalibrationPatchPostionInfoSRA4Fix.20190312
+element * amithkmr.BBPP20.AutoCalibrationPatchPostionInfoFix.20191115
+## FIT102081908(R)
+## Covers: FIT102106247(J), FIT102106246(Paganini)
+## Modifies : PPDs
+## Prereqs : SP1_FIT102047768
+## Obsoletes : FIT102055262
+element * M_capapp.ricoh_recsa_flame7.0_bowie.2020.01.22_18.04
+## FIT102031866
+## Covers : None
+## Modifies : factsvrhlp.dll
+## Prereqs : SP1_FIT102047768
+## Obsoletes : FIT000277742
+element * wenjunzh.paganini2.0.factsvrhlp.custom.paper.size.for.duplex.03_SEP_19
+## FIT102067970(R)
+## Covers : FIT102187621(R), FIT102187613(Paganini)
+## Modifies : pageman.dll
+## Prereqs : SP1_FIT102047768
+## Obsoletes : None
+## Remove label element * shekarh.f7.pgm.freeform.sergei.fix.merge.EHOLLYOZR-233.15_NOV_18
+## FIT000276761
+## Covers : None
+## Modifies : acd.js
+## Prereqs : SP1_FIT102047768
+## Obsoletes : None
+element * amithkmr.BBPP20.PMPChartPrintStuckIssue.11Nov2019
+element * amithkmr.BBPP20.PMPChartPrintStuckIssueServerConfig.11Nov2019
+## FIT102047663
+## Covers : None
+## Modifies : trpc_jobm.dll
+## Prereqs : SP1_FIT102047768
+## Obsoletes : None
+element * shekarh.prince2.jmi.cancel.prevail.over.riperr.20191104
+## FIT102047671
+## Covers : FIT000277903
+## Modifies : video.dll
+## Prereqs : SP1_FIT102047768
+## Obsoletes : None
+element * amithkmr.Bp2._DefectDetectImplementation_HeaderFileMerge_20191209
+element * amithkmr.BBPP20.ACDGenerationPaperEnd_ErrMsgFix2.20191126
+element * amithkmr.BBPP20.ACDGenerationPaperEnd_ErrMsgFix.20191126
+element * amithkmr.BBPP20.TrimerSizeConstraint.20191114
+## FIT000276919
+## Covers : None
+## Modifies : silk.cfg
+## Prereqs : SP1_FIT102047768
+## Obsoletes : None
+element * amithkmr.BP20.LogicalPrinter.SILK.23Oct2019
+## FIT102055262
+## Covers : None
+## Modifies : PPDs
+## Prereqs : SP1_FIT102047768
+## Obsoletes : None
+element * M_capapp.ricoh_recsa_flame7.0_bowie.2019.10.28_22.50
+## FIT000277742
+## Covers : None
+## Modifies : factsvrhlp.dll
+## Prereqs : None
+## Obsoletes : None
+element * wenjunzh.prince2.0.factsvrhlp.duplex.output.profiles.appe.30_OCT_19
+## SP1_FIT102047768
+## Modifies : appe.dll, dequeue.dll, gui.dll, pageman.dll, pqm.dll, preview-daemon.exe, trpc_jobm.dll, video.dll, PPDs, KVF driver
+## Prereqs : None
+## Obsoletes : None
+element * shekarh.winehouse.port.trux.dq.err.fix.EPRINCEJR-127.20190925
+element * trux.jmi.feat.constraint.check.20191007
+element * M_FLAME7.0_TRPCSERVICES.09_OCT_2019
+element * amithkmr.IgazuShiftUpperTrayConstraintFix.FIT000276764.20191004
+element * amithkmr.FuncRestrictionRsp_ACD.FIT000276723.20191001
+element * karunabh.WO.Anatolia.frontCoverOpen.TrayA.printingFix.17SEP2019
+# element * shekarh.f7.pgm.freeform.sergei.fix.merge.EHOLLYOZR-233.15_NOV_18
+element * shekarh.f8.pgm.skip.vf_store_merge.flush.before.print.20191004
+element * shekarh.pqm.reset.pgm.busy.flag.20191003
+element * shekarh.pgm.fix.preview.deadlock.20190927
+element * shekarh.f7.pgm.busy.flag.sysnchronise.job.deletion.dup.20190924
+element * M_capapp.ricoh_recsa_flame7.0_bowie.2019.10.09_20.17
+element * lisak.preview-daemon.clear.ff.master.setting.before.rip.preview.job.30_JUL_2019
+element * dhananja.mute.appe.error.when.job.is.cancelled.11_SEP_19
+element * trux.jmi.proofprint.fix.deadlock.20190910
+element * akhilak.lcd.adc.crash_fix.rem_vector.FIT000276318.09_25_2019
+element * akhilak.lcd.adc_crash_fix.FIT000275306.08_30_2019
+element * markfo.kvf.andromeda.FIT000275796.10_SEP_2019
+element * markfo.kvf.andromeda.dump_vx_global_regs.01_SEP_2019
+element * amithkmr.Bp2._DefectDetectImplementationMerge_20190823
+#PP2.0 GM Specs
+#DVD1: bowie2.0r_090519_090347, bowie2.0j_090519_090347
+#DVD2: os_win10_x64_071119_143621_os1(17M)
+#DVD3: os_win10_x64_071119_143621_os2(17M)
+#DVD4: bowie2.0r_082919_211352, bowie2.0j_082919_211635
+# PP 2.0 GM
+element * markfo.kvf.increase_jer_log_buf.30_AUG_2019
+element * markfo.kvf.more_test_cfg_fixes.30_AUG_2019
+element * markfo.kvf.test_config_fixes.09_JUL_2019
+element * takashi.color.sptonercal.origmax.ignored.20190816
+element * takashi.color.sptonercal.crash.multiple.sptoners.in.dset.20190814
+element * jorge.cpsi.improve.err.pg.15_AUG_19
+element * jorge.cpsi.fix.err.pg.generaton.for.mrip.14_AUG_19
+element * madhukeh.mib.null.check.14_AUG_19
+#Others
+element * M_capapp.fiery_localization.2019.08.12_14.04
+element * luf.lcddict.20190812
+element * luf.lcddict.20190730
+element * M_capapp.fiery_localization.2019.07.30_13.47
+element * M_Agali-5.1.21.00.29_JUL_19
+element * adonisr.rel2abs.block_alignment.25_JUN_19
+element * adonisr.mvid.vx600_block_size.13_JUN_19
+element * adonisr.rel2abs.blocksize.04_JUN_19
+element * luf.lcddict.20190717
+element * M_CSIATOM.1_06_00_47.09_JUL_2019
+element * dmurphy.F7.FIT101991958.FixedIssueWithPageRotationDuplexingNup.30MAY2019
+element * dmurphy.F7.FIT101958378.10MAY2019
+element * rajeevsi.F7.F8.RemoveJun101LightFont.30_MAY_19
+element * rajeshp.WEBTOOLS4_3_2_80_31_MAY_19
+element * rajeshp.WEBTOOLS4_3_2_79_28_MAY_19
+element * rajeevsi.F7.FIT000273595.28_MAY_19
+element * rajeevsi.F7.FIT000270762.FIT000271724.24_MAY_2019
+element * luf.lcddict.20190515
+element * ganarajb.ricoh.bp2.prtInputMediaType.FIT101989960.22ndMay2019
+element * ganarajb.ricoh.bp2.increase.InputMediaType.length.FIT101989960.22ndMay2019
+element * andysant.basics.assertLog.09_May_2019
+element * rajeevsi.F7.FIT101987739.14_MAY_19
+element * gurudatm.FieryIPUtils.NwDisconnectModeWithpOption.13_MAY_2019
+element * madhukeh.port9100.abrupt.behavior.fix.30_APR_19
+#LCD
+element * akhilak.lcd.adc_crash_fix.08_25_2019
+element * akhilak.lcd.adc_kanji_font.FIT000272452.07_30_2019
+element * akhilak.lcd.adc_remove_lines.FIT000272452.07_29_2019
+element * amitkum.clcd.adjprint.porting.FIT102014459.07_22_2019
+element * akhilak.lcd.statusmsg.FIT000274994.07_22_2019
+element * akhilak.lcd.adc_error.FIT000272722.07_18_2019
+element * akhilak.lcd.adcimg_header.FIT000274591.07_09_2019
+element * amitkum.clcd.adcerror.pendingalerts.FIT000272722.07_04_2019
+element * akhilak.lcd.adc_image_error.FIT000273300.06_13_2019
+element * amitkum.pspages.bowie2.FIT000272681.05_06_2019
+element * amitkum.pspages2.bowie2.FIT000272681.05_06_2019
+element * amitkum.pspages4.bowie2.FIT000272681.05_06_2019
+element * amitkum.pspages3.bowie2.FIT000272681.05_06_2019
+element * M_COMMONLCD.2019_06_20
+#PC\FACT
+element * rahulpat.fact.fix.mem.leak.JUN_21_2019
+element * rahulpat.f8.f7.fact.fix.third.party.for.fieryripoff.JUN_18_2019
+element * M_FACTSVRHLP_FLAME.14_JUN_2019
+element * wenjunzh.flame70.80.dequeue.lpdefaults.temp.dict.18_JUN_19
+element * wenjunzh.bowie2.0.factsvrhlp.add.ripID.to.pageDeviceStruct.20_MAY_19
+element * wenjunzh.beethoven2.0.factsvrhlp.video.feed.direction.16_MAY_19
+element * wenjunzh.flame70.factsvrhlp.efmediaweight.string.value.23_APR_19
+element * rahulpat.f7.f8.fact.FIT101927354.set.PS_PC_MediaIDCover.MAR_08_2019
+element * M_PAPERCATALOG_FLAME7.07_AUG_2019
+#RIP
+element * jorge.cpsi.calc.tumble.for.simplex.simulated.via.duplex.when.finishing.07_AUG_19
+element * belinda.flamingo.f7.gray.processing.fix.26_JUL_2019
+element * ckong.customPg.copyNumStamp_july31_19
+element * dchen.add.check.efiColor.for.adobe.cert.061819
+element * dchen.check.null.decode.array.062419
+element * victork.dlc.16_JUL_19
+element * ckong.XJXSetMediaID.negOne_July15_19
+element * jorge.endpage.c.add.logs.11_JUL_19
+element * jorge.startup.ps.change.product.ps.execution.order.11_JULL_19
+element * jorge.FieryXJ.fix.function.comment.11_JULL_19
+element * ckong.XJXsetMediaID.takes.int_July11_19
+element * M_UPDL_FLAME7.0.11_JUL_2019
+element * belinda.dlc.xpimage.smask.fix.10_JUL_2019
+element * davidy.Corrected_ENIKE-2_incl_KozPr6N_fonts.10_JUL_2019
+element * M_UPDL_FLAME7.0.11_JUL_2019
+#Color\Calibrator
+element * ganarajb.bp2.copy.it8.at.runtime.6thAug2019
+element * takashi.c7200.sptonercal.colorkeyname.mapping.table.20190801
+element * takashi.color.sptonercal.avoid.unnecessary.jt.calls.20190801
+element * jeffbaue.C7200.merge.CMYKW.color.config.20190730
+element * takashi.color.sptonercal.target.origmax.ready.cleanup.20190725
+element * takashi.color.sptonercal.target.origmax.ready.typo.20190724
+element * takashi.color.sptonercal.target.origmax.ready.20190723
+#Round 4
+element * dionm.white.20190722
+element * luf.paul.update.EYE2SHRTSORT.ps.EYE2DOUBLESORT.ps.20190712
+element * dionm.white.it8.update.20190711
+element * dionm.update.special.20190710
+element * takashi.color.sptonercal.invalid.it8.crash.20190709
+element * takashi.color.multi.sptoner.calibration.20190709
+element * takashi.color.update.splittables.20190709
+element * takashi.color.eliminate.colortree.access.from.backend.20190708
+element * takashi.color.performace.regression.checking.inksplit.20190708
+element * takashi.color.sptoner.cal.curves.swap.20190707
+element * takashi.pclwrapper.running.on.ripper.20190705
+element * takashi.color.sptonercal.target.origmax.currentmax.20190705
+#Round3
+element * takashi.color.remove.dset.cobj.query.from.backend.20190702
+element * takashi.color.tree.access.COLR_freeEntry_Aux.20190627
+element * takashi.color.tree.access.thru.harmony.aux.20190627
+#Round2
+element * takashi.color.support.neonpink.magenta.20190624
+element * takashi.color.sptoner.calibration.rerouting.curves.20190620
+#Round1
+element * takashi.color.sptoner.calibration.rerouting.curves.20190620
+element * takashi.color.sptoner.calibration.wo.rerouting.curves.20190619
+element * luf.flame7.linking.lcms2.20190613
+element * darrenc.lcms2-2.9.add.linux_i386.12_JUN_19
+element * dionm.lcms.linux.20190607
+element * dionm.hwcal.special12.20190606
+element * dionm.hwcal.specialty.post.raster.key.20190531
+element * belinda.flamingo.f7.gray.source.pdfx.fix.17_JUN_2019
+element * dionm.eye2doublesort.zebra.20190611
+element * dionm.curve_gen.parseit8.20190604
+element * belinda.flamingo.f7.rgb.sep.fix.again.06_JUN_2019
+element * dionm.special.my.2.20190528
+element * dionm.EYE2SHORTSORT.20190322
+element * takashi.color.json.catchup.f7.20190523
+element * luf.bowie.copy.specialty.toner.calib.it8.20190523
+element * dionm.colorSystem.special.update.20190522
+element * dionm.special.my.20190522
+element * belinda.flamingo.gray.proofer.rgb.sep.fix.21_MAY_2019
+element * takashi.silk.PC_GetValueForMID.spec.change.20190521
+element * dionm.special.update.20190522
+element * belinda.flamingo.obsolete.erase.page.14_MAY_2019
+element * belinda.flamingo.fix.log.09_MAY_2019
+element * belinda.flamingo.gray.proofer.alloc.fail.safe.fix.06_MAY_2019
+element * tingz.f7.merge.spotchunk.w.zero.value.20190503
+# Jmi fixes
+element * shekarh.bowie.jmi.revert.EPRINCERJ-157.04_SEP_19
+element * trux.jmi.dont.write.lpdefaultjobconf.from.set.attr.20190903
+element * trux.jmi.dup.attrs.changed.and.analyzing.busy.20190830
+element * shekarh.jmi.fix.suspended.job.cancel.29_AUG_19
+element * davidwe.job.analysis.20190814
+element * M_FLAME7.0_TRPCSERVICES.27_AUG_2019
+#element * shekarh.bowie.jmi.cancel.suspended.job.EPRINCERJ-157.25_AUG_19
+element * trux.jmi.delete.suspended.jobs.20190819
+element * trux.jmi.reset.dequeue.flag.20190817
+element * trux.jmi.fix.pagesize.handling.20190816
+element * davidwe.job.analysis.20190814
+element * trux.jmi.avoid.tight.loop.20190813
+element * trux.jmi.fix.bad.mru.heuristic.20190822
+element * trux.jmi.unset.pdl.error.before.constraint.checking.20190812
+element * trux.jmi.assert.about.mutex.20190811
+element * trux.jmi.poll.for.raster.after.dup.20190809
+element * lisak.jmi_ff.constraint.check.default.queue.enabled.by.feature.key.25_JUL_2019
+element * shekarh.f8.jmi.preflight.critical.error.handling.EDORADOT-170.09_JUL_19
+element * trux.pageman.ripcollector.fix.prior.section.race.20190723
+#Stability
+#element * trux.pageman.thumb.debug.20190626
+element * andysant.basics.dontRemoveAlertBox.24_Jun_2019
+element * trux.rs.preview.fix.crash.20190622
+#element * trux.jobm.r2535
+element * wen.win.fix.handle.inheritance.14_JUN_19
+element * trux.rs.preview.fix.crash.20190606
+element * trux.rs.preview.imoprove.logging.20190601
+element * andysant.basics.windowsAssertsStopAllThreads.28_May_2019
+element * andysant.minidump.makeFilterSkipDebuggerBox.28_May_2019
+#element * davidwe.job.analysis.20190520
+element * trux.rs.fix.preview.tight.loop.20190522
+element * andysant.basics.fileMoveErrorHandling.21_May_2019
+#element * trux.mrip.fix.abstracted.ripnum.job.parallel.20190520
+element * trux.pqm.replace.source.20190519
+element * trux.rs.fix.preview.hang.20190516
+element * andysant.dictman.saveErrors.08_May_2019
+element * trux.pagemain.force.wakeup.20190419
+#TRPC\Pageman
+element * shekarh.f7.pgm.rip.error.empty.section.fix.EPAGANINI-166.10_JUL_19
+element * shekarh.f7.pgm.merge.trux.serguio.fixes.30_MAY_19
+element * trux.pageman.fix.job.parallel.throttle.deadlock.20190527
+element * trux.pqm.more.retries.20190513
+element * shekarh.f7.pgm.rip.error.EBOWIE-118.09_MAY_19
+element * shekarh.f7.pgm.copy.numbering.numsheets.EBOWIEJ-41.26_MAR_19
+element * trux.jmi.flame7.20190702
+element * trux.jmi.handle.deleted.status.while.joblog.20190630
+element * trux.jmi.proof.print.debug.20190627
+element * luf.locl.c.fix.ATTR_VPMCV.keys.20190701
+element * M_FLAME7.0_TRPCSERVICES.25_JUN_2019
+#MIB
+element * karunabh.MIB.hrPrinterDetected.CodebaseChangeIssue.MAR_15_2019
+element * gurudatm.prtOutputVendorname.refresh_buildbreak.26_FEB_19
+element * madhukeh.prtOutputVendorname.refresh.26_FEB_19
+element * coryfasb.kvf.bus.detect.14_Nov_2018
+# ecm fix for toner level
+element * tamdo.ecm.revert.fifthtonersupport.2018-10-05
+####################################################
+# Ricoh video
+####################################################
+element * ganarajb.bp2.activate.upgrade.by.default.FIT101938725.8thMar2019
+element * harising.PP2.0.STR.wakeup.ProcessedJobHang.30thAug2019
+element * harising.stacker.entry.JobHangFix.21stAug2019
+element * harising.stacker.jobHangFix.20thAug2019
+element * nitishku.WO.Paprika.MIBAlert.fix.19AUG2019
+element * harising.StaticAnalysis.Fixes.19thAug2019
+element * gurmanbh.WO.Paprika.Mib.config.14AUG2019
+element * nitishku.WO.Paprika.MIBAlert.fix.14AUG2019
+element * karunabh.MIB.ricohEngOptionFuncType.Iguazu.14AUG2019
+element * nitishku.WO.Paprika.config1.fix.13AUG2019
+element * nitishku.WO.FIT000275548_FIT000275540.fix.12AUG2019
+element * mohithsu.recsa.redundant_checks.SonarQube.09_Aug_2019
+element * M_Ricoh_Recsa.09_Aug_2019
+####################################################
+# Ricoh config
+####################################################
+element * vasub.bbpp.MPW.prompt.login.from.user.02Aug2019
+element * ganarajb.bp2.add.backup.restore.compatible.products.FIT102017613.1stAug2019
+element * luf.bowie.lcdstr.overrides.20190728
+element * kavyaban.Bowie_SYsconfiFieryXml_adding_DimensionAndWeight_to_PCUnarchiveForJobMatchAttributes.22JULY2019
+element * M_capapp.ricoh_recsa_flame8.0_oriordan.2019.08.05_21.47
+element * M_capapp.ricoh_recsa_flame8.0_winehouse.2019.08.05_21.50
+element * shailenm.FIT102003338_fix.set.ipv4.addr.update.eng.interface.01_JUL_2019
+element * gurmanbh.WO.Paprika.MibXml.config1.2AUG2019
+element * mohithsu.Winehouse.nolcdloop.Startup.18July2019
+element * nitishku.WO.paprika.mibXml.config1.fix.2AUG2019
+element * ruiqis.ricoh.pp2.0.cfg.acd.dim.fix.20190731
+element * nitishku.CC2.removeDuplicateEntry.fix.31JULY2019
+element * naveenn.ORiordan.exclude_Defender.31_JUL_2019
+element * M_capapp.ricoh_recsa_flame8.0_oriordan.2019.07.30_17.32
+element * M_capapp.ricoh_recsa_flame8.0_winehouse.2019.07.30_18.49
+element * M_Ricoh-Server_Config.30_Jul_2019
+####################################################
+# Flame7 baselabel
+####################################################
+element * B_FLAME7.0.116
+
+===============================================================================
+
+	

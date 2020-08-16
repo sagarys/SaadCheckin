@@ -1,0 +1,213 @@
+PATCH RELEASE NOTES
+===============================================================================
+Siebel ID : FIT102234220
+Product   : EFI_Biggie_1_0J
+Creator   : sagars
+===============================================================================
+
+===============================================================================
+Section 1 : Overview
+===============================================================================
+ Risk Level (Low | Medium | High)          : Medium
+ List Affected Modules                     : PPDS
+ Risk Areas (please specify)               : Server Product
+ Pre-requisites (identify all)             : SP1_FIT101960569
+ Obsoleted Patches (identify all)          : Na
+ Default action [Reboot | Restart | Later] : Reboot
+ Requires an extra reboot [Yes | No]       : No
+ This is an exclusive patch [Yes|No]       : No
+ Reason to be an exclusive patch           : No 
+ Localization Testing [Yes | No]           : Yes
+ Additional Test Cases                     : See section 2 for details
+
+ How to test the affected area beyond the steps in FIT                                                         : Same as FIT
+ Does the patch update modules that may result in incompatibilities with pre-existing jobs on the server?      : No
+ Does the patch update or delete SPOT COLORS or Color Profiles?                                                : No
+ Are there changes in Adobe Libs, if so is certification required?                                             : No
+ Does this patch update any files contained in EFS?                                                            : No
+ Are MIB values being modified with this change?                                                               : No
+ Code/Change review?                                                                                           : Yes
+ Other areas of concern?.                                                                                      : N/A
+ EFI has standardized on L2B for wrapping up solutions for Fiery.
+ If there is any reason why L2B could not be used, describe that issue here else state that L2B was used.      : No
+ If L2B or other mechanisms were used, is there an uninstall mechanism for the solution?                       : No
+ Is this a non-reproducible issue (or hard to reproduce) or does it need help from QA to do initial validation?
+ If so, use 'For Review' status in FIT.                                                                        : No
+ Is this an engineering/evaluation patch?  If so, use 'For Review' status in FIT.                              : No
+ Multi-fix patch?                                                                                              : No
+ Is this for a Specific Customer Only (SPAR-Only or One-Off solution)?                                         : No
+ Does this patch impact any existing customer-specific (SPAR-Only or One-Off) solution?                        : No
+ Is this a Mandatory or Optionalpatch?                                                                         : Mandatory
+ Configspec checked into ClearCase?                                                                            : Yes
+ Debug and Release builds copied to DT-DATA or equivalent location in Bangalore?                               : Yes
+
+
+Notes:
+ "Default Action" - this is the default action that is required when the .PS
+                    patch is made into a .EXE patch.
+    Reboot        - Reboot everything including the Operating System.
+    Restart       - Restart the fiery services only.
+    Later         - User will manually initiate a reboot or a restart.
+ "Extra Reboot"   - After the patch is downloaded, the server rebooted thus
+                    effectively installing the patch, is there a need to do
+                    1 more reboot for the patch to take full effect?
+ "Exclusive Path" - patch must be installed independently of all other patches.
+ "Obsolete Patch" - Older patches that have the exact set of binaries being
+                    updated/replaced by this patch. These obsolete patches can
+                    be made inactive on GRAD.
+
+===============================================================================
+Section 2 : Test Performed by Engineering
+===============================================================================
+                Test case                                        Mark OK
+ Verify that the patch installs correctly and all the updated  : OK
+     or added components are present in the system 
+ Verify that the server comes to IDLE                          : OK
+ Verify that all defects listed in Section 3 are resolved      : OK
+ Verify that the update log lists the Siebel ID above          : OK
+
+ Additional Test Cases (list any extra test cases that were done with results)
+ 
+===============================================================================
+Section 3 : List of defects
+===============================================================================
+ FIT102234220 : [R-JP]Constraint issue with Mixed Media and Half-Z combination
+
+===============================================================================
+Section 4 : Binaries / Files included in the patch
+===============================================================================
+ - List all binaries of the fiery controller that are updated or added -
+ dev0/Italian/EB-35.ppd
+dev0/UTF8/zh-TW/EB-35.ppd
+dev0/UTF8/ko-KR/EB-35.ppd
+dev0/Portuguese/EB-35.ppd
+dev0/zh-TW/EB-35.ppd
+dev0/EF921123.intent.xml
+dev0/UTF8/Germany/EB-35.ppd
+dev0/ko-KR/EB-35.ppd
+dev0/UTF8/Italian/EB-35.ppd
+dev0/Turkish/EB-35.ppd
+dev0/Dutch/EB-35.ppd
+dev0/Russian/EB-35.ppd
+dev0/UTF8/Russian/EB-35.ppd
+dev0/EnglishOther/EB-35.ppd
+dev0/fcap_prod.jmf
+dev0/UTF8/Japanese/EB-35.ppd
+dev0/Polish/EB-35.ppd
+dev0/UTF8/Dutch/EB-35.ppd
+dev0/Chinese_Simplified/EB-35.ppd
+csiatom/jdftofiery/EF921123.PPD.xml
+dev0/EF620448.intent.xml
+dev0/UTF8/Turkish/EB-35.ppd
+dev0/EF755253.intent.xml
+csiatom/jdftofiery/EF620448.PPD.xml
+dev0/Germany/EB-35.ppd
+dev0/UTF8/EnglishOther/EB-35.ppd
+dev0/UTF8/Portuguese/EB-35.ppd
+dev0/UTF8/French/EB-35.ppd
+dev0/Spanish/EB-35.ppd
+dev0/French/EB-35.ppd
+dev0/UTF8/English/EB-35.ppd
+csiatom/jdftofiery/EF755253.PPD.xml
+dev0/Czech/EB-35.ppd
+dev0/UTF8/Czech/EB-35.ppd
+dev0/English/EB-35.ppd
+dev0/UTF8/Polish/EB-35.ppd
+dev0/Japanese/EB-35.ppd
+dev0/UTF8/Spanish/EB-35.ppd
+dev0/UTF8/Chinese_Simplified/EB-35.ppd
+
+===============================================================================
+Section 5 : Installation Instructions:
+===============================================================================
+ Manual (.PS):
+   1) Import the patch from direct queue.
+   2) Wait until Ready to Print message is seen on LCD/CWS.
+   3) Reboot/Restart the Fiery controller as per selection in Section 1 above.
+
+ Manual (.EXE):
+   Execute the downloader (.exe patch) and follow the instructions provided.
+   
+ System Updates:
+   GRAD should be configured to reboot the Fiery controller.
+ 
+===============================================================================
+Section 6 : Clearcase label comments
+===============================================================================
+ (List all the labels specifically for the defect(s) mentioned above with
+  the clearcase comments)
+ chunn.biggie1.0.ppd.808.2020.07.02_05.05.46
+
+
+===============================================================================
+Section 7 : Clearcase configuration specification used
+===============================================================================
+element * chunn.biggie1.0.ppd.808.2020.07.02_05.05.46
+## FIT102206355(J)
+## Covers: None
+## Modifies: video.dll
+## Prereqs: SP1_FIT101960569, FIT102088534
+## Obsoletes: None
+element * rinagupt.video.FIT102206355.togglingpages.19May2020
+## FIT102085389(J)
+## Covers: None
+## Modifies: dbpro_core.dll
+## Prereqs: SP1_FIT101960569
+## Obsoletes: None
+element * rajeevsi.F6.FIT102085389.20_MAY_20
+## FIT102081387(J)
+## Covers: None
+## Modifies: Adobe(Folder), strings.ps, joblogheader.ps
+## Prereqs: None
+## Obsoletes: None
+## Notes: This is Japanese era font upgrade family patch for Ricoh Flame 5 and Flame 6 Windows Japanese products
+element * dhananja.internal.page.14_FEB_2020
+element * B_Kanji.font.newera.CPSI.update.062519
+element * dchen.add.more.cmap.japan1.061819
+element * B_Kanji.font.newera.CPSI.update.060719
+## FIT102088534(J)
+## Covers: FIT102094222(R)
+## Modifies: video.dll, pc_fiery_api.dll
+## Prereqs: SP1_FIT101960569
+## Obsoletes: None
+element * yogeshb.port.FIT101914119.pc.video.6feb2020
+element * vasub.bbpp.FIT101934077.pcatalog.merge.changes.to.bbpp.branch.06Nov2019
+## FIT101993823(J)
+## Covers: FIT102017459(R)
+## Modifies: factsvrhlp.dll
+## Prereqs: SP1_FIT101960569
+## Obsoletes: None
+element * wenjunzh.biggie.factsvrhlp.set.EFMarginZero.10_OCT_19
+## FIT101952148
+## GM User software : biggie1.0r_061419_122425
+## Driver spec : biggie1.0r_080919_110912
+## FIT101960569(R) - SP1
+## Covers: None
+## Modifies: PPD, video.dll, pc_fiery_api.dll, pc-initializer, pageman.dll, pdl.dll, sysqueries.dll, trpc_jobm.dll, factsvrhlp.dll, sysdict key[PC_UNARCH_NO_NEW_PC=YES]
+## Patches Included:
+## FIT101952148, FIT101952158, FIT101952165, FIT101952164, FIT101952154, FIT101952163, FIT000270776, FIT101952162
+## FIT000270787, FIT101982228, FIT102002387
+element * tinhl.fl6.pc.reset_engineID_on_no_pc_match.10_Sep_19
+element * chunn.biggie1.0.ppd.155.2019.06.25_19.11.18
+element * wenjunzh.biggie.factsvrhlp.video.feed.direction.11_JUL_19
+element * tinhl.fl6.pc.add_missing_pc_compatibility_feature_port.07_Aug_19
+element * mohithsu.Biggie.FIT101952154.checkingMediaIDgreaterthanzero.12April2019
+element * harising.biggie.finishing.jobRecoveryFix.1stFeb2019
+element * yogeshb.port.ruiqis.ricoh.recsa.video.destroyjob.fix.20190326.27Mar19
+element * yogeshb.port.ruiqis.ricoh.recsa.video.add.destroyjob.20190320.22mar19
+element * shekarh.f6.pgm.merge.ECOPLANDJ-1110.30_JAN_19
+element * shekarh.f6.pgm.jmi.rip.error.cancel.update.23_JAN_19
+element * mohithsu.Biggie.AddingToFIT101952154.20March2019
+element * mohithsu.Biggie.portingFIT101846615forFIT101952154.08March2019
+element * nitishku.biggie.FIT000270266.fix.30JAN2019
+element * davidy.EBIGGIEOZR-900_pcl6func_lastintval_zeroed.24_JAN_2019
+element * davidy.EPAGANINIR-241_44th_page_should_be_blank.07_JAN_2019
+element * M_PDLCORE_PCL.20181116
+element * davidy.f678_VC14_os_c_Pwrite_match_mc_p_protos_h.13_JUL_2018
+element * harising.bp2.simplexDuplex.crossJobImprovementFix.4thFeb2019
+##GM LABEL##
+element * M_BIGGIE1.0
+
+===============================================================================
+
+	

@@ -1,0 +1,1232 @@
+
+## SP8_FIT102210871
+## Covers: None
+## Prereqs: FIT101941212
+## Patches Included:
+## FIT102234477, SP6_FIT102027987, SP7_FIT102104242, FIT102027920, FIT101904168, FIT102036900, FIT102036808, FIT101934077, FIT102063493, FIT102088870
+## FIT102086136, FIT102085860, FIT102053828
+
+## FIT102107355(R) - NG
+## Covers: None
+## Modifies: trpc_jobm.dll, vdp_globj.dll,preview-daemon.exe
+## Prereqs: FIT101941212,FIT102234477,SP6_FIT102027987,SP7_FIT102104242,FIT102070235,
+## Obsoletes: FIT102185486, FIT102230444
+## element * shekarh.bowie1.0.jmi.vdp.globj.ff.jobs.archive.EBOWIEOR-1369.20200709
+## element * lisak.preview-daemon.clear.ff.master.setting.before.rip.preview.job.30_JUL_2019
+
+## FIT102234477(J)
+## Covers: None
+## Modifies: eticket.dll
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * sagars.FIT102234477_FIT102234479.merge_victork.tkt.11_JAN_19.02_Jul_2020
+
+## FIT102077244(J)
+## Covers: None
+## Modifies: video.dll, dbpro_core.dll
+## Prereqs: FIT101941212, SP6_FIT102027987, SP7_FIT102104242,FIT101935492
+## Obsoletes: FIT102069923, FIT102030283
+element * rajeevsi.F6.FIT102077244.29_JUN_20
+element * sagars.FIT102077244.video.imposeBookletOrientFix.19_Feb_2020
+
+## FIT102230444(J)
+## Covers: None
+## Modifies: trpc_jobm.dll
+## Prereqs: FIT101941212,SP6_FIT102027987,SP7_FIT102104242,FIT102070235
+## Obsoletes: FIT102185486
+element * dchen.ff.dont.force.iq.normal.062820.f6
+
+## FIT102183541(J)
+## Covers: FIT102242664(R), FIT102242662(Beethoven)
+## Modifies: dlc.dll, vfwrap.dll
+## Prereqs: FIT101941212,SP6_FIT102027987,SP7_FIT102104242
+## Obsoletes: FIT102053828
+element * victork.bowie11.11_JUN_20 
+element * victork.vfwrap.19_JUN_20
+
+## FIT101935492(J)
+## Covers: FIT102235609(R), FIT102235608(Beethoven)
+## Modifies: pc_fiery_api.dll, pc-initializer.exe, video.dll, pc_fiery.xsd, pc_generic.xsd
+## Prereqs: FIT101941212, SP6_FIT102027987, SP7_FIT102104242
+## Obsoletes: FIT102069923, FIT102030283, FIT101934077
+## Note: Include the patch contents of FIT101934077 in this patch due to the dependency of the pre-requisites of FIT101934077 with SP6 & SP7.
+element * vasub.bbpp.FIT101935492.video.UseMutexForMvidConfigUpdate.31Jan2019
+
+## FIT102030283(R)
+## Covers: None
+## Modifies: video.dll
+## Prereqs: FIT101941212,SP6_FIT102027987,SP7_FIT102104242,FIT101934077
+## Obsoletes: FIT102069923
+element * rinagupt.bowie.FIT102030283.SetTonerPerformanceForAllPages.2020-01-10
+element * rinagupt.bowie.video.FIT102030283.SetTonerPerformanceCorrectly.2020-01-10
+
+## FIT102191234(J)
+## Covers: None
+## Modifies: appe.dll, marker.dll
+## Prereqs: FIT101941212,SP6_FIT102027987,SP7_FIT102104242,FIT102070235
+## Obsoletes: FIT102029627
+element * belinda.marker.FIT102191234.clip_bbox.fix.07_MAY_2020
+element * dchen.adobe.aprme.463.fix.whitebox.042219.bowie
+
+## FIT102100327(J)
+## Covers: None
+## Modifies: ACE_3020.dll, AGM_3020.dll, ARE_3020.dll, BIBUtils_3020.dll, BIB_3020.dll, CoolType_3020.dll, PDFToPS.dll
+## Prereqs: FIT101941212,SP6_FIT102027987,SP7_FIT102104242
+## Obsoletes: FIT102036808
+element * dchen.adobe.52528.01152020
+element * dchen.adobe.53018.kanji.text.050620
+element * dchen.adobe.52162.52530.111219
+element * dchen.adobe.pdftops.7.9.rel.060519
+
+## FIT102185486(R)
+## Covers: FIT102196587(J), FIT102196584(Beethoven)
+## Modifies: trpc_jobm.dll
+## Prereqs: FIT101941212,SP6_FIT102027987,SP7_FIT102104242,FIT102070235
+## Obsoletes: None
+element * dhananja.jmi.co.enable.pdf_vt.21_APR_2020
+
+## FIT102029627(J)
+## Covers: None
+## Modifies: marker.dll
+## Prereqs: FIT101941212,SP6_FIT102027987,SP7_FIT102104242
+## Obsoletes: None
+element * belinda.marker.FIT102029627.xpimage.fix.01_APR_2020
+
+## FIT102070235(J)
+## Covers: FIT102196578(R), FIT102196729(Beethoven)
+## Modifies: appe.dll, chinook.exe, csl.dll, duckpdf.exe, ecs.dll, factsvrhlp.dll, gasetup.dll, libeficsl.dll, pdl.dll, pdl_autosense.dll, pdl_ppml.dll, pqmlibparse.dll, ripdll.dll,
+##           scanlib.dll, silk.dll, sp.dll, translib.dll, trpc_jobm.dll, trpc_mail.dll, vdp_cache.dll, videoman_nt.dll
+## Prereqs: FIT101941212,SP6_FIT102027987,SP7_FIT102104242
+## Obsoletes: None
+element * davidy.EBOWIEOJ-830_updl_scons_latest_w_o_xlib_split.18_APR_2020
+element * davidy.EBOWIEOJ-830_pdfsquall.16_APR_2020
+element * M_TRANSLIB.20200318
+element * M_CYCLONE.20200318
+element * M_CSL.20200318
+
+## FIT102069923(J)
+## Covers: None
+## Modifies: video.dll
+## Prereqs: FIT101941212,SP6_FIT102027987,SP7_FIT102104242
+## Obsoletes: None
+element * rinagupt.bowie.FIT102069923.HandledStopKeyJobOpenRspCorrectly.01-23-2020
+
+## FIT102081387(J)
+## Covers: None
+## Modifies: Adobe(Folder), strings.ps, joblogheader.ps
+## Prereqs: None
+## Obsoletes: None
+## Notes: This is Japanese era font upgrade family patch for Ricoh Flame 5 and Flame 6 Windows Japanese products
+element * dhananja.internal.page.14_FEB_2020
+element * B_Kanji.font.newera.CPSI.update.062519
+element * dchen.add.more.cmap.japan1.061819
+element * B_Kanji.font.newera.CPSI.update.060719
+
+## FIT101960279(R) - FR - REDO
+## Covers: None
+## Modifies: FieryXJ, PPD, factsvrhlp.dll, dequeue.dll
+## Prereqs: FIT101941212, SP6_FIT102027987
+## Obsoletes: None
+## Note: update sysdict [PrintRangeLegacy = YES] to enable this workflow.
+## ROMAN ONLY, CUSTOMER SPECIFIC
+## element * jorge.FieryXJ.Bowie.fix.blanks.PSPres.15_APR_19
+## element * jorge.Burgundy2.2.overrides.c.dequeue.fix.legacy.EFPageRange.support.PDF.w.x.obj.11_MAR_20
+## element * M_capapp.ricoh_recsa_flame6.0_bowie.2019.11.11_22.59
+## element * jorge.Bowie-Bethoven.FieryXJ.allow.old.style.print.range.based.on.sydict.key.11_MAR_19
+## element * wenjunzh.bowie1.0.factsvrhlp.support.legacy.print.range.16_SEP_19
+
+## FIT102103204(J)
+## Covers: FIT102108149(J), FIT102180834(R), FIT102180836(Beethoven)
+## Modifies: cpsi.dll
+## Prereqs: FIT101941212,SP6_FIT102027987
+## Obsoletes: None
+element * dchen.adobe.49992.020518
+
+## FIT102053828(J)
+## Covers: FIT102180827(Beethoven), FIT102180825(R)
+## Modifies: dlc.dll
+## Prereqs: FIT101941212,SP6_FIT102027987 
+## Obsoletes: FIT102085860
+element * victork.dlc.29_FEB_20
+
+## SP7_FIT102104242
+## Covers: None
+## Prereqs: FIT101941212,SP6_FIT102027987
+## Patches Included:
+## FIT101914119, FIT102023868, FIT102012323, FIT101977391, FIT102036779, FIT102038604, FIT102026452, FIT102040134, 
+## FIT102032750, FIT101931912
+
+## FIT102099951(Bowie)
+## Covers: None
+## Modifies: trpc_jobm.dll
+## Prereqs: FIT101941212,FIT101941085
+## Obsoletes: None
+## Note: update sysdict [DISHONOR_CWS_LP_UNLOCKED_ATTRS = YES] to enable this workflow.
+## element * trux.jmi.paganini.force.lock.mixedmedia.attrs.20190501
+
+## FIT102085860(R)
+## Covers: FIT102104161(J), FIT102104156(Beethoven)
+## Modifies: dlc.dll
+## Pre-reqs: FIT101941212,SP6_FIT102027987 
+## Obsoletes: None
+element * victork.bowie1.25_FEB_20
+
+
+## FIT102059911(J) - FR
+## Covers: None
+## Modifies: WIN/MAC Drivers
+## SPECIFIC CUSTOMER, KANJI ONLY
+## Note: Reference base spec details for Kanji
+## Windows driver components - bowie1.0j_030419_142950
+## MAC driver components - bowie1.0j_100319_105739 (MAC10.15)
+##
+## WIN: bowie1.0j_020620_105300.iso
+## MAC: bowie1.0j_022020_103944.iso
+
+## FIT102088870(J)
+## Covers: FIT102096159(R), FIT102096156(Beethoven)
+## Modifies: commonlcd.exe, gui.dll, gui_metis2.dll
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * akhilak.lcd.bowie.uname.FIT102088870.02_05_2020
+
+## FIT102086136(J)
+## Covers: None
+## Modifies: multipass/js/mpc.js, multipass/index.html
+## Prereqs: FIT101941212
+## Obsoletes: FIT101960757
+element * vasub.bbpp.MPW.prompt.login.from.user.02Aug2019 
+
+## FIT102069351(J) - NG
+## Covers: FIT102090862(R), FIT102090860(Beethoven)
+## Modifies: PPDs
+## Prereqs: FIT101941212
+## Obsoletes: FIT101977829, FIT101993316
+## Note: Ricoh didn't accept the fix, hence undoing in capapp and commenting out the label.
+## element * M_capapp.ricoh_recsa_flame6.0_bowie.2020.01.14_21.30
+
+## SP6_FIT102027987
+## Covers: FIT102073896(R)
+## Prereqs: FIT101941212
+## Patches Included:
+## FIT101911346, FIT101945300, FIT101938857, FIT101941085, FIT101916346, FIT101940349, FIT101930855, FIT101902985, FIT101960757
+## FIT101945945, FIT101881320, FIT101967345, FIT101960531, FIT101903833, FIT101947822, FIT101963173, FIT101958378, FIT101977829
+## FIT101982552, FIT101993316, FIT102000291, FIT101994633, FIT101970774, FIT102015155, FIT101994586
+
+## FIT102063493(J)
+## Covers: FIT102087330(R), FIT102087328(Beethoven)
+## Modifies: video.dll
+## Prereqs: FIT101941212,FIT101945945,FIT101902985,FIT101977391,FIT101934077
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857, FIT101960531, FIT101994633, FIT101970774, FIT101914119, FIT102026452, FIT102032750, FIT102027920,
+element * amithkmr.BP10.Interposer.mediaconstraint.03122019
+
+## FIT101934077(J)
+## Covers: FIT101942756(R), FIT101942755(Beethoven), FIT101877131(J), FIT101882397(J), FIT101908225(J), FIT101975591(J), FIT101916368(J)
+## Modifies: pc_fiery_api.dll, pc-initializer.exe, video.dll, pc_fiery.xsd, pc_generic.xsd
+## Prereqs: FIT101941212,FIT101945945,FIT101902985,FIT101977391
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857, FIT101960531, FIT101994633, FIT101970774, FIT101914119, FIT102026452, FIT102032750, FIT102027920, 
+## Note: The xsd files are patched by referring to the current configspec.
+element * tinhl.fl6.pc.reset_engineID_on_no_pc_match.10_Sep_19
+element * tinhl.fl6.pc.add_missing_pc_compatibility_feature_port.07_Aug_19
+element * vasub.bbpp.FIT101934077.video.merge.changes.to.bbpp.branch.12Nov2019
+element * vasub.bbpp.FIT101934077.pcatalog.merge.changes.to.bbpp.branch.06Nov2019
+element * M_PAPERCATALOG_FLAME6.11_MAR_2019
+
+## FIT102036900(J)
+## Covers: FIT102066764(R), FIT102066763(Beethoven)
+## Modifies: /vobs/color/features/C7200-CMYKW/config/resource/RESBWWBK
+##           /vobs/color/features/C7200-CMYKW/config/resource/RESBWWMT
+##           /vobs/color/features/C7200-CMYKW/config/resource/RESBWWTR
+##           /vobs/color/features/C7200/config/resource/RESBBJGL
+##           /vobs/color/features/C7200/config/resource/RESBBJMA
+##           /vobs/color/features/C7200/config/resource/RESBBJPL
+##           /vobs/color/features/C7200/config/resource/RESBBUGL
+##           /vobs/color/features/C7200/config/resource/RESBBUMA
+##           /vobs/color/features/C7200/config/resource/RESBBUPL
+##           /vobs/color/features/C7200B/config/resource/RESB2JGL
+##           /vobs/color/features/C7200B/config/resource/RESB2JMA
+##           /vobs/color/features/C7200B/config/resource/RESB2JPL
+##           /vobs/color/features/C7200B/config/resource/RESB2UGL
+##           /vobs/color/features/C7200B/config/resource/RESB2UMA
+##           /vobs/color/features/C7200B/config/resource/RESB2UPL
+##           /vobs/color/features/C9200/config/resource/RESPPJGL
+##           /vobs/color/features/C9200/config/resource/RESPPJMA
+##           /vobs/color/features/C9200/config/resource/RESPPJPL
+##           /vobs/color/features/C9200/config/resource/RESPPUGL
+##           /vobs/color/features/C9200/config/resource/RESPPUMA
+##           /vobs/color/features/C9200/config/resource/RESPPUPL
+## Prereqs: FIT101941212,FIT101904168
+## Obsoletes: None
+element * luf.C7200.C7200B.C7200-CMYKW.C9200.EFColorMode.CMYK.20190912
+
+## FIT102036808(R)
+## Covers: FIT102062273(J), FIT102062278(Beethoven)
+## Modifies:  ACE_3020.dll, AGM_3020.dll, ARE_3020.dll, BIBUtils_3020.dll, BIB_3020.dll, CoolType_3020.dll, PDFToPS.dll
+## Prereqs: FIT101941212, FIT101930855
+## Obsoletes: None
+element * dchen.adobe.52162.52530.111219
+element * dchen.adobe.pdftops.7.9.rel.060519
+
+## FIT101904168(R) 
+## Covers: FIT102037091(Beethoven)
+## Modifies: color/features/C7200/config/efs/colorSystem, color/features/C7200/config/efs/colorSystem.EUR, color/features/C7200/config/efs/colorSystem.JPN
+##           color/features/C7200/it8/EYE2DOUBLESORT.IT8, color/features/C7200/it8/EYE2SHRTSORT.it8
+##           color/features/C7200/preview/EYE2SHRTSORT.jpg
+##           color/features/C7200-CMYKW/config/efs/colorSystem, color/features/C7200-CMYKW/config/efs/colorSystem.EUR, color/features/C7200-CMYKW/config/efs/colorSystem.JPN
+##           color/features/C7200-CMYKW/it8/EYE2DOUBLESORT.IT8, color/features/C7200-CMYKW/it8/EYE2SHRTSORT.it8
+##           color/features/C7200-CMYKW/preview/EYE2SHRTSORT.jpg
+##           color/features/C9200/config/efs/colorSystem, color/features/C9200/config/efs/colorSystem.EUR, color/features/C9200/config/efs/colorSystem.JPN
+##           color/features/C9200/it8/EYE2DOUBLESORT.IT8, color/features/C9200/it8/EYE2SHRTSORT.it8
+##           color/features/C9200/preview/EYE2SHRTSORT.jpg
+##           color/features/pspages/efs/EYE2DOUBLESORT.ps, color/features/pspages/efs/EYE2SHRTSORT.ps
+##           color/features/C7200B/config/...
+##           color/features/C7200B/calibration/...
+##           color/features/C7200B/it8/...
+##           color/features/C7200B/preview/...
+## Prereqs: FIT101941212
+## Obsoletes: None
+## Utility fix:
+## util_cws6.2_package_082819_165345
+element * luf.C9200.eye2doublesort.zebra.20190827
+element * dionm.eye2doublesort.zebra.20190611
+element * luf.paul.update.EYE2SHRTSORT.ps.EYE2DOUBLESORT.ps.20190712
+element * dionm.EYE2SHORTSORT.20190322
+element * luf.color.EYE2DOUBLESORT.use.ABCD.heading.20190204
+element * jeffbaue.C7200-CMYKW.add.EYE2SHRTSORT.20181204
+element * jeffbaue.C9200.add.EYE2SHRTSORT.20181204
+element * jeffbaue.C7200.add.EYE2SHRTSORT.20181204
+element * jeffbaue.C7200B.add.it8.preview.ils_training.20190111
+element * jeffbaue.C7200B.create.new.config.20190111
+
+## FIT102027920(R)
+## Covers: FIT102038579(Beethoven)
+## Modifies: video.dll
+## Prereqs: FIT101941212,FIT101945945,FIT101914119,FIT101977391
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857, FIT101960531, FIT101994633, FIT101970774, FIT102026452, FIT102032750
+element * amithkmr.bbpp1.0_PaperEndJam198.20191014
+element * amithkmr.bbpp1.0_PaperEndJam198.20190917
+
+## FIT102029627(J) - NG
+## Covers: None
+## Modifies: factsvrhlp.dll
+## Prereqs: FIT101941212,FIT101941085,
+## Obsoletes: FIT101916346,FIT101994586
+## element * wenjunzh.flame6.bowieJ.FIT101916368.10_SEP_19
+
+## FIT102032750(R)
+## Covers: FIT102061321(J), FIT102061770(Beethoven)
+## Modifies: video.dll
+## Prereqs: FIT101941212,FIT101945945,FIT101914119,FIT101977391
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857, FIT101960531, FIT101994633, FIT101970774, FIT102026452
+element * yogeshb.bowie.UserAuthFailFix.5sep19
+
+## FIT102040134(R)
+## Covers: FIT102040131(Beethoven)
+## Modifies: dbpro_core.dll, sysdict(JPIMPOSESAMEBOOKLET=YES)
+## Prereqs: FIT101941212
+## Obsoletes: FIT101947822, FIT101958378
+element * rajeevsi.F6.FIT000264117.12_JUL_18
+element * sagars.FIT102040134.Addsysdict_JPIMPOSESAMEBOOKLET.29_Jun_2020
+
+## FIT102026452(R)
+## Covers: FIT102037991(J), FIT102037992(Beethoven)
+## Modifies: video.dll
+## Prereqs: FIT101941212,FIT101945945,FIT101914119,FIT101977391
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857, FIT101960531, FIT101994633, FIT101970774
+element * amithkmr.longCustomPaper_PerfectBindTray.FIT102026452_20190923
+
+## FIT102038604(J) 
+## Covers: FIT102061157(R), FIT102061156(Beethoven)
+## Modifies: WebTools4.exe
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * rajeshp.WEBTOOLS4_3_2_42a_17_SEP_19
+
+## FIT102036779(Beethoven)
+## Covers: FIT102036942(J), FIT102036922(R), FIT102051404(R)
+## Modifies: hrmib.dll, prtmib.dll
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * madhukeh.mib.null.check.14_AUG_19
+
+## FIT102023868(J)
+## Covers: FIT101993039(J), FIT102042397(R), FIT102042396(Beethoven)
+## Modifies: ACE_APPE40.dll, ACR.dll, ACRStd.dll, AdobePDFL_APPE40.dll, AdobeXMP_APPE40.dll, AGM_APPE40.dll, appe.dll, ARE_APPE40.dll, AXE16SharedExpat_APPE40.dll 
+##           AXE8SharedExpat_APPE40.dll, BIBUtils_APPE40.dll, BIB_APPE40.dll, CoolType_APPE40.dll, Graphics.dll, GraphicsObjects.dll, icucnv40.dll, icudt40.dll
+##           icuin40.dll, icuuc40.dll, JP2AP40.dll, libiomp5md.dll, libmmd.dll, libmmdd.dll, marker.dll, TrappingPort.dll 
+## Prereqs: FIT101941212,FIT101941085
+## Obsoletes: None
+element * dchen.adobe.52378.090519
+element * dchen.adobe.appe4.4.rel.081919
+
+## FIT101977391(R) - FR - ER
+## Covers: None
+## Modifies: video.dll, neonpink.mat, neonpink.tt
+## Prereqs: FIT101941212,FIT101945945,FIT101914119,
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857, FIT101960531, FIT101994633, FIT101970774
+element * vasub.bbpp.neonpink.halftone.improvement.29Aug2019
+element * vasub.bbpp.FIT101977391.updated.screens.28Aug2019
+element * tamdo.bp2.pink.screen.tt.file.2019-04-26
+element * vasub.bbpp.FIT101977391.FR.pink.toner.ID.fix.26Apr2019
+element * vasub.bbpp.FIT101977391.FR.NeonPinkSupport.16Apr2019
+element * tamdo.bp1.neon.pink.screen.2019-04-15
+element * tamdo.bp1.neon.pink.screen.config.2019-04-15
+
+## FIT101931912(J)
+## Covers: FIT102037088(Beethoven), FIT102037083(R)
+## Modifies: Agali-5.1.21.00
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * M_Agali-5.1.21.00.29_JUL_19 
+
+## FIT101914119(J) 
+## Covers: FIT101881168(J), FIT102041840(R), FIT102041841(Beethoven)
+## Modifies: video.dll, pc_fiery_api.dll
+## Prereqs: FIT101941212,FIT101945945,FIT101902985
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857, FIT101960531, FIT101994633, FIT101970774
+element * amithkmr.Bp.MakerNameUTF8Encoding_20190828
+element * ruiqis.recsa.video.bbpp.pc.import.events.change.20180607
+element * ruiqis.ricoh.bbpp.papercatalog.engine.import.events.20180607
+
+## FIT101992162(J) - FR
+## Covers: None
+## Modifies: video.dll
+## Prereqs: FIT101941212,FIT101945945
+## SPECIFIC CUSTOMER, KANJI ONLY
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857, FIT101960531, FIT101994633, FIT101970774
+## element * vasub.bbpp.FIT101992162.FR.video.support.horizon.peripheral.29Oct2019
+
+## FIT101994586(J)
+## Covers: FIT102010193(R)
+## Modifies: factsvrhlp.dll
+## Prereqs: FIT101941212,FIT101941085
+## Obsoletes: FIT101916346
+element * wenjunzh.flame60.factsvrhlp.start.pagenumber.from.one.05_NOV_18
+
+## FIT101970774(J)
+## Covers: FIT101992571(R), FIT101992587(Beethoven), FIT101974953(J), FIT101975327(J), FIT101979232(J), FIT101970853(J), FIT101934056(J)
+## Modifies: video.dll
+## Prereqs: FIT101941212,FIT101945945
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857, FIT101960531, FIT101994633
+element * yogeshb.ricoh.video.err.recovery.inconversion.fix.24july19
+element * vasub.bbpp.FIT101981779.video.donot.free.raster.of.dropped.page.13May2019
+element * yogeshb.bbpp.normal.calibration.adjustment.5april19
+element * tamdo.bbpp.normal.calibration.adjustment.part1.2019-03-11
+element * vasub.bbpp.FIT101942761.video.MixedSizeHandlingMoreFixes.13Feb2019
+element * vasub.bbpp.FIT101942761.video.MixedSizeHandling.13Feb2019
+
+## FIT102015155(J)
+## Covers: FIT102029500(R), FIT102029496(Beethoven)
+## Modifies: pageman.dll
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * shekarh.prince.pgm.slipsheetfreq.EPRINCEJ-218.17_MAY_19
+
+## FIT101994633(J)
+## Covers: FIT102020538(R), FIT102020539(Beethoven)
+## Modifies: video.dll
+## Prereqs: FIT101941212,FIT101945945
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857, FIT101960531
+element * vasub.bbpp.FIT101913628.video.check.mediaID.greater.than.zero.29Apr2019
+element * vasub.bbpp.FIT101913628.video.AddMoreFixesWhenInputTrayIsSpecified.03Mar2019
+element * vasub.bbpp.FIT101913628.AddErrMsgToXML.14Jan2019
+element * yogeshb.port.FIT101846615.video.AddVideoConstraint.7Jan19
+
+## FIT102000291(J)
+## Covers: FIT102018285(R),FIT102018287(Beethoven) 
+## Modifies: dlc.1.cfg
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * yogeshb.bowie.enable.ftrapmode.17june19
+
+## FIT101993316(J)
+## Covers: FIT102004218(Beethoven), FIT102004226(R)
+## Modifies: PPD
+## Prerqs: FIT101941212
+## Obsoletes: FIT101977829
+element * M_capapp.ricoh_recsa_flame6.0_bowie.2019.05.29_23.32
+
+## FIT101934077(J) - NG 
+## Covers: FIT101942755(Beethoven),FIT101942756(R)
+## Modifies: video.dll
+## Prereqs: FIT101941212,FIT101945945
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857, FIT101960531, FIT101908225
+## This issue needs to have server side and CWS utility package
+## util_cws6.3_x64_package_040819_095326
+## element * imranm.bowie.pc.custom.to.standard.size.possible.fix.23_MAY_2019
+
+## FIT101982552(R)
+## Covers: FIT101995983(Beethoven), FIT101995981(J)
+## Modifies: acrbridge.dll
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * tingz.ACRBridge.rm.ColorantParams.duplicate.20180626
+
+## FIT101977829(R)
+## Covers: FIT101988367(Beethoven)
+## Modifies: Korean PPD
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * M_capapp.ricoh_recsa_flame6.0_bowie.2019.05.06_18.44
+
+## FIT101958378(J)
+## Covers: FIT101988376(Beethoven), FIT101988375(R)
+## Modifies: dbpro_core.dll
+## Prereqs: FIT101941212
+## Obsoletes: FIT101947822
+element * rajeevsi.F6.FIT101958378.03_MAY_19
+
+## PNP driver for VP
+## FIT101872092(J)
+## Covers: FIT1018915899(R),FIT101891581(Beethoven)
+## Modifies: prntdrv.exe
+## Prereqs: FIT101941212
+## Obsoletes: None
+## element * prinjoo.DRV_JP30.FIT101872092.FIT101725239.03Sep18
+
+## FIT101947822(J)
+## Covers: FIT101988382(Beethoven), FIT101988381(R)
+## Modifies: dbpro_core.dll
+## Prereqs: FIT101941212
+## Obsoletets: None
+element * stephenk.F6.FixPrescientMultiWorkFlow.05_APR_19
+
+## FIT101977391(R) - FR
+## Covers: None
+## Modifies: video.dll, neonpink.mat, neonpink.tt
+## Prereqs: FIT101941212,FIT101945945
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857, FIT101960531, FIT101908225
+## NOTE: ALL CUSTOMERS, ALL LANGUAGES
+## element * tamdo.bp2.pink.screen.tt.file.2019-04-26
+## element * vasub.bbpp.FIT101977391.FR.pink.toner.ID.fix.26Apr2019 
+## element * vasub.bbpp.FIT101977391.FR.NeonPinkSupport.16Apr2019 
+## element * tamdo.bp1.neon.pink.screen.2019-04-15 
+## element * tamdo.bp1.neon.pink.screen.config.2019-04-15
+
+## FIT101963173(R)
+## Covers: FIT101988412(Beethoven), FIT101988413(J)
+## Modifies: FieryXJ
+## Prereqs: FIT101941212
+## Obsoletets: None
+element * jorge.FieryXJ.Bowie.fix.blanks.PSPres.15_APR_19
+
+## FIT101908225(J) - NG - But keep the fix
+## Covers: FIT101882397(J), FIT101877131(J), FIT101975591(J)
+## Modifies: video.dll
+## Prereqs: FIT101941212,FIT101945945
+## Obsoletets: FIT101911346, FIT101945300, FIT101938857, FIT101960531
+element * vasub.bbpp.FIT101882397.Kiku4Sai.customSize.adjust.fix.04Apr2019
+
+## FIT101960531(J)
+## Covers: None
+## Modifies: video.dll
+## Prereqs: FIT101941212,FIT101945945
+## Obsoletets: FIT101911346, FIT101945300, FIT101938857
+element * karunabh.bowie1.0_hrDeviceID.fix.11MAR2019
+
+## FIT101945945(J) - REDO
+## Covers: FIT101947710(R)
+## Modifies: video.dll, dlc.dll
+## Prereqs: FIT101941212
+## Obsoletes: FIT101911346, FIT101945300, FIT101938857
+## Note: The defects in the Obsolete list are Otsuka issues including this defect. Hence, including video.dll in this patch. Making one patch for all
+##       the Otsuka issues.
+element * vasub.bbpp.FIT101945945.dlc.BlankDocPage.fix.29Mar2019
+
+## FIT101903833(J)
+## Covers: FIT101908278(R), FIT101908277(Beethoven)
+## Modifies: vfwrap.dll
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * victork.vfwrap.09_JUL_18
+
+## FIT101967345(J)
+## Covers: FIT101975102(R), FIT101975103(Beethoven)
+## Modifies: static_attrs.ppd
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * vasub.bbpp.FIT101967345.config.remove.unnecessary.columns.27Mar2019
+
+## FIT101967688(R) - WIN 
+## Covers: FIT101967684(Beethoven WIN), FIT101967687(J WIN), FIT101971971(R MAC), FIT101971967(Beethoven MAC), FIT101971979(J MAC)
+## Modifies: WIN/MAC Drivers
+## Note: Reference base spec details for Roman and Kanji
+## Windows driver components - bowie1.0r_030619_153847.iso (GM spec/CutIn spec)
+## MAC driver components - bowie1.0r_091018_130316.iso (MAC10.14)
+##
+## Windows driver components - bowie1.0j_030819_182330.iso (GM spec/SP5 CutIn spec)
+## MAC driver components - bowie1.0j_091018_125427.iso (MAC10.14)
+## 
+## WIN/MAC: bowie1.0r_032719_193104.iso
+## WIN/MAC: bowie1.0j_032719_225558.iso 
+
+## FIT101881320(J)
+## Covers: FIT101935490(R), FIT101935489(Beethoven)
+## Modifies: kvf.cat, kvf.inf, kvf.sys
+## Prereqs: FIT101941212
+## Obsoletes: None
+## Note: Need to run FieryCertificateInstaller.exe before installing the kvf driver.
+element * markfo.kvf.aegis.FIT101881320.02_JAN_2019
+
+## FIT101960279(R) - CUSTOMER SPECIFIC - NG
+## Covers: None
+## Modifies: FieryXJ, PPD, factsvrhlp.dll
+## Prereqs: FIT101941212, FIT101941085
+## Obsoletes: None
+## Note: update sysdict [PrintRangeLegacy = YES] to enable this workflow.
+## element * M_capapp.ricoh_recsa_flame6.0_bowie.2019.04.23_22.23
+## element * jorge.Bowie-Bethoven.FieryXJ.allow.old.style.print.range.based.on.sydict.key.11_MAR_19
+## element * wenjunzh.bowie1.0.factsvrhlp.support.legacy.print.range.16_SEP_19
+
+## FIT101960531(J)
+## Covers: None
+## Modifies: video.dll
+## Prereqs: FIT101941212,FIT101945945
+## Obsoletets: None
+## element * karunabh.bowie1.0_hrDeviceID.fix.11MAR2019
+
+## FIT101960757(Beethoven)
+## Covers: FIT101972027(R), FIT101972026(J)
+## Modifies: mpc.js
+## Prereqs: FIT101941212
+## Obsoletets: None
+element * vasub.bbpp.FIT101960757.ChangeLoginFromAdminToGuest.29Mar2019
+
+## FIT101940349(R)
+## Covers: FIT101955687(J), FIT101956205(Beethoven)
+## Modifies: flamingo.dll
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * tingz.f6.bowie.brightness.fix.20190214
+
+## FIT101902985(R) - REDO
+## Covers: FIT101909952(J), FIT101909953(Beethoven) 
+## Modifies: pc-initializer.exe, pc_fiery_api.dll, sysconfig_fiery.xml, sysdict key[PC_UNARCH_NO_NEW_PC=YES]
+## Prereqs: FIT101941212
+## Obsoletes: None
+## Note: This is a generic patch of LIDL patch, FIT101842037(R)
+element * vasub.BBPP.FIT101903617.pc.PortFixesToCorrectVersion.18Feb2019
+element * vasub.BBPP.FIT101902985.pc.ResetEngineMID.11Feb2019
+element * vasub.bowie.FIT101842037.papercatalog.PortStanlyFixToMainLine.06Aug2018
+element * tinhl.bowie.pc.compatibility_feature_handle_multiple_matches.26_Jun_18
+element * tinhl.bowie.pc.compatibility_feature_handle_mixedmedia.25_Jun_18
+element * tinhl.bowie.pc.compatibility_feature_set_EFPrintSize_on_match.21_Jun_18
+element * tinhl.bowie.pc.compatibility_feature_set_PPD_attr_on_match.14_Jun_18
+element * tinhl.bowie.pc.compatibility_feature.03_May_18
+
+## FIT101930855(J) 
+## Covers: FIT101958344(R), FIT101958343(Beethoven)
+## Modifies: ACE_3020.dll, AGM_3020.dll, ARE_3020.dll, BIBUtils_3020.dll, BIB_3020.dll, CoolType_3020.dll, icucnv36.dll, icudt36.dll
+##           JP23020.dll, PDFToPS.dll
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * tingz.adobe.51618.PDFtoPS.fix.20190208
+
+## FIT101916346(Beethoven)
+## Covers: FIT101951439(J), FIT101951440(R)
+## Modifies: factsvrhlp.dll
+## Prereqs: FIT101941212,FIT101941085
+## Obsoletes: None
+element * rahulpat.f6.fact.FIT101916346.FIT101924547.set.EFMarginZero.FEB_06_2019
+element * rahulpat.f6.fact.FIT101916346.FIT101924547.set.EFMarginZero.JAN_09_2019
+
+## FIT101941085(R)
+## Covers: FIT101952065(J), FIT101952064(Beethoven)
+## Modifies: duckpdf.exe, scanlib.dll, ecs.dll, ripdll.dll, pdl_autosense.dll, sp.dll, pdl.dll, pqmlibparse.dll, csl.dll
+##           libeficsl.dll, appe.dll, iwl.dll, translib.dll, pdl_ppml.dll, videoman_nt.dll, factsvrhlp.dll, silk.dll
+##           trpc_jobm.dll, gasetup.dll, chinook.exe, vdp_cache.dll, trpc_mail.dll
+## Prereqs: FIT101941212
+## Obsoletes: None 
+element * M_CYCLONE.20190115 
+element * M_CSL.20190115 
+element * M_TRANSLIB.20190115 
+element * johnl.fl6.to.fl8.pdf2.0.supp.22_Oct_18
+
+## FIT101902985(R) - NG
+## Covers: FIT101934077(J), FIT101942755(Beethoven), FIT101942756(R)
+## Modifies: pc-initializer.exe, pc_fiery_api.dll, sysconfig_fiery.xml, sysdict key[PC_UNARCH_NO_NEW_PC=YES]
+## Prereqs: FIT101941212
+## Obsoletes: None
+## Note: This is a generic patch of LIDL patch, FIT101842037(R)
+## element * vasub.bowie.FIT101842037.papercatalog.PortStanlyFixToMainLine.06Aug2018
+## element * tinhl.bowie.pc.compatibility_feature_handle_multiple_matches.26_Jun_18
+## element * tinhl.bowie.pc.compatibility_feature_handle_mixedmedia.25_Jun_18
+## element * tinhl.bowie.pc.compatibility_feature_set_EFPrintSize_on_match.21_Jun_18
+## element * tinhl.bowie.pc.compatibility_feature_set_PPD_attr_on_match.14_Jun_18
+## element * tinhl.bowie.pc.compatibility_feature.03_May_18
+
+## FIT101945945(J) - NG
+## Covers: FIT101947710(R)
+## Modifies: video.dll, dlc.dll, alib.dll
+## Prereqs: FIT101941212
+## Obsoletes: FIT101911346,FIT101945300,FIT101938857
+## Note: The defects in the Obsolete list are Otsuka issues including this defect. Hence, including video.dll in this patch. Making one patch for all
+##       the Otsuka issues. 
+## element * victork.bowie.31_JAN_19
+## element * victork.bbf21.22_JAN_19
+
+## FIT101938857(J)
+## Covers: FIT101948235(Beethoven), FIT101948236(R), FIT101914003(R), FIT101948175(Beethoven), FIT101948176(J), FIT101941782(J), FIT101930003(J)
+## Modifies: video.dll
+## Prereqs: FIT101941212
+## Obsoletes: FIT101911346, FIT101945300
+element * vasub.bbpp.FIT101938857.video.RemoveInternalPartUnsetError.31Jan2019
+element * vasub.bbpp.FIT101932173.Add.NULL_Ptr_Check.10Jan2019 
+element * vasub.bbpp.FIT101932173.Add.More.Logs.18Dec2018
+
+## FIT101945300(J)
+## Covers: FIT101933725(J), FIT101936980(Beethoven), FIT101936982(R), FIT101945010(J)
+## Modifies: video.dll
+## Prereqs: FIT101941212
+## Obsoletes: FIT101911346
+element * vasub.bbpp.FIT101933725.video.RestrictTASR.03Jan2019
+
+## FIT101911346(J)
+## Covers: FIT101934061(R), FIT101934058(Beethoven)
+## Modifies: video.dll
+## Prereqs: FIT101941212
+## Obsoletes: None
+element * vasub.bbpp.FIT101911346.HonorInputTrayForPCWorkflow.20Dec2018
+
+## FIT101957739(J) - CutIn 
+## Covers: None
+## Includes the following server + client fixes
+## SP5, util_cws6.2_package_021119_121405
+##
+## Bowie1.0R/Beethoven1.0R
+## DVD1: bowie1.0r_032019_085613.iso
+## DVD4: bowie1.0r_030619_153847.iso
+##
+## Bowie1.0J
+## DVD1: bowie1.0j_032019_173919.iso
+## DVD4: bowie1.0j_030819_182330.iso
+
+## FIT101941212(R) - SP5/CP5
+## Covers: None
+## Patches Included:
+## FIT101858696, FIT101894344, FIT101869240, FIT101839916, FIT101848428, FIT101887297, FIT101894346, FIT101892290, FIT101876070, FIT101897771, FIT101892871
+## FIT101917298, FIT101919345, FIT101915934, FIT101890662, FIT101890732, FIT101924572 
+## Other defects fixed with SP5
+## FIT101946791(J), FIT101933223(J), FIT101933831(R), FIT101947694(J), FIT101949281(Beethoven), FIT101949283(J)
+
+## FIT101924572(J)
+## Covers: FIT101931903(R),FIT101931904(Beethoven)
+## Modifies: FieryProductSetup.xml
+## Prereqs: None
+## Obsoletes: FIT101876070
+## script changes 
+
+## FIT101890732(J)
+## Covers: FIT101935075(R), FIT101935076(Beethoven)
+## Modifies: pageman.dll
+## Prereqs: None
+## Obsoletes: FIT101894346
+element * shekarh.bowie.pgm.merge.ECOPLANDJ-1110.fix.12_DEC_18
+
+## FIT101890662(R) - REDO
+## Covers: FIT101880569(R), FIT101915765(J), FIT101915764(Beethoven), FIT101915197(J), FIT101918691(Beethoven), FIT101918693(J), FIT101918762(Beethoven),
+##         FIT101918763(R), FIT101923639(J), FIT101933821(R), FIT101933822(Beethoven)
+## Modifies: dlc.dll, alib.dll, vfwrap.dll, sp.dll, video.dll
+## Prereqs: FIT101858696, FIT101869240, FIT101887297
+## Obsoletes: FIT101897771, FIT101892871, FIT101917298, FIT101878232
+## Along with the following video label, just re-ordered Victor's label in SP4 & SP3.
+element * vasub.FIT101880569.BBPP.600_DPI_Image_Shift.Adjust.06Dec2018
+
+## FIT101878232(R)
+## Covers: FIT101927821(Beethoven), FIT101927819(J)
+## Modifies: video.dll
+## Prereqs: FIT101869240,FIT101887297
+## Obsoletes: FIT101897771,FIT101892871,FIT101917298
+element * yogeshb.pbfix.jam.FIT101878232.28Nov18
+
+
+## FIT101919345(J)
+## Covers: FIT101923593(Beethoven), FIT101923598(R)
+## Modifies: factsvrhlp.dll
+## Prereqs: FIT101858696
+## Obsoletes: None
+element * wenjunzh.flame60.factsvrhlp.custom.size.29_AUG_18
+
+## FIT101915934(J)
+## Covers: FIT101927269(J), FIT101930294(Beethoven), FIT101930295(J), FIT101931310(R), FIT101931313(Beethoven)
+## Modifies: dbpro_core.dll
+## Prereqs: None
+## Obsoletes: None
+element * stephenk.F6.FIT101922562.FIT101814471.28_NOV_18
+
+## FIT101917298(J)
+## Covers: FIT101921121(Beethoven), FIT101921122(R)
+## Modifies: video.dll
+## Prereqs: FIT101869240, FIT101887297
+## Obsoletes: FIT101897771, FIT101892871
+element * ruiqis.ricoh.bbpp.video.paperend.prestop.fix.20180911
+
+## FIT101892871(R)
+## Covers: FIT101897406(J), FIT101897394(Beethoven)
+## Modifies: video.dll
+## Prereqs: FIT101869240, FIT101887297
+## Obsoletes: FIT101897771
+element * neethapr.largecapacity.interposer.MIB.fix.7Sept2018
+
+## FIT101890662(R) - NG
+## Covers: FIT101880569(R), FIT101915765(J), FIT101915764(Beethoven), FIT101915197(J), FIT101918691(Beethoven), FIT101918693(J), FIT101918762(Beethoven),
+##         FIT101918763(R)  
+## Modifies: dlc.dll, alib.dll, vfwrap.dll, sp.dll
+## Prereqs: FIT101858696, FIT101869240
+## Obsoletes: None
+## No labels, just re-order Victor's label in SP4 & SP3.
+
+## FIT101891883(J)
+## Covers: FIT101911681(R), FIT101911678(Beethoven)
+## MAC Driver specs:
+## bowie1.0j_091018_125427
+## bowie1.0r_091018_130316
+
+## FIT101897771(R)
+## Covers: FIT101903736(J), FIT101911311(J), FIT101911318(Beethoven), FIT101913936(R), FIT101913938(Beethoven)
+## Modifies: video.dll
+## Prereqs: FIT101869240, FIT101887297
+## Obsoletes: None
+element * yogeshb.rounding.pb.FIT101897771.11oct2018
+element * neethapr.MIB.tonerupdatefix.bing.6Aug2018
+
+## FIT101876070(J)
+## Covers: FIT101896164(R),FIT101896165(Beethoven)
+## Modifies: FieryProductSetup.xml
+## Prereqs: None
+## Obsoletes: None
+element * tamdo.bowie.increase.burn.memory.2018-09-28
+
+## FIT101892290(J)
+## Covers: FIT101911620(R), FIT101911619(Beethoven)
+## Modifies: product.conf, CommonLCD/MB, glance/NX-2.0.35.0-ota_update.zip, commonlcd5/*
+## Prereqs: None
+## Obsoletes: None
+
+## FIT101894346(J)
+## Covers: FIT101902236(R), FIT101902237(Beethoven), FIT101902957(R), FIT101906629(Beethoven), FIT101906621(J)
+## Modifies: pageman.dll
+## Prereqs: FIT101858696
+## Obsoletes: None
+element * trux.pmfe.add.back.missing.symbol.20180923 
+element * trux.pmfe.fix.throttle.for.reverse.order.jobs.20180922
+
+## FIT101887297(J)
+## Covers: FIT101896177(Beethoven), FIT101896178(R), FIT101902952(R), FIT101907210(Beethoven), FIT101907213(J)
+## Modifies: video.dll, video.1.cfg
+## Prereqs: FIT101869240
+## Obsoletes: None
+element * vasub.FIT101887297.bbpp.video.SetJobhasClearInformationCorrectly.09Sep2018 
+element * vasub.FIT101887297.bbpp.video.SetTonerPerformanceValueCorrectly.07Sep2018 
+element * vasub.FIT101887297.bbpp.video.SetTonerPerformanceValueCorrectly.04Sep2018 
+element * ruiqis.ricoh.bbpp.video.page.img.adjust.fixes.20180803 
+element * ruiqis.ricoh.bbpp.print.image.shift.dtu.fixes.20180710
+
+## FIT000262606(R) - CP -composite patch 
+## Modifies: dequeue.dll, ecm.dll, fieryquery.dll, pc_fiery_api.dll, silk.dll, trpc_pcat.dll, video.dll, acd.js
+## Prereqs: SP4
+## Obsoletes: None
+## Patches Included:
+## FIT000262606,FIT101871838,FIT000264751,FIT000264764,FIT000261352
+##element * yogeshb.port.tamdo.recsa.LCD.send.ORD.on.start.up.2018-07-17
+##element * ruiqis.recsa.video.bbpp.pc.import.events.change.20180607
+##element * ruiqis.ricoh.bbpp.papercatalog.engine.import.events.20180607
+##element * M_Agali-4.0.00.68.11_JUL_18
+##element * tamdo.pp.internal.job.id.start.from.1.2018-07-20
+##element * tamdo.bbpp.FIT101820586.refix.canceling.cause.job.hang.2018-07-16
+##element * jennyzhu.bowie.acd.hideWarning.minify.Jul_30_2018
+##element * jennyzhu.bowie.acd.hideWarning.July_30_2018
+
+## FIT101839916(J) - FR
+## Covers: FIT101886323(Beethoven), FIT101886320(R)
+## Modifies: pspages/AdjustPrint*
+## Prereqs: None
+## Obsoletes: None
+## For ALL CUSTOMERS
+element * amitkum.bowie.pspages.special.FIT101839916.07_21_2018
+element * amitkum.bowie.pspagesspeacial.FIT101839916.05_14_2018
+
+## FIT101848428 (J)
+## Covers: FIT101893108(R), FIT101893107(Beethoven)
+## Modifies: preview-daemon.exe
+## Prereqs: None
+## Obsoletes: None
+element * karthisr.skip_preview_for_secure_print.20_JUL_18
+
+## FIT101842037(R) - FR
+## Covers: None
+## Modifies: pc-initializer.exe, pc_fiery_api.dll, sysconfig_fiery.xml,  sysdict key[PC_UNARCH_NO_NEW_PC=YES]
+## Prereqs: None
+## Obsoletes: None
+## SPECIFIC CUSTOMERS
+## element * vasub.bowie.FIT101842037.papercatalog.PortStanlyFixToMainLine.06Aug2018
+## element * tinhl.bowie.pc.compatibility_feature_handle_multiple_matches.26_Jun_18 
+## element * tinhl.bowie.pc.compatibility_feature_handle_mixedmedia.25_Jun_18 
+## element * tinhl.bowie.pc.compatibility_feature_set_EFPrintSize_on_match.21_Jun_18 
+## element * tinhl.bowie.pc.compatibility_feature_set_PPD_attr_on_match.14_Jun_18 
+## element * tinhl.bowie.pc.compatibility_feature.03_May_18
+
+## FIT101872169(R)
+## Covers: None
+## Modifies: Korean PPD
+## Prereqs: None
+## Obsoletes: None
+element * M_capapp.ricoh_recsa_flame6.0_bowie.2018.07.23_17.24
+
+## FIT101869240(R)
+## Covers: FIT101872907(J), FIT101872909(Beethoven)
+## Modifies: video.dll, dlc.dll
+## Prereqs: None
+## Obsoletes: None
+## Includes the fix of FIT101845505(J) because we have to rebuild dlc.dll on top of the latest SP4 configspec. SO, include it here
+element * yaoqiu.BP.PBConstraints.JUL_17_2018 
+element * tamdo.bbpp.FIT101820586.refix.canceling.cause.job.hang.2018-07-16 
+element * victork.dlc.25_APR_18
+
+## FIT101845505(J) - Fix included in FIT101869240(R) patch 
+## Covers:None
+## Modifies: dlc.dll
+## Prereqs: None
+## Obsoletes: None
+## element * victork.dlc.25_APR_18
+
+## FIT101860726(J) customer specfic
+## Covers:None
+## Modifies: fieryoptimized2.joboptions
+## Prereqs: None
+## Obsoletes: None
+## element * rajeevsi.Verdi13j.FIT101572655.03_NOV_16
+
+## RMS Spec info of SP patches
+## SP1: FIT101825817 : bowie1.0r_072618_102139
+## SP2: FIT101833781 : bowie1.0r_072618_102631
+## SP3: FIT101841205 : bowie1.0r_072618_103723
+## SP4: FIT101858696 : bowie1.0r_072518_191459
+
+####################################################################
+# SP4
+####################################################################
+## FIT101858696
+## Covers: 
+## Prereqs: None
+## Obsoletes: FIT101833781
+## Modifies:  video.dll PPDs LCDdict webtool agali PDFToPS.dll AGM_3020.dll vfwrap.dll dlc.dll alib.dll pc_fiery_api.dll
+##            mediacatalog.fdb sysconfig_fiery.xml gui.dll factsvrhlp.dll efi_auth.dll pageman.dll sp.dll
+##            pc-initializer.exe pc_fiery_api.dll acd.js silk.cfg
+##            C9200/colorSystem C9200/colorSystem.EUR C9200/colorSystem.JPN C9200/it8/EYE2DOUBLESORT.IT8 C9200/preview/EYE2DOUBLESORT.JPG 
+##            C7200/colorSystem C7200/colorSystem.EUR C7200/colorSystem.JPN C7200/it8/EYE2DOUBLESORT.IT8 C7200/preview/EYE2DOUBLESORT.JPG
+##            C7200-CMYKW/colorSystem C7200-CMYKW/colorSystem.EUR C720-CMYKW0/colorSystem.JPN C7200-CMYKW/it8/EYE2DOUBLESORT.IT8 C7200-CMYKW/preview/EYE2DOUBLESORT.JPG
+element * coryfasb.bing.update.01_Mar_2018
+element * coryfasb.bing.update.FAPI.11_Jul_2018
+element * jeffbaue.C7200-CMYKW.change-color-config.20180711
+element * jennyzhu.acd.pswdCookie.Jul_10_2018
+element * jennyzhu.acd.pswd.minify.Jul_10_2018
+element * tamdo.bbpp.missed.restricted.silk.paper.size.2018-07-09
+element * coryfasb.bing.c7200.color.name.10_Jul_2018
+element * victork.gryf.04_JUL_18
+element * amitkum.clcd.bowie.removecustompageinstr.05_11_2018
+element * amitkum.clcd.bowie.enumchangesmw.FIT101814511.02_MAY_2018
+element * jennyzhu.invalidSizeMsg.Jul_02_2018
+element * yaoqiu.BP.ProductNameUpdate.JUL_02_2018
+element * annapoos.systemUpdates_BingProxyIssue.6202018 
+element * shekarh.bowie.ecs.nickname.customization.update.02_JUL_18
+element * yaoqiu.BP.ProductName.JUN_22_2018 
+element * wenjunzh.flame60.factsvrhlp.custom.size.for.mixedmedia.26_JUN_18 
+element * rahulpat.f6.factsvrhlp.add.support.front.and.back.diff.scale.factors.JUN_8_2018 
+element * M_capapp.ricoh_recsa_flame6.0_bowie.2018.06.12_10.51
+## The following 2 labels are for Prince ONLY, so comment them out. Please refer comments from FIT101880569 for more details.
+## element * victork.prince.04_JUN_18
+## element * victork.dlc.03_JUN_18
+element * victork.dlc.29_MAY_18
+element * victork.dlc.16_MAY_18
+element * victork.trap.pull_back.09_MAY_18
+element * victork.dlc.16_APR_18
+element * victork.vfwrap.02_MAR_18
+element * victork.cJSONhelper.05_FEB_18
+## element * victork.color16.28_MAR_17
+element * jennyzhu.noNeedOverwriteLcdString.Feb_09_2018 
+element * neethapr.bowie.supplylevel.fix.8June2018
+element * rahulpat.f6.bowie.prince.jmi.intent.init.fix.JUN_8_2018
+element * gurudatm.setdns_hostname_enabled_f6.13_APR_2018
+element * neethapr.bowie.supplylevel.fix.8June2018
+element * yaoqiu.BP.PBTrimRounding.JUNE_07_2018
+element * jeffbaue.C9200.update-custom-it8-layout.20180607
+element * jeffbaue.C7200-CMYKW.update-custom-it8-layout.20180607
+element * jeffbaue.C7200.update-custom-it8-layout.20180607
+element * shekarh.f6.jmi.skip.multirip.ps.error.out.job.EBOWIEORS-35.30MAY_18
+element * yaoqiu.BP.TrayAttrSetInserter.MAY_31_2018
+element * ruiqis.ricoh.bbpp.cfg.acd.pmp.jobqueue.change.20180529
+
+####################################################################
+# SP3
+####################################################################
+## FIT101833781
+## Covers: FIT101820595 FIT101827853 FIT101818016 FIT000261892 FIT101840462 FIT101817607 FIT101820627 FIT101820578
+##         FIT101818097 FIT000261607 FIT000261458 FIT000261363 FIT000261259 FIT000262365 FIT000261842 FIT000261637
+##         FIT101818074 FIT101820573 FIT101820586 FIT101818095 FIT101818138 FIT000262475 FIT000261811 FIT101820584
+##         FIT101818080 FIT101818078
+## Prereqs: None
+## Obsoletes: FIT101818714
+## Modifies:  video.dll PPDs LCDdict webtool agali PDFToPS.dll AGM_3020.dll vfwrap.dll dlc.dll alib.dll pc_fiery_api.dll
+##            mediacatalog.fdb sysconfig_fiery.xml gui.dll factsvrhlp.dll efi_auth.dll pageman.dll sp.dll
+##            pc-initializer.exe pc_fiery_api.dll acd.js silk.cfg
+##            C9200/colorSystem C9200/colorSystem.EUR C9200/colorSystem.JPN C9200/it8/EYE2DOUBLESORT.IT8 C9200/preview/EYE2DOUBLESORT.JPG 
+##            C7200/colorSystem C7200/colorSystem.EUR C7200/colorSystem.JPN C7200/it8/EYE2DOUBLESORT.IT8 C7200/preview/EYE2DOUBLESORT.JPG
+##            C7200-CMYKW/colorSystem C7200-CMYKW/colorSystem.EUR C720-CMYKW0/colorSystem.JPN C7200-CMYKW/it8/EYE2DOUBLESORT.IT8 C7200-CMYKW/preview/EYE2DOUBLESORT.JPG
+
+## New Client DVD : 
+#
+# breakdown of each label
+##Modifies: video.dll
+## Standard Video
+element * yaoqiu.BP.TrayAttrSetInserter.MAY_31_2018
+element * yaoqiu.BP.PCCustomMatchEng.MAY_24_2018
+element * yaoqiu.bp.PCCustomMatch.MAY_23_2018
+element * tamdo.bp.video.add.new.ILS.sizes.2018-05-14
+element * ruiqis.ricoh.bbpp.video.pc.pmpsetting.fix.20180510
+element * yaoqiu.BP.PreStopRecovery.MAY_08_2018
+element * tamdo.bp.print.param.info.param.2018-04-27
+element * tamdo.bp.bad.auto.calib.size.2018-04-27
+element * tamdo.bp.paper.spec.decoder.under.1min.requirement.2018-04-26
+element * tamdo.bp.resource.busy.command.change.2018-04-25
+element * tamdo.bp.bing.calib.crash.2018-04-24
+element * yaoqiu.BP.PreStopRevert.APR_16_2018
+element * jennyzhu.bbpp.RussianStringTooLong.Apr_13_3018
+element * yaoqiu.BP.PaperEndCrash.APR_13_2018
+element * neethapr.MIB.sysname.productid.impl.13April2018
+element * neethapr.MIB.sysname.productid.impl.13April2018
+element * yaoqiu.BP.MIBport.APR_12_2018
+element * neethapr.MIB.errmsg.files.12April2018
+element * neethapr.video.MIB.automation.fixes.6April2018
+element * neethapr.richotoner.MIB.fix.30March2018
+#Modfiies: acd.js
+element * ruiqis.ricoh.bbpp.cfg.acd.pmp.jobqueue.change.20180529
+element * ruiqis.ricoh.bbpp.video.acd.performence.improvement.20180510
+element * jennyzhu.bp.acd.safariVersionCheck.Apr_16_2018
+element * jennyzhu.bp.acd.safariVersionCheck.minify.Apr_16_2018
+#silk.cfg
+element * tamdo.bp.silk.config.add.new.ILS.sizes.2018-05-14
+### unk
+element * karunabh.bbpp.ricohEngCounterValue.fix.25MAY2018
+### unk
+element * shailenm.prtOutputVendorName.Ricoh.Dynamic.25_MAy_2018
+#pc-initializer.exe pc_fiery_api.dll
+element * stanislb.PRINCER.Import1000.MARCH_14_2018
+element * M_Agali-4.0.00.65.14_MAY_18
+##Modifies: SP.dll
+element * manjunat.cleanup.stale.shm.files.with.apache.unclean.shutdown.f6.05_FEB_2018
+##Modifies: pageman.dll
+element * varshake.f60.bowie.preview_delete.23_MAY_2018
+element * shekarh.f6.pgm.ripcollector.18_MAR_18 
+##Modifies:efi_auth.dll
+element * andysant.efi_auth.ostringstreamHandling.02_Feb_2018 
+## Fiery Monitor service to match bing
+element * andysant.bing.configman.ENABLE_FIERY_MONITOR_SERVICE.08_May_2018
+element * andysant.FieryMonitorService.ENABLE_FIERY_MONITOR_SERVICE.08_May_2018
+element * andysant.fieryMonitorService.alwaysSetExtendedStatus.13_Apr_2018
+element * andysant.fieryMonitorService.configman.11_Apr_2018
+element * andysant.fieryMonitorService.flame6.11_Apr_2018
+element * andysant.fieryMonitorService.flame6.bing.04_Apr_2018
+element * andysant.fieryMonitorService.flame6.04_Apr_2018
+element * andysant.fieryMonitorService.flame6.buildFiles.04_Apr_2018
+element * andysant.fieryMonitorService.flame6.buildFiles.29_Mar_2018
+element * andysant.fieryMonitorService.flame6.29_Mar_2018
+##Modifies: gui.dll
+element * amitkum.clcd.bowie.removecustompageinstr.05_11_2018
+##Modifies: Webtoos
+element * rajeshp.WEBTOOLS4_3_2_42_10_MAY_18 
+##Modifies: factsvrhlp.dll
+element * wenjunzh.flame60.factsvrhlp.restructure.imageshift.14_MAY_18
+##Modifies: C9200/colorSystem C9200/colorSystem.EUR C9200/colorSystem.JPN C9200/it8/EYE2DOUBLESORT.IT8 C9200/preview/EYE2DOUBLESORT.JPG 
+##          C7200/colorSystem C7200/colorSystem.EUR C7200/colorSystem.JPN C7200/it8/EYE2DOUBLESORT.IT8 C7200/preview/EYE2DOUBLESORT.JPG
+##          C7200-CMYKW/colorSystem C7200-CMYKW/colorSystem.EUR C720-CMYKW0/colorSystem.JPN C7200-CMYKW/it8/EYE2DOUBLESORT.IT8 C7200-CMYKW/preview/EYE2DOUBLESORT.JPG
+element * jeffbaue.C7200-CMYKW.support_product_specific_calibration_testpage.20180510
+element * jeffbaue.C9200.support_product_specific_calibration_testpage.20180509
+element * jeffbaue.C7200.revert.FIT101805406.disable_Ricoh_ADC_colorSystem.DEVICECALIBRATIONPROCESS.20180221.20180509
+element * jeffbaue.C7200.support_product_specific_calibration_testpages.20180509
+##Modifies: mediacatalog.fdb sysconfig_fiery.xml 
+element * ruiqis.ricoh.NFDP18A-8.pc.mdb.change.20180126
+element * kavyaban.Papercatalog_sysconfigfiery.xml_enabling_PCEditEngCallBackWithPutPCValues_to_yes.01MARCH2018 
+element * M_PAPERCATALOG_FLAME6.02_MAR_2018
+##Modifies: dlc.dll alib.dll pc_fiery_api.dll
+element * victork.dlc.22_JAN_17 
+element * victork.alpine.11_DEC_17 
+element * victork.color16.28_MAR_17 
+##Modifies: vfwrap.dll
+element * victork.vfwrap.02_APR_18
+element * victork.vfwrap.07_JAN_17
+##Modifies: PDFToPS.dll AGM_3020.dll
+element * dchen.adobe.fix.50266.031918
+##Modifies:ppds
+element * M_capapp.ricoh_recsa_flame6.0_bowie.2018.04.27_15.51
+##Modifies:lcdDict
+element * luf.lcddict.20180427
+element * M_capapp.fiery_localization.2018.04.27_15.40
+element * M_Agali-4.0.00.62.23_APR_18
+####################################################################
+# SP2
+####################################################################
+## FIT101833781
+## Covers: FIT000261259 FIT000261332 FIT000261431 FIT000261539 FIT000261584 FIT000261604 FIT000261737 FIT000261744 FIT101814507 FIT101815661
+##         FIT101815662 FIT101816009 FIT101816014 FIT101816025 FIT101816036 FIT101816043 FIT101816046 FIT101817613 FIT101817614 FIT101818017
+##         FIT101818021 FIT101818072 FIT101818076 FIT101818077 FIT101818093 FIT101818145 FIT101818159 FIT101819921 FIT101819989 FIT101819990
+##         FIT101820561 FIT101820571 FIT101820590 FIT101820593 FIT101820597 FIT101820598 FIT101820616 FIT101820618 FIT101820619 FIT101820621
+##         FIT101820622 FIT101820632 FIT101821983 FIT101823532 FIT101825157 FIT101825180 FIT101825193 FIT101825826 FIT101827397 FIT101827403
+##         FIT101827408 FIT101827417 FIT101827423 FIT101827432 FIT101827862 
+## Prereqs: None
+## Obsoletes: FIT101818714
+## Modifies:  video.dll maker.dll trpc_locl.dll  kvf.cat  kvf.inf  kvf.sys trpc_jobm.dll gui.dll trpc_lp.dll JPDeviceCap.jmf silk.dll trpc_ils.dll
+##  trpc_server_server.dll (System/Httpd) FieryIPUtils.exe efinetcfg.exe network.dll trpc_sftp.dll reqservice.dll fpss_network.dll
+##  ACD/index.html /ACD/js/acd.js ACD/js/fiery.js /ACD/css/style.css multipass/js/mpc.js silk.cfg ppd
+## New Client DVD : client.bowie1.0r_041118_122949.iso client.bowie1.0j_041118_122948.iso
+
+# breakdown of each label
+## Modifies:  ACD/index.html /ACD/js/acd.js ACD/js/fiery.js /ACD/css/style.css multipass/js/mpc.js silk.cfg (Different versions for Bowie/Prince) ppd
+element * M_Ricoh_FC_config_branch_SP2.12_Apr_2018
+##Modifies: video.dll
+## Standard Video
+element * yaoqiu.BP.PreStopRevert.APR_16_2018
+element * jennyzhu.bbpp.RussianStringTooLong.Apr_13_3018
+element * yaoqiu.BP.PaperEndCrash.APR_13_2018
+element * neethapr.MIB.sysname.productid.impl.13April2018
+element * neethapr.MIB.sysname.productid.impl.13April2018
+element * yaoqiu.BP.MIBport.APR_12_2018
+element * neethapr.MIB.errmsg.files.12April2018
+element * neethapr.video.MIB.automation.fixes.6April2018
+element * M_Ricoh-BP-video.11_Apr_2018
+##Modifies: video.dll
+element * ruiqis.flame6.mvid.sampleprint.pageticket.fix.20180402
+## Modifies: trpc_jobm.dll
+element * davidwe.f6.jmi.dup.invis.20180412
+## Modifies: trpc_server_server.dll (System/Httpd) FieryIPUtils.exe efinetcfg.exe network.dll trpc_sftp.dll reqservice.dll fpss_network.dll(Note Move FPSS Dir)
+element * varshake.f60.servernamechange.21_MAR_2018
+element * gurudatm.osnetcfgGetHostName.20_MAR_2018
+element * gurudatm.osnetcfgGetHostName.20_MAR_2018
+element * gurudatm.NewNWRebootHookNotCalledOnF6.15_MAR_2018
+element * gurudatm.WinsRebootHookToAvoidAdnlReboot.09_FEB_2018
+element * gurudatm.netcfgStructCachingResetAfterSetOperation.12_DEC_2017
+element * shekarh.f6.reqservice.merge.nw.hooks.reboot.server.16_MAR_18
+## Modifies: gui.dll
+element * amitkum.ricguicodechanges.FIT101693527.30_OCT_2017
+## Modifies: WebTools
+element * rajeshp.WEBTOOLS4_3_2_37_19_MAR_18
+## Modifies:  trpc_lp.dll
+element * shekarh.f6.trpc.auth.lp.opensession.ret.status.stduser.20_DEC_17
+## Modifies JPDeviceCap.jmf
+# note needs extra copies on QX systems
+element * dchen.adobe.49922.branch.for.gr.conflict.030618
+## Modifies: silk.dll trpc_ils.dll
+element * takashi.silk.patchgen.spectrometer.objects.20180329
+element * takashi.silk.info.constraintprops.colorstate.20180125
+## Modifies: kvf.cat  kvf.inf  kvf.sys
+element * M_KVF_ANDROMEDA.02_MAR_2018
+## Changes to bring Bowie to Prince level
+## Modifies: flowscript.xml layout.xml commonlcd.exe
+element * pavanika.lcd.ricoh.AdcScreenError.UI.02_09_2018
+## Modifies: lcddict
+element * luf.lcddict.20180205
+## Modifies: trpc_locl.dll
+element * shekarh.f6.locl.merge.trux.null.pointer.fix.curveadjust.23_FEB_2018
+## Modifies: marker.dll
+element * belinda.marker.xpimage.clip.fix.20_MAR_2018
+element * belinda.marker.xpimage.clip.adjust.08_MAR_2018
+element * belinda.marker.xpimage.clip.fix.02_FEB_2018
+## Modifies:  Agali-4.0.00.53.zip extra steps to patch
+element * M_Agali-4.0.00.53.11_JAN_18
+## Modifies: pqm.dll
+element * trux.pqmjobis.fix.waiting.state.for.rip.and.hold.jobs.20180126
+## Modifies:  ecm.dll
+element * yaoqiu.BP.AlertCrash.Jan_31_2018
+## Modifies: dlc.dll
+element * coryfasb.port.victork.dlc.15_FEB_17.16_Feb_2018
+## Modifies: factsvrhlp.dll
+element * wenjunzh.flame60.factsvrhlp.blank.counts.external.jdf.08_FEB_18
+element * tinhl.fl6.fact.chk_for_beginning_of_list_before_calling_prior.05_Feb_18
+element * davidy.f6_factsvrhlp_PDFXParPres4_only_if_Best.22_JAN_2018
+element * rahulpat.f6.fact.FIT000259078.JAN_11_2019
+element * wenjunzh.flame60.factsvrhlp.cover.insert.for.imposed.job.09_JAN_18
+element * hovikman.f6.fact.cover.page.after.job.NOV_28_2017
+## Modifies: SwitchLanguage.exe, GetServerLang.exe
+element * luf.dls.handle.encrypted.EPD.20180124
+## Modifies : cpsi.dll
+element * jorge.cpsi.fix.calculation.of.prior.section.pg.count.to.match.appe.01_FEB_18
+
+
+####################################################################
+# SP1 
+####################################################################
+## FIT101818714
+## Covers: FIT000259243 FIT000260110 FIT000259098 FIT000258423 FIT000260108 FIT000259993 FIT000259166 FIT101820630 FIT000253333
+## Modifies: video.dll maker.dll trpc_locl.dll 
+## Prereqs: FIT101805364
+## Obsoletes: None
+#FIT101820630 CLONE - [NRD]Custom size can not output to the stacker shift tray.
+#element * yaoqiu.bb.StackerLongCustom.MAR_06_2018 
+#FIT000253333: [FT] [EO] When recovering the jam 209, printing does not resume.
+#video.dll yaoqiu.BB.StapleJamCondition.MAR_12_2018, yaoqiu.bb.StapleJamUpdate.MAR_09_2018, yaoqiu.BB.StapleJamCondition.FEB_26_2018
+#FIT000258423 [NRD][Specialty_colorants]When the Lubricant (Special) end, the Popup message is not displayed during printing and the job status remains printing.
+#video.dll  tamdo.bb.alp.lubricant.out.dont.check.blank.page.2018-03-18 tamdo.bb.alp.lubricant.empty.spec.update.2018-03-15;tamdo.bb.alp.remove.lubricant.empty.error.2018-03-15; tamdo.bowie.5th.lubricant.one.line.msg.2018-03-13; tamdo.bp.port.special.toner.lubricant.out.to.alp.branch.2018-03-09; tamdo.bowie.specialty.color.are.all.special.2018-01-10
+#FIT000259243 [YES] Automatic calibration pattern is printed with K plane only.
+#FIT000259993 [NRD] Automatic Calibrate in Taurus-C3: When create new, CMYK becomes all 0 on the result screen.
+#video.dll tamdo.bp.hex.conversion.screwup.2018-03-06
+#FIT000260108 [NRD] Every overwrite paper catalog, same name paper catalog will be added.
+#video.dll yaoqiu.BB.UpdateInDuplicate.MAR_10_2018;element * yaoqiu.bb.PCDuplicate.MAR_06_2018
+#FIT000259166 [NRD] When APPE: ON setting, horizontal streak occurs in unintended part.
+#maker.dllbelinda.marker.xpimage.clip.adjust.08_MAR_2018
+#FIT000259098 [NRD]When APPE: ON, horizontal streak (broken line) occurs in unintended part
+#maler.dll belinda.marker.xpimage.clip.fix.02_FEB_2018
+#FIT000260110 [NRD][PIC]Fiery disconnected from engine
+# trpc_locl.dll  shekarh.f6.locl.merge.trux.null.pointer.fix.curveadjust.23_FEB_2018
+element * tamdo.bb.alp.lubricant.out.dont.check.blank.page.2018-03-18
+element * tamdo.bb.alp.lubricant.empty.spec.update.2018-03-15
+element * belinda.marker.xpimage.clip.adjust.08_MAR_2018
+element * belinda.marker.xpimage.clip.fix.02_FEB_2018
+element * tamdo.bb.alp.remove.lubricant.empty.error.2018-03-15;
+element * tamdo.bowie.5th.lubricant.one.line.msg.2018-03-13
+element * yaoqiu.BB.StapleJamCondition.MAR_12_2018
+element * yaoqiu.BB.UpdateInDuplicate.MAR_10_2018
+element * tamdo.bp.port.special.toner.lubricant.out.to.alp.branch.2018-03-09
+element * yaoqiu.bb.StapleJamUpdate.MAR_09_2018
+element * yaoqiu.bb.PCDuplicate.MAR_06_2018
+element * yaoqiu.bb.StackerLongCustom.MAR_06_2018
+element * tamdo.bp.hex.conversion.screwup.2018-03-06
+element * yaoqiu.BB.StapleJamCondition.FEB_26_2018
+element * shekarh.f6.locl.merge.trux.null.pointer.fix.curveadjust.23_FEB_2018
+element * tamdo.bowie.specialty.color.are.all.special.2018-01-10
+
+
+
+####################################################################
+# ALP (At Launch Patch)
+####################################################################
+## FIT101805364
+## Covers: FIT000259745 FIT000259287 FIT000259240 FIT000259112 FIT101799802 FIT000253333 FIT000258455
+## Modifies: video.dll PPDs
+## Prereqs: 
+## DVD1 + ALP
+## bowie1.0r_021318_184727 bowie1.0j_021318_184726
+## Obsoletes: None
+## DVD4 WHQL + calibrator fix
+##    bowie1.0r_021218_112337  bowie1.0j_021218_100806
+## DVD4 WDS Fix :bowie1.0r_020818_135408.iso bowie1.0j_020818_114439.iso
+## DVD4: client.bowie1.0j_020618_055414.iso client.bowie1.0r_020618_113815.iso
+element * yaoqiu.BPALP.MIBReconfigCrash.FEB_08_2018
+element * tamdo.bowie.alp.page.crash.2018-02-06
+element * M_capapp.ricoh_recsa_flame6.0_bowie.2018.02.02_12.09
+element * tamdo.bowie.alp.toner.reduction.read.2018-02-05
+element * coryfasb.BP.StapleJamNoContinue.APL.branch.05_Feb_2018
+element * coryfasb.ALP.JStringCut.05_Feb_2018
+element * yaoqiu.bp.StapleJamErrmsg.FEB_02_2018
+element * yaoqiu.BP.StapleJamNoContinue.FEB_02_2018
+element * neethapr.specialtonerid.fix.29Jan2018
+element * tamdo.bowie.toner.reduction.all.cases.2018-01-26   
+element * yaoqiu.BP.AddEngRestrictEvnt.JAN_25_2018
+
+####################################################################
+# base GM label
+####################################################################
+## DVD1: server.bowie1.0r_012518_070457.iso server.bowie1.0j_012518_070458.iso 
+## DVD4: client.bowie1.0r_011918_120747.iso client.bowie1.0j_011918_120749.iso
+element * B_FLAME6.0_BOWIE1.0.Bowie_Beethoven_1.0.GM
+
+
