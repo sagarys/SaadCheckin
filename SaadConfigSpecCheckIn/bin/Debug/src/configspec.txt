@@ -1,0 +1,2314 @@
+## element * CHECKEDOUT
+## To build the video module from windows build servers include the below label
+## element * vasub.sconscriptChangesToDoVideoModuleBuild.31Mar2016
+
+## FIT102247914(J) - Customer specific
+## Covers: FIT102260860(R), FIT102260848(Liszt)
+## Modifies: dlc.dll
+## Prereqs: FIT100868801, FIT101183864, SP3_FIT101633955, SP4_FIT101721790, SP5_FIT101792486, FIT102191597, SP6_FIT102027994, FIT101886458
+## Obsoletes: FIT102032436,FIT102216526
+## element * victork.dlc.ff.copland.24_AUG_20
+
+##Add VC 11 Runtime Librarires to fix webttols error
+element * sagars.ADDVC11RuntimeBinaries.20_Aug_2020
+
+## FIT102216526(R)
+## Covers: FIT102258283(J), FIT102258286(Liszt)
+## Modifies: dlc.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,SP6_FIT102027994,FIT101886458
+## Obsoletes: FIT102032436
+element * belinda.dlc.copland.image.smoothing.fix.02_JUL_2020
+
+## FIT102075475(J)
+## Covers: FIT102235525(R), FIT102235526(Liszt)
+## Modifies: ACE_APPE30.dll, ACR.dll, ACRStd.dll, AdobePDFL_APPE30.dll, AdobeXMP_APPE30.dll, AGM_APPE30.dll, ARE_APPE30.dll, 
+##           AXE16SharedExpat_APPE30.dll, AXE8SharedExpat_APPE30.dll, BIB_APPE30.dll, BIBUtils_APPE30.dll, CoolType_APPE30.dll, 
+##           Graphics.dll, GraphicsObjects.dll, icucnv40.dll, icudt40.dll, icuin40.dll, icuuc40.dll, JP2AP30.dll, libiomp5md.dll, 
+##           libmmd.dll, libmmdd.dll, TrappingPort.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,SP6_FIT102027994
+## Obsoletes: None
+element * dchen.adobe.52833.53258.051820
+element * dhananja.adobe.appe.catchup.20_SEP_18
+
+## FIT102191597(R)
+## Covers: None
+## Modifies: eticket.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486
+## Obsoletes: None
+## Note: This issue is reported while SP6 was installed. So, making pre-requisites till SP5 only.
+element * rinagupt.FIT102191597.tkt.06May2020
+
+## Fix compile error
+element * amitkum.clcd.coplandextralogs.FIT101863503.10_30_2018
+
+## FIT101886458(J)
+## Covers: FIT102050389(R), FIT102050390(Liszt)
+## Modifies: video.dll, dlc.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,SP6_FIT102027994
+## Obsoletes: FIT102032436
+element * imranm.copland.FIT101886458.port.staple.jam.fix.11_MAR_2019
+element * victork.copland.22_JUL_19
+
+## FIT102090097(Liszt)
+## Covers: FIT102109013(R), FIT102109015(J)
+## Modifies: pdl.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,SP6_FIT102027994
+## Obsoletes: None
+element * davidy.ERAVELRD-425_ufst_extmem_cachepoolX10.21_FEB_2020
+
+## FIT102032436(R)
+## Covers: FIT102187627(J), FIT102187624(Liszt)
+## Modifies: dlc.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,SP6_FIT102027994
+## Obsoletes: None
+element * victork.copland.11_MAR_20
+
+## FIT102020172(J)
+## Covers: FIT102072073(R), FIT102072074(Liszt)
+## Modifies: split2record.ps, vdp.ps, DriverOps, FieryOverride, FieryXJ
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,SP6_FIT102027994
+## Obsoletes: None
+element * dhananja.copland.freeform.and.tray.alignment.fix.11_NOV_19
+
+## FIT102036774(R)
+## Covers: FIT102036876(Liszt), FIT102036882(J)
+## Modifies: hrmib.dll, prtmib.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,SP6_FIT102027994
+## Obsoletes: None
+element * madhukeh.prt-hrmib.null.check.24_SEPT_19
+
+## SP6_FIT102027994 
+## Covers: None
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486
+## List of defects
+## FIT101706086, FIT101876964, FIT101796565, FIT101857288, FIT101850902, FIT101813241, FIT101852867, FIT101851332, FIT101833866, FIT101890578, FIT101937317, 
+## FIT101920079, FIT101942350, FIT101968858, FIT101928580, FIT101925404, FIT102004236
+
+## FIT101990629(J)
+## Covers: FIT102065427(R), FIT102065428(Liszt)
+## Modifies: kvf.sys, kvf.inf, kvf.cat
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,
+## Obsoletes: None
+element * amithkmr.Copland.KVFEPEATEvents.20190930
+element * amithkmr.copland_EPEATEvents_Port_20190917
+element * markfo.kvf.aegis.power_status.FIT101990629.25_SEP_2019
+element * sayuria.F4.5.sha1.only.26_APR_17
+
+## FIT102004236(J)
+## Covers: FIT102041227(Liszt), FIT102041224(R)
+## Modifies: trpc_jobm.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101928580,
+## Obsoletes: None
+element * davidwe.bf45.jmi.no.autoreset.imaging.options.20190731
+
+## FIT101925404(J)
+## Covers: FIT101927141(R), FIT101927137(Liszt)
+## Modifies: ACE_3020.dll, AGM_3020.dll, ARE_3020.dll, BIB_3020.dll, BIBUtils_3020.dll, CoolType_3020.dll, cpsi.dll, PDFToPS.dll, sp.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101937317,FIT101928580
+## Obsoletes: FIT101796565,FIT101968858
+element * dchen.adobe.pdftops.7.9.rel.060519
+element * dchen.make.f45.product.compatible.with.codevdlc.3020.040617
+element * dchen.codev.update.copland.062019
+
+## FIT101928580(R)
+## Covers: FIT102019947(J), FIT102019946(Liszt), FIT101889674(R), FIT101898557(J), FIT101900653(J), FIT101957168(R), FIT101903830(J)
+##         FIT101915938(J), FIT101936098(R), FIT101986632(J), FIT101986638(J), FIT101975908(Liszt), FIT102015795(J), FIT102032433(J) 
+## Modifies: dlc.dll, pageman.dll, pdl.dll, ripdll.dl, scanlib.dll, sp.dll, trpc_jobm.dll, vdp_cache.dll, vfwrap.dll, cgihook.exe, chinook.exe
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101857288,FIT101850902
+## Obsoletes: FIT101852867
+## Note: We didn't mention FIT101968858 as the pre-requisite of FIT101928580 because FIT101968858 was still under EFI QA testing and Ricoh were
+##       waiting for the fix. So, we are claiming the fix of FIT101968858 under FIT101925404 and making it obsolete.
+element * victork.copland.24_JUN_19
+element * victork.copland.29_APR_19 
+element * victork.copland.04_FEB_19
+element * victork.vfi.25_MAR_19
+element * victork.copland.04_FEB_19
+element * victork.vfwrap.09_JUL_18
+
+## FIT101968858(J)
+## Covers: FIT101973388(J), FIT101911083(R), FIT102020432(R), FIT102020433(Liszt)
+## Modifies: ACE_3020.dll, AGM_3020.dll, ARE_3020.dll, BIB_3020.dll, BIBUtils_3020.dll, CoolType_3020.dll, cpsi.dll, PDFToPS.dll, sp.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101937317,
+## Obsoletes: FIT101796565
+element * dchen.codev.update.copland.062019
+element * dchen.adobe.pdftops.7.9.rel.060519
+element * dchen.make.f45.product.compatible.with.codevdlc.3020.040617
+
+## FIT101994213(Liszt) - FR
+## Covers: None 
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101857288
+## Obsoletes: FIT101852867,FIT101942350 
+## CUSTOMER SPECIFIC
+## element * yogeshb.liszt.FR.support.paper.size.30May19
+
+## FIT101963270(R)
+## Covers: None
+## Modifies: TLS
+## Prereqs: FIT101815771,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486
+## Osboletes: None
+## https://confluence.efi.com/display/fieryneteng/Fiery+Security+Update+Dec+2017
+## CUSTOMER SPECIFIC
+## element * manjunat.disable.options.method.in.apache.25_MAR_2019
+## element * manjunat.remove.static.ciphers.ssl.conf.09_MAY_2018
+
+## FIT101978637(R)
+## Covers: None
+## Modifies: TLS, patch scripts
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101815771,
+## Obsoletes: None
+## CUSTOMER SPECIFIC
+## https://confluence.efi.com/display/fieryneteng/Fiery+Security+Update+Dec+2017
+
+## FIT101942350(J)
+## Covers: FIT101979230(R), FIT101979228(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101857288
+## Obsoletes: FIT101852867
+element * imranm.copland.FIT101942350.feed.dir.05_APR_2019
+
+## FIT101862642(J) - ER
+## Covers: None 
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101857288
+## Obsoletes: None
+## element * imranm.copland.FIT101862642.pc.restore.fix.07_MAR_2018
+
+## FIT101898557(J) - NG
+## Covers: FIT101903830(J), FIT101900653(J), FIT101900650(J), FIT101957167(Liszt), FIT101957168(R) 
+## Modifies: dlc.dll, vfwrap.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101857288,FIT101850902
+## Obsoletes: FIT101852867 
+## element * victork.vfi.25_MAR_19
+## element * victork.copland.04_FEB_19
+## element * victork.vfwrap.09_JUL_18
+
+## FIT101920079(R)
+## Covers: FIT101955663(Liszt)
+## Modifies: FieryXJ
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486
+## Obsoletes: FIT101813241
+element * jorge.Copland.FieryXJ.fix.custom.handling.14_FEB_19
+
+## FIT101937317(J)
+## Covers: FIT101953890(R), FIT101953889(Liszt)
+## Modifies: ACE_3020.dll, AGM_3020.dll, ARE_3020.dll, BIB_3020.dll, BIBUtils_3020.dll, CoolType_3020.dll, JP23020.dll, PDFToPS.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486
+## Obsoletes: None
+element * dchen.pdftops7.9.upto.011519
+
+## FIT101890578(J)
+## Covers: FIT101944909(Liszt), FIT101944912(R)
+## Modifies: pageman.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486
+## Obsoletes: None
+element * shekarh.copland.pgm.beginset.non.editedjob.04_DEC_18
+
+## FIT101901280	(J) - NG
+## Covers: FIT101902243(R), FIT101902244(Liszt)
+## Modifies: flamingo.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101857288
+## Obsoletes: None
+## RICOH doesn't need this fix. Please refer JIRA comments.
+## element * davidl.colorwise.multi.force.white.to.white.in.gray.lookup.20140304
+
+## FIT101876964(R)
+## Covers: FIT101886139(J), FIT101886142(Liszt)
+## Modifies: Multipass, action.override.json
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486
+## Obsoletes: None
+## Launch Multipass using browser instead of QTwrapper, minify the js files and use them in the patch.
+## Use https://javascript-minifier.com to minify the js code, just do copy paste and generate the minified code online.
+element * vasub.copland.FIT101876964.Update.MultipassWhite.App.with.Agali.v4.20Aug2018
+
+## FIT101851332(J)
+## Covers: FIT101886740(R), FIT101886741(Liszt), FIT101903067(Liszt),FIT101925453(J),FIT101925456(R)
+## Modifies: factsvrhlp.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101857288
+## Obsoletes: None
+element * tinhl.fact.copland.FIT101851332.remove_staple_punch_chk_for_originLeadEdge.01_Aug_18
+
+## FIT101852867(J)
+## Covers: FIT101875235(Liszt), FIT101875236(R)
+## Modifies: dlc.dll
+## Prereqs:  FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101857288,FIT101850902
+## Obsoletes: None
+element * belinda.dlc.copland.rot.image.fix.10_JUL_2018
+
+## FIT101833866(J)
+## Covers: FIT101863610(Liszt), FIT101863616(R)
+## Modifies: FieryInstallSupport64.dll, OS Registry
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486
+## Obsoletes: None
+## Script to update FieryInstallSupport64.dll
+
+## FIT101813241(R) - REDO
+## Covers: FIT101821499(Liszt), FIT101821498(J)
+## Modifies: FieryXJ
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486
+## Obsoletes: None
+element * jorge.Copland.FieryXJ.fix.convert.pg.size.if.doc.has.no.explicit.pg.size.28_FEB_18
+
+## FIT101850902(J)
+## Covers: FIT101870394(Liszt), FIT101870393(R)
+## Modifies: dlc.dll, alib.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101857288
+## Obsoletes: None
+element * victork.dlc.02_FEB_16
+element * victork.dlc.berns.07_JUN_17
+element * victork.bernstein.13_JUN_18
+
+## FIT101815771
+## Covers : Copland1.0R/J, Liszt1.0R, Bernstein1.0R/J, Ravel1.0R, Sinatra2.0R/J
+## Bernstein v1.1 R/J,Liszt1.1 R,Ravel v1.1 R,Copland R/J v1.1 .
+## Modules :
+## Apache  2.2.31 to 2.2.34
+## OpenSSL-Apache/PrintMeConnect	1.0.2j	to 1.0.2n
+## OpenSSL-System Update/Efislp/Netsnmp and other Fiery modules	0.9.8zh	to 0.9.8zh
+## PHP	5.6.27	to 5.6.33
+## Samba   4.4.6 to 4.7.3
+
+element * yogeshb.port.f4.5.manjunat.block.unused.ports.24_JAN_2018 
+element * manjunat.update.dec.2017.outputd.tar.for.f45.win.18_APR_2018
+element * thejasr.flame45.securityFixes.checkin.09_APR_18
+element * manjunat.fix.secure.headers.apache.f45.02_APR_2018
+#Remving this label has OpenSSL required for Apache is already included as part of the tar bundle.
+#element * M_sumikuma.vcc9_openssl_64bit_1.0.2n.12_FEB_18
+#element * M_sumikuma.vcc9_openssl_32bit_1.0.2n.12_FEB_18
+element * sumikuma.outputd_for_f4.5_and_below.12_FEB_18
+element  * sumikuma.outputd_for_win_f5_and_below.12_FEB_18
+element * manjunat.secure.header.fix.ssl.conf.xerox.25_JAN_2018
+element * manjunat.fix.secure.header.in.apache.f5.25_JAN_2018
+element * manjunat.block.unused.ports.24_JAN_2018
+element * manjunat.enable.smb.srvr.signing.f45.24_JAN_2018
+element * madhukeh.wsd.gSoap.vulnerability.fix.linux.12_DEC_17
+element * gurudatm.samba4_7_3_Deb4_update.08_DEC_2017
+element * madhukeh.wsd.gSoap.vulnerability.fix.08_DEC_17
+element * sumikuma.update_php_for_lin_and_httpd_for_win.rajesh_request.20_SEP_2017
+element * thejasr.ofaFiery.xbisBased.securityFix.17_AUG_2017
+
+## FIT101857288(J) - Composite Patch
+## Covers: None
+## Modifies: dlc.dll, factsvrhlp.dll, pdl.dll, video.1.cfg, video.dll, clear.tt, white.tt
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486
+## Obsoletes: None
+## Patches Included:
+## FIT101813066, FIT101712018, FIT101806172, FIT101779815, FIT101820490, FIT101651303, FIT101844832, FIT101738595
+
+## FIT101738595(J)
+## Covers: FIT101799593(J)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486,FIT101806172
+## Osboletes: FIT101813066,FIT101712018
+element * yogeshb.copland.pc_sync_fierytoengine.23May18
+element * yogeshb.pc.handling.funcrestrictionerror.FIT101738595.30april18
+
+## FIT101796565(J)
+## Covers: FIT101852311(Liszt), FIT101852310(R)
+## Modifies: sp.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,SP5_FIT101792486
+## Obsoletes: None
+element * victork.copland.28_FEB_18 
+
+## FIT101844832(R)
+## Covers: FIT101859904(Liszt)
+## Modifies: pdl.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101722224,FIT101781137,
+## Obsoletes: None
+element * davidy.Copland_pcl5_builtin_not_TT.08_MAY_2018
+
+## FIT101792486(R) - SP5 
+## Covers: None
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101654798
+## Patches Included:
+## FIT101716513,FIT101741090,FIT101739747,FIT101728135,FIT101748836,FIT101755240,FIT101744635,FIT101742705,FIT101709847,FIT101722224
+## FIT101760522,FIT101753561,FIT101752416,FIT101739744,FIT101781601,FIT101779814,FIT101784817,FIT101776765,FIT101581402,FIT101781137
+## FIT101773234,FIT101785878,FIT101785847,FIT101848487
+
+## FIT101848487(R)
+## Covers: None
+## Modifies: dlc.dll,vfwrap.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101722224,FIT101760522
+## Obsoletes: FIT101781601,FIT101820490
+element * yogeshb.copland.rasterfix.22May18
+
+## FIT101651303(R) - FR - REDO
+## Covers: FIT101651304(J), FIT101651306(Liszt)
+## Modifies: white.tt, clear.tt
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+## ALL CUSTOMERS
+element * vasub.Copland.Relinearization.03Mar2017
+
+## FIT101780122(J) - NG
+## Covers: FIT101834953(R), FIT101834955(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101739744, FIT101806172
+## Osboletes: FIT101716513, FIT101748836, FIT101744635, FIT101709847,FIT101813066,FIT101712018
+## element * vasub.copland.FIT101780122.port.manoharFixFromHEDisconect.14Dec2017 
+
+## FIT101820490(Liszt)
+## Covers: None
+## Modifies: dlc.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101722224,FIT101760522
+## Obsoletes: FIT101781601
+element * belinda.dlc.prowler30.sample.image.clip.fix.11_AUG_2017
+
+## FIT101806172(R)
+## Covers: FIT101828046(Liszt), FIT101828047(J)
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101739744
+## Obsoletes: FIT101716513, FIT101748836, FIT101744635, FIT101709847,FIT101813066,FIT101712018
+## Modifies: video.dll, video.1.cfg
+element * yogeshb.removed.avinash.pc.fix.FIT101806172.21.Mar.18
+
+## FIT101779815(J)
+## Covers: FIT101829365(Liszt), FIT101829364(R)
+## Modifies: factsvrhlp.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101781137
+## Obsoletes: FIT101785847
+element * vasub.copland.fact.MergeLabelsFromFIT101785847_FIT101779815ToMainLine.21Mar2018
+
+## FIT101712018(J)
+## Covers: FIT101723287(R), FIT101723289 (liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101739744
+## Obsoletes: FIT101716513, FIT101748836, FIT101744635, FIT101709847,FIT101813066
+element * yogeshb.feeddir
+element * yogeshb.copland.feedir.punch.16jan2017
+element * yogeshb.copland.feeddir.interchangetray.FIT101712018.16June17
+
+## FIT101813066(J) 
+## Covers: FIT101826134(R), FIT101826135(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101739744
+## Obsoletes: FIT101716513, FIT101748836, FIT101744635, FIT101709847
+element * vasub.copland.FIT101813066.video.StapleA4AsCustomSize.05Mar2018
+
+## FIT101813241(R) - NG
+## Covers: FIT101821499(Liszt), FIT101821498(J)
+## Modifies: FieryXJ
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101722224
+## Obsoletes: None
+## element * jorge.Copland.FieryXJ.fix.convert.pg.size.if.doc.has.no.explicit.pg.size.28_FEB_18
+
+## Package Aware + WHQL
+## WIN Driver specs
+## FIT101795820: copland-1_0-RDSc_022218_152611.iso
+## FIT101806943: copland-1_0-J_022218_171026.iso
+
+## FIT101785847(R)
+## Covers: FIT101789803(J), FIT101819515(J), FIT101819516(Liszt), FIT101819896(Liszt), FIT101819894(R)
+## Modifies: factsvrhlp.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101781137
+## Obsoletes: None
+element * stanislb.COPLAND.AutoScale.JAN_25_2018
+
+## FIT101773234(J)
+## Covers: FIT101802800(R), FIT101802799(Liszt)
+## Modifies: dequeue.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+element * rajeevsi.Copland10j.FIT101743766.12_DEC_17
+
+## FIT101785878(Liszt)
+## Covers: FIT101802786(R), FIT101802785(J)
+## Modifies: AdobePDFL_APPE30.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+element * dchen.adobe.49946.012218
+
+## FIT101781137(Liszt)
+## Covers: FIT101795850(J), FIT101795851(R)
+## Modifies: csl.dll, ecs.dll, factsvrhlp.dll, iwl.dll, libeficsl.dll, pdl.dll, pdl_autosense.dll, pdl_ppml.dll, pqmlibparse.dll, scanlib.dll
+##           sp.dll, translib.dll, trpc_jobm.dll, trpc_mail.dll, vdp_cache.dll, chinook.exe, duckpdf.exe
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101722224,FIT101739747,FIT101739744,FIT101784817,
+## Obsoletes: None
+element * davidy.ELISZTRD-378_TCC_upd_Use_PDFXParPres4.16_JAN_2018
+element * davidy.cyclone_pdfwind_no_W_arr_val_limit.05_DEC_2017
+element * M_CYCLONE.20171204
+element * M_TRANSLIB.20171204
+element * M_CSL.20171204
+ 
+## FIT101581402(J)
+## Covers: FIT101800194(R), FIT101800197(Liszt)
+## Modifies: flamingo.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+element * vasub.copland.FIT101581402.flamingo.portChangesOfDefectFIT101688868.10Jan2018 
+
+## Resolve build error
+element * trux.trpcgen.20170307 
+
+## FIT101776765(R)
+## Covers: FIT101781213(Liszt), FIT101781214(J)
+## Modifies: pageman.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: FIT101742705
+element * shekarh.copland.pgm.reset.endset.only.ifexists.ECOPLANDRD-2493.04_JAN_2018
+
+## FIT101772767(R)
+## Covers: None
+## Modifies: mod_proxy.so, mod_proxy_wstunnel.so
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101654798
+## Obsoletes: None
+## No label, just replace the above two binaries. Should be distributed on a needed by basis.
+
+## FIT101784817(R)
+## Covers: FIT101784813(J), FIT101784818(Liszt), FIT101780133(J), FIT101834936(R), FIT101834935(Liszt)
+## Modifies: trpc_acct.dll, trpc_address.dll, trpc_attr.dll, trpc_auth.dll, trpc_bfm.dll, trpc_cert.dll, trpc_cldf.dll, trpc_client_common.dll,
+##           trpc_client_mripfa.dll, trpc_client_mripra.dll, trpc_colorapi.dll, trpc_coloripc.dll, trpc_con.dll, trpc_corp.dll, trpc_dev.dll, trpc_dl.dll,
+##           trpc_efim.dll, trpc_feat.dll, trpc_font.dll, trpc_ft.dll, trpc_gasetup.dll, trpc_globobj.dll, trpc_impose.dll, trpc_ipsec.dll, trpc_jobm.dll,
+##           trpc_l10n.dll, trpc_locl.dll, trpc_lp.dll, trpc_mail.dll, trpc_mripfa.dll, trpc_netcfg.dll, trpc_osa.dll, trpc_pageman.dll, trpc_pcat.dll,
+##           trpc_pmap.dll, trpc_preview.dll, trpc_resman.dll, trpc_scan.dll, trpc_server.dll, trpc_server_mripra.dll, trpc_server_server.dll,
+##           trpc_setup_ps.dll, trpc_sftp.dll, trpc_ssmb.dll, trpc_sysconf.dll, trpc_tab.dll, trpc_tree.dll, trpc_update.dll, trpcserver.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+element * trux.trpcgen.exe.20170107
+element * trux.trpc.c_coder.1.41.20170106
+
+## FIT101779814(J)
+## Covers: FIT101783376(R), FIT101783377(Liszt)
+## Modifies: AGM_3020.dll, PDFToPS.dll, ACE_3020.dll, ARE_3020.dll, BIBUtils_3020.dll, BIB_3020.dll, CoolType_3020.dll, JP23020.dll, icucnv36.dll, icudt36.dll, PDFSupport
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+element * dchen.adobe.49747.120117
+
+## FIT101781601(J)
+## Covers: FIT101788910(Liszt), FIT101788909(R)
+## Modifies: dlc.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101722224,FIT101760522
+## Obsoletes: None
+element * victork.copland.04_DEC_17
+
+## FIT101739744(R) - Enhanced Logging patch for FS150 Windows Products - REDO 
+## Covers: FIT101749277(J), FIT101749279(Liszt), FIT101772767(R), FIT101806050(J), FIT101806059(Liszt)
+## Modifies: system: archive_logs.dll, fiery_fundamentals.dll, log_archive.exe, log_archive.xml, log_archive_overrides.xml, log_collect.exe, merge.xslt, sp.dll, video.dll, mod_proxy.so, mod_proxy_wstunnel.so
+##           system32: Xalan.exe, Xalan-C_1_10.dll, XalanMessages_1_10.DLL, xerces-c_2_8.dll, icudt36.dll, icuin36.dll, icuuc36.dll
+##           sysdict: Add new key ENABLE_LOGARCHIVE with a value of YES
+##           update webtools: WebTools4.exe
+##           update Agali:Agali-installer.exe
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101739747
+## Obsoletes: FIT101716513, FIT101748836, FIT101744635, FIT101709847
+element * vasub.copland_Bernstein.update_log_archive_overrides.26Oct2017
+element * yogeshb.manoharm.cl1.1.syslog.21sep2017
+element * manoharm.cl1.1.syslog.20jul2017
+element * M_Agali-4.0.00.52.08_DEC_17
+element * rajeshp.WEBTOOLS4_3_0_102_01_JUL_17
+element * andysant.systemLogs.copland_1_0.build.26_Jun_2017
+element * andysant.build.addLogArchiveTarget.16_Jun_2017
+element * andysant.log_archive.F4_5.12_Jun_2017
+element * andysant.spInit.initializeSystemLogs.F4_5.09_Jun_2017
+element * andysant.fiery_fundamentals.minidumpHook.F4_5.07_Jun_2017
+element * andysant.log_archive.renameLibDir.20_Oct_2016
+element * andysant.opensrc.xerces.11_Dec_2014
+element * M_XERCES_28_VC9_07_JAN_09
+
+## FIT101760522(R)
+## Covers: FIT101784249(Liszt), FIT101784253(J)
+## Modifies: dlc.dll,vfwrap.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101722224
+## Obsoletes: None
+element * victork.copland.12_OCT_17
+
+## FIT101753561(J)
+## Covers: FIT101776100(R), FIT101776098(Liszt)
+## Modifies: PPD
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+## Driver spec:
+## WIN:
+## FIT101780818 : copland-1_0-RDSc_112817_135006.iso
+## FIT101791074 : liszt-1.0-RD_010818_111729.iso
+## FIT101773620 : copland-1_0-J_110717_150824
+## MAC:
+## FIT101780816 : copland-1_0-RDSc_112817_135006.iso
+## FIT101791076 : liszt-1.0-RD_010818_111729.iso
+## FIT101773618 : copland-1_0-J_110717_143231.iso
+element * chunn.copland.ppd.FIT101753561.2017.10.30_18.02.07
+
+## FIT101709847(J) - FR - REDO
+## Covers: FIT101709844(R), FIT101709851(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: FIT101716513, FIT101748836, FIT101744635
+element * neethapr.copland.duplex.check.removal.fix.3Oct2017
+element * neethapr.copland.duplex.check.fix.23Aug2017
+element * neethapr.copland.mixplex.crash.issue.31July2017
+element * neethapr.copland.mixplex.second.improv.fix.31July2017
+element * yogeshb.copland.dupex_simplex.FIT101709847.29_May_2017
+
+## FIT101752416(J)
+## Covers: FIT101769388(Liszt), FIT101769389(R)
+## Modifies: EFIColor
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: FIT101741090
+element * tingz.EFIColor.copland.FIT101752416.fix.20171011
+
+## FIT101673829(R) - FR - Customer specific 
+## Covers: None
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: FIT101716513, FIT101748836, FIT101744635
+## element * vasub.copland.FIT101673829.MergeSustainingFixesToExpandTrimFR.23Oct2017
+## element * neethapr.copland.FR095.perfectbinder.limit.change.21March2017
+
+## FIT101744635(J) - REDO
+## Covers: FIT101769351(Liszt), FIT101767470(R)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: FIT101716513, FIT101748836
+element * vasub.copland.FIT101744635.statusForJamCode99.17Oct2017
+element * vasub.copland.FIT101744635.OrderPaperJamErr.16Oct2017
+element * vigneshp.copland.FIT101744635.errmsg.xml.28_AUG_2017
+element * vigneshp.Coplant.FIT101744635.21_AUG_2017
+
+## FIT101764271(R)
+## Covers:
+## Modifies: 
+## Script to enable DLS
+
+## FIT101722224(J) 
+## Covers: FIT101752518(Liszt), FIT101752519(R), FIT101779815(J)
+## Modifies: FieryXJ,acrbridge.dll,appe.dll,marker.dll,pdl.dll,dlc.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+element * dhananja.Fl4.5.FieryXJ.fix.img.shft.4.new.app.w.restore.aft.showpage.24_JUN_17
+element * ckong.cached.negative.pos.invalidate_Sept22_17
+element * ckong.flame5.appe.placedObjhash_sept12_17
+element * ckong.appe.pg.size.duplex.rotated__flame5_march07_17
+element * ckong.flame5.has.placedObject.nov17_14
+
+## FIT101673829(R) - FR - Customer specific - NG
+## Covers:
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101739744
+## Obsoletes: FIT101661799(J),FIT101682165,FIT101657097,FIT101716513,FIT101744635,FIT101704525,FIT101748836
+## element * neethapr.copland.FR095.perfectbinder.limit.change.21March2017
+## element * vasub.copland.FIT101673829.IncludeLatestVideoFixtToFIT101378429.08Aug2017
+
+## FIT101755240(J)
+## Covers: FIT101758462(Liszt), FIT101758461(R)
+## Modifies: reqservice.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+element * luf.edison.fix.media.derived.profile.20170824
+
+## FIT101739744 - Enhanced Logging patch for FS150 Windows Products - NG
+## Covers:None
+## Modifies: system: archive_logs.dll, fiery_fundamentals.dll, log_archive.exe, log_archive.xml, log_archive_overrides.xml, log_collect.exe, merge.xslt, sp.dll, video.dll
+##           system32: Xalan.exe, Xalan-C_1_10.dll, XalanMessages_1_10.DLL, xerces-c_2_8.dll, icudt36.dll, icuin36.dll, icuuc36.dll
+##           sysdict: Add new key ENABLE_LOGARCHIVE with a value of YES
+##           update webtools: WebTools4.exe
+##           update Agali:Agali-installer.exe
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790,FIT101739747
+## Obsoletes: FIT101661799(J),FIT101682165,FIT101657097,FIT101716513,FIT101744635,FIT101704525,FIT101748836
+#element * yogeshb.manoharm.cl1.1.syslog.21sep2017
+#element * manoharm.cl1.1.syslog.20jul2017
+#element * M_Agali-3.0.00.41.22_SEP_16
+#element * rajeshp.WEBTOOLS4_3_0_102_01_JUL_17
+#element * andysant.systemLogs.copland_1_0.build.26_Jun_2017
+#element * andysant.build.addLogArchiveTarget.16_Jun_2017
+#element * andysant.log_archive.F4_5.12_Jun_2017
+#element * andysant.spInit.initializeSystemLogs.F4_5.09_Jun_2017
+#element * andysant.fiery_fundamentals.minidumpHook.F4_5.07_Jun_2017
+#element * andysant.log_archive.renameLibDir.20_Oct_2016
+#element * andysant.opensrc.xerces.11_Dec_2014
+#element * M_XERCES_28_VC9_07_JAN_09
+
+## FIT101728135(J)
+## Covers: FIT101761458(R), FIT101761457(Liszt)
+## Modifies: auth_groups.xml, auth_rights.xml, auth_users.xml
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+## These files were corrupted on the problematic system. So, these files are captured from GM build and are patched in this defect. We gave a different TE
+## to the partner.
+
+## FIT101739747(J)
+## Covers: FIT101761248(R), FIT101761250(Liszt)
+## Modifies: cpsi.dll,sp.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes:None
+element * dchen.fix.1bit.tiff.marking.080515
+
+## FIT101743588(J) - Customer specific fix
+## Covers: FIT101752051(Listz), FIT101752050(R) 
+## Modifies: video.2.cfg
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955, ,SP4_FIT101721790
+## Obsoletes: None
+## element * vasub.Liszt1.0.FIT101276366.ChangeRasterBufferSize.28Jan2016
+
+## FIT101741090(J)
+## Covers: FIT101752055(R), FIT101752054(Liszt)
+## Modifies: EFIColor
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+element * vasub.copland.FIT101741090.undo.Force.White.Startup.Changes.05Sep2017
+element * tingz.EFIColor.copland.FIT101741090.fix.20170829
+
+## FIT101748836(R)
+## Covers: FIT101748834(J), FIT101748835(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: FIT101716513
+## This patch includes the fix for FIT101688827, FIT101727094, FIT101727095, FIT101748834, FIT101748835, FIT101748836, FIT101704525, FIT101725160, FIT101730798
+element * vasub.copland.FIT101748836.PercentCharacterInCmd.01Sep2017
+
+## FIT101704525(R)
+## Covers: FIT101730798(J), FIT101688827(J), FIT101725160(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: FIT101716513
+## Clubbed different issues listed in "Covers" under a single defect.
+element * vasub.copland.MereJobMgrChanges.01Sep2017
+element * vasub.copland.FIT101704525.RevertBackTheChangesDone.10Aug2017
+
+## FIT101744635 - NG
+## Covers:
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: 
+## element * vigneshp.copland.FIT101744635.errmsg.xml.28_AUG_2017
+## element * vigneshp.Coplant.FIT101744635.21_AUG_2017
+
+## FIT101742705(J)
+## Covers: FIT101751995(Liszt), FIT101751986(R)
+## Modifies: pageman.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+element * shekarh.bernstein.pgm.fix.halftone.file.deletion.EBERNSTENJ-242.07_JUN_17
+
+## FIT101716513 (J)
+## Covers: FIT101749626(Liszt), FIT101749628(R)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,SP4_FIT101721790
+## Obsoletes: None
+element * ruiqis.mvid.ricoh.copland.sus.rushprint.fix.20170720
+element * zubinlai.update.job_piq.front.side.sheet.face.down.12192014
+element * markfo.mvid.piq.revert_swap_faceup_facedown.19_NOV_2014
+
+## FIT101732305(J)
+## Covers: FIT101751997(R), FIT101752088(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101646550
+## Obsoletes: FIT101661799(J),FIT101682165,FIT101657097,FIT101704525,FIT101688827
+element * neethapr.copland.MIB.hrprinterstatus.update.fix.25July2017
+
+## FIT101722762(R) - Logs for virtual printer 
+## Covers:None
+## Modifies: network.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: None
+## element * yogeshb.virtualprinter.traces.26july17
+## element * yogeshb.copland.unabling.logs_VirtualPrinter.FIT101722762.10july17
+## element * yogeshb.copland.tracesforvirtualadd.03july17
+
+## FIT101721790(R) - SP4
+## Covers: FIT101721792(Liszt), FIT101721791(J)
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## FIT101543742, FIT101646550, FIT101606163, FIT101653267, FIT101596486, FIT101677287, FIT101663614, FIT101661799, FIT101679249, FIT101305607,
+## FIT101687176, FIT101682178, FIT101682165
+
+## FIT101727969(R)-  make this as generic patch, part of SP5
+## Covers: None
+## Modifies: dbpro_core.dll, sysdict
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: None
+element * rajeevsi.Copland.SameAsJPforGangup.2.04_JUN_15
+element * manoharm.copland.impose.sysdict.05Jun2015
+
+## FIT101688827(J)
+## Covers:
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101646550
+## Obsoletes: FIT101661799(J),FIT101682165,FIT101657097,FIT101704525
+element * vasub.copland.FIT101688827.SetInputTrayAsAutoTrayForMixMediaInSamplePrintJob.23Jun2017
+
+## FIT101704525(R)
+## Covers: FIT101725160(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101646550
+## Obsoletes: FIT101661799(J),FIT101682165,FIT101657097
+## element * vasub.Copland.FIT101704525.RecoverFromPlockmatic.19May2017
+
+## FIT101657097(R) - FR
+## Covers: FIT101657077(J), FIT101657123(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101646550
+## Obsoletes: FIT101661799(J),FIT101682165
+## ALL CUSTOMERS
+element * vasub.copland.FR.FIT101657097.paperSizeExpansionForColumbiaShiftTray.24Mar2017
+
+## FIT101682178(R)
+## Covers: FIT101682174(J), FIT101647224
+## Modifies: lcd.dll,flamingo.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101687176
+## Obsoletes:None
+element * yogeshb.copland.port.takashi.colorwise.sergeib.deviceinfo.20feb17
+element * yogeshb.copland.port.FIT101641070.port.animeshd.calibrationfix.17may2017
+
+## FIT101689596(RD) - FR
+## Covers:
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101646550
+## Obsoletes: FIT101661799(J),FIT101682165
+## CUSTOMER SPECIFIC
+## element * yogeshb.copland.FR.support.paper.size.05may2017
+
+## FIT101706086(R)
+## Covers: None
+## Modifies: feature_json_map.map, fiery_features.xml, scopes.xml, scopes_json_map.map
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: None
+## Script to update above files.
+
+## FIT101682165(J)
+## Covers: FIT101707620(Liszt), FIT101707619(R) 
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101646550
+## Obsoletes: FIT101661799(J)
+element * vasub.Copland.FIT101682165.mvid.merge.victorka.fix.03Apr2017
+
+## FIT101648866(J)
+## Covers: FIT101708381(R), FIT101708380(Liszt)
+## FIT101648866(J) : MAC : copland-1_0-J_042617_152641
+## FIT101708381(R) : MAC : copland-1_0-RDSc_052617_112956
+## FIT101708380(Liszt) : MAC : liszt-1.0-RD_052617_114311
+## 26/May/2017: Note check J drivers 
+
+## FIT101685042(Liszt)
+## MAC : liszt-1.0-RD_042617_110931
+
+## FIT101679249(J)
+## Covers: FIT101702273(Liszt), FIT101702272(R)
+## Modifies: FieryOverride, FieryXJ, cpsi.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: FIT101305607
+element * jorge.Copland.cpsi.FieryXJ.FieryOverride.dont.enforce.5.pt.tolerance.for.docSize_07_APR_17
+
+## Sign server 2017
+element * sayuria.F4.5.new.sign.09_FEB_17
+
+## FIT101657097(R) - FR - NG
+## Covers: FIT101657077(J), FIT101657123(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101646550
+## Obsoletes: FIT101661799(J)
+## ALL CUSTOMERS
+## element * vasub.copland.FR.FIT101657097.paperSizeExpansionForColumbiaShiftTray.24Mar2017
+
+## FIT101651303(R) - FR
+## Covers: FIT101651304(J), FIT101651306(Liszt)
+## Modifies: white.tt, clear.tt
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: None
+## CUSTOMER SPECIFIC
+## element * vasub.Copland.Relinearization.03Mar2017
+
+## FIT101687176(J)
+## Covers: FIT101707614(Liszt), FIT101707613(R)
+## Modifies: commonlcd.exe, lcd.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: None
+element * luf.lcd.copland.do.not.translate.job.title.20170407
+element * luf.lcd.copland.liszt.handle.large.disk.size.20170203
+
+## FIT101654798
+## Covers : Copland1.0R/J, Liszt1.0R, Bernstein1.0R/J, Ravel1.10R, Sinatra2.0R/J.
+## Modules :
+## Apache	2.2.29	to 2.2.31	
+## OpenSSL-Apache/PrintMeConnect	1.0.2g	to 1.0.2j	
+## OpenSSL-System Update/Efislp/Netsnmp and other Fiery modules	0.9.8zh	to 0.9.8zh	
+## PHP	5.6.7	to 5.6.27	
+## Samba	3.5.22	to 4.4.6
+element * nagalaks.Security.update.Apache2.2.31.openssl-1.0.2j.php.5.6.27.Recreated.20_FEB_2017
+element * gurudatm.env_variable_size_exceeds_buf_fix.17_FEB_2017
+element * gurudatm.DmpSha256Supported_Tlsv1Allowed_Win.05_JAN_2017
+element * gurudatm.DmpSha256Supported_Tlsv1Allowed_Linux.05_JAN_2017
+element * manjunat.add.tlsv1.removal.related.reg.entryies.04_JAN_2017
+element * nagalaks.Changing.get_version.for.flame5.12_JAN_2017
+element * manjunat.add.get_version.php.for.f45.04_JAN_2017
+element * manjunat.create.sym.link.to.get.version.php.08_NOV_2016
+element * nagalaks.openssl-1.0.2j.Apache2.2.linux.03_NOV_2016
+element * manjunat.fix.slowloris.Apache22.f45.04_JAN_2017
+element * manjunat.harden.ssl.cipher.suite.ssl.conf.xerox.14_DEC_2016
+element * nagalaks.Disabling.TLS.v1.0.On.Flame5.07_OCT_2016
+element * manjunat.harden.ssl.cipher.suite.Apache2_2.6_OCT_2016
+element * manjunat.disable.raw.post.data.in.php.ini.f45.win.19_SEP_2016
+element * manjunat.disable.raw.post.data.in.php.ini.19_SEP_2016
+element * M_Agali-3.0.00.41.22_SEP_16
+element * manjunat.disable.client.signing.22_DEC_2016
+element * gurudatm.Flame4.5Samba4.4.6.16_OCT_2016
+element * M_SAMBA_MAJOR_VERSION_UPDATE_LABELS_16_SEP_16
+element * manjunat.fix.smb.share.delayed.refresh.issue.14_SEP_2016
+element * gurudatm.InitalSMB4_4_5Changes.03_8_2016
+
+## FIT101305607(J)
+## Covers: FIT101699134(R), FIT101699135(Liszt)
+## Modifies: cpsi.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: None
+element * jorge.Copland.cpsi.fix.grestore.close.pg.dims.bug.23_MAR_17
+
+## FIT101627260(J) - Wait for RCL Confirmation
+## Covers: FIT101699090(Liszt), FIT101699091(R)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101646550
+## Obsoletes: FIT101661799(J), FIT101657097(R) - FR
+## element * vasub.copland.FIT101627260.SetPCFromArchive.21mar2017
+## element * manoharm.sinatra2.engineMID.int.22Apr2015
+
+## FIT101657097(R) - FR - NG
+## Covers: FIT101657077(J), FIT101657123(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101646550
+## Obsoletes: FIT101661799(J)
+## ALL Customers
+## element * vasub.copland.FR.FIT101657097.paperSizeExpansionForColumbiaShiftTray.24Mar2017
+
+## FIT101677287(R)
+## Covers: FIT101687554(Liszt), FIT101687552(J)
+## Modifies: OS Registry
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: None
+## Patch Script
+
+## FIT101627140(J) - CUSTOMER SPECIFIC FR
+## Covers:
+## Modifies: Japanese PPD
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: None
+## element * yogeshb.copland.part.Japenese.ppd.vasu.FIT101627140.24Mar17
+## FIT101650069(J) : MAC : copland-1_0-J_042617_152009
+## FIT101649823(J) : WIN : copland-1_0-J_052617_203029
+
+## FIT101673829(R) - CUSTOMER SPECIFIC FR - NG
+## Covers:
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101646550
+## Obsoletes: FIT101661799
+## element * neethapr.copland.FR095.perfectbinder.limit.change.21March2017
+
+## FIT101663614(Liszt)
+## Covers:None 
+## Modifies: alib.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: None
+element * victork.sdso6.11_JUN_15
+
+## FIT101596486(Liszt) 
+## Covers: FIT101635541(J), FIT101635543(R)
+## Modifies: factsvrhlp.dll, gasetup.dll, norm_ug2_ug3.pl, startupNORM.ps, revert_norm_ug2_ug3.pl
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101606163
+## Obsoletes: None
+element * davidy.ELISZTRD-279_FIT101596486_revertible_Perl_scripts.27_FEB_2017
+element * davidy.ELISZTRD-279_factUtility_cpp_function.21_DEC_2016
+element * davidy.ELISZTRD-279_orientation_sizes_n_clrbar_1st.21_DEC_2016
+element * davidy.EPROWTHREE-881_factsvrhlp.21_MAR_2016
+element * davidy.EJOPLINRD-1794_EBERLINOTA-15_gasetup.01_FEB_2016
+element * davidy.EJOPLINRD_1794_UgraFogra3_colorbar_with_APPE.10_DEC_2015
+element * davidy.f4p5_FIT211709_fact_ControBar_APPE_Utility.08_SEP_2014
+
+## FIT101661799(J)
+## Covers: FIT101687556(R), FIT101687555(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955,FIT101646550
+## Obsoletes:none
+element * yogeshb.copland.port.rinjus.Sinatra2.mixmedia.blankpage.intert.feeddir.fix.27feb2017
+
+## Cut-In Build - DVD1 Server S/W
+## Includes : FIT100868801,FIT101183864,SP3_FIT101633955
+## FIT101585815(R) : copland-1_0-RDSc_031717_092228.iso
+## FIT101585816(J) : copland-1_0-J_031717_093121.iso
+## FIT101585819(Liszt) : liszt-1.0-RD_031717_093344.iso
+
+## FIT101653267(J)
+## Covers: FIT101667028(Liszt), FIT101667027(R)
+## Modifies: trpc_locl.dll,sp.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: None
+element * vasub.FIT101341364.merge.TRPC.LOCL.crash.fix.17Aug2016
+element * vasub.FIT101341364.MergeSchedulerCrashFix.17Aug2016
+
+##FIT101682178 (coplanD) - NG
+## Covers: FIT101682174(J), FIT101647224
+## Modifies: lcd.dll,flamingo.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes:None
+## element * yogeshb.copland.port.takashi.colorwise.sergeib.deviceinfo.20feb17
+## element * yogeshb.copland.port.FIT101641070.port.animeshd.calibrationfix.17may2017
+
+## FIT101646550(J)
+## Covers: FIT101666202(R), FIT101666201(Liszt)( 
+## Modifies: video.dll, video.1.cfg
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: None
+element * avinasku.Copland.PC.trayDesignation.fix_16Feb17
+
+## FIT101627140(J) - CUSTOMER SPECIFIC FR
+## Covers:
+## Modifies: Japanese PPD
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: None
+## element * vasub.Copland1.0J.FIT101627140.PPDUIKey.20Jan2016
+## MAC : copland-1_0-J_012017_155542
+## WIN : copland-1_0-J_020817_110134
+
+## FIT101606163(J)
+## Covers: FIT101635647(Liszt), FIT101635617(R)
+## Modifies: pdl.dll, freeform.ps, factsvrhlp.dll
+## Prereqs: FIT100868801,FIT101183864,SP3_FIT101633955
+## Obsoletes: FIT101365569, FIT101056883, FIT101006158, FIT101596486, FIT101543742
+## NOTE: We obsoleted FIT101543742 in FIT101606163 because of making SP3 as the prerequisite.
+element * ckong.clearfont.b4.ff.master.ffImposed_Copland_jan10_17
+element * ckong.enhancedFF.initial.no.var.pages_Berstein_dec13_16
+
+## FIT101633955(R) - SP3
+## Covers: FIT101633961(J), FIT101500747(Liszt)
+## FIT101135703, FIT101273060, FIT101182279, FIT101315880, FIT101309008, FIT101293929, FIT101297019, FIT101291033, FIT101396207, FIT101323768, FIT101318647
+## FIT101303946, FIT101310516, FIT101318828, FIT101318672, FIT101292249, FIT101325951, FIT101338179, FIT101309065, FIT101135696, FIT101349534, FIT101261941
+## FIT101394103, FIT101415600, FIT101415597, FIT101273172, FIT101406438, FIT101416472, FIT101451365, FIT101365569, FIT101443479, FIT101422964, FIT101451381
+## FIT101414766, FIT101445685, FIT101456386, FIT101416912, FIT101468059, FIT101467442, FIT101464968, FIT101356802, FIT101537243, FIT101558214, FIT101507584
+## FIT101588199, FIT101606121
+
+## FIT101596486(Liszt) - NG
+## Covers: FIT101635541(J), FIT101635543(R)
+## Modifies: factsvrhlp.dll, gasetup.dll, norm_ug2_ug3.pl, startupNORM.ps
+## Prereqs: FIT101273172(R)
+## Obsoletes: FIT100897089(R), FIT101356802(J), FIT101543742(J)
+## element * davidy.ELISZTRD-279_factUtility_cpp_function.21_DEC_2016
+## element * davidy.ELISZTRD-279_orientation_sizes_n_clrbar_1st.21_DEC_2016
+## element * davidy.EPROWTHREE-881_factsvrhlp.21_MAR_2016
+## element * davidy.EJOPLINRD-1794_EBERLINOTA-15_gasetup.01_FEB_2016
+## element * davidy.EJOPLINRD_1794_UgraFogra3_colorbar_with_APPE.10_DEC_2015
+## element * davidy.f4p5_FIT211709_fact_ControBar_APPE_Utility.08_SEP_2014
+
+## FIT101543742(J)
+## Covers:
+## Modifies: factsvrhlp.dll
+## Prereqs: FIT101273172(R)
+## Obsoletes: FIT100897089(R), FIT101356802(J)
+element * wenjunzh.copland.factsvrhlp.handle.mixed.media.customsize.22_NOV_16
+
+## FIT101606121(J)
+## Covers: FIT101626246(Liszt), FIT101626247(R)
+## Modifies: video.dll
+## Prereqs: FIT100868801, FIT100884265, FIT100918770, FIT101026944, FIT101135696, FIT101396207(Liszt)
+## Obsoletes: FIT100884278, FIT100963459, FIT100963451, FIT100896202, FIT100978408, FIT101028785, FIT101079459, FIT101076869, FIT101098759,
+##            FIT101148455, FIT101077903, FIT101155413, FIT101262844, FIT101135703, FIT101273060, FIT101182279, FIT101315880, FIT101323768, FIT101318694,
+##            FIT101310516, FIT101349534, FIT101451365, FIT101422964, FIT101451381, FIT101416912, FIT101566432
+element * vasub.Copland.FIT101606121.FixDuplex200MMRoundOfIssue.09Dec2016
+
+## FIT101588199(R)
+## covers: FIT101611714(J), FIT101611716(Liszt), FIT101598392(R), FIT101637929(J), FIT101637931(Liszt)
+## modifies: cpsi.dll, dlc.dll
+## prereqs: FIT100868801, FIT101318647(R), FIT101126518(R), FIT101076816(J), FIT101017078(LisztR), FIT101123704(J), 
+##	    FIT101031021(J),FIT101415600(J), FIT101416472(R),FIT101558214(R)
+## obsoletes: FIT101309065, FIT101292249, FIT101318672, FIT101203394, FIT101100149, FIT101003217,
+##            FIT101467442(Liszt), FIT101489660(R)-Re-release
+element * dhananja.update.adobe.dlc.copland.09_DEC_16
+
+## FIT101507584(R) - ER
+## covers:
+## modifies: video.dll
+## prereqs: FIT100868801, FIT100884265, FIT100918770, FIT101135696, FIT101396207(Liszt)
+## obsoletes: FIT10145138, FIT101451365, FIT101349534,  FIT101310516,  FIT100963451, FIT100978408, FIT101028785
+##            FIT101098759, FIT101077903, FIT101135703,	FIT101273060, FIT101182279, FIT101315880, FIT101422964, FIT101416912(J)
+element * rakeshg.Copland.port.rinjus.Sinatra3.PB.cover.jamrecovery.paperremains.fix.Dec062016
+element * rakeshg.Copland.port.rinjus.Sinatra3.PB.cover.jamrecovery.paperremains.fix.12062016
+
+## FIT101585815(R) - Cut-In Build DVD1
+## Covers: FIT101585816(J), FIT101585819(Liszt)
+## System software specs:
+## copland-1_0-RDSc_120116_160208
+## liszt-1.0-RD_120116_223711
+## copland-1_0-J_120216_082459
+
+## FIT101376756(R) - FR - CUTSOMER SPECIFIC
+## covers: FIT101376769, FIT101376759(J)
+## modifies: video.dll, PPD's, campfire.js
+## prereqs: FIT100868801, FIT100884265, FIT100918770, FIT101126518(R)
+## obsoletes: FIT101416912(E-43A Japanese only), FIT101451381, FIT101422964, FIT101451365, FIT101349534, FIT101396207(E-83A only), FIT101135696, FIT101310516, FIT101291033(J), FIT101323768, FIT101315880(r), FIT101182279(r), FIT101273060(r), FIT101135703(r), FIT101262844(liszt), FIT101155413(r), FIT101077903(j), FIT101121275(J), FIT101098759(r), FIT101076869(r), FIT101079459(r), FIT101028785(r), FIT100978408(r), FIT100963451(r)
+## element * rajeshp.WEBTOOLS4_3_0_70b_01_JUL_16
+## element * avinasku.Copland.sampleprintFR.enginefix.29Nov2016
+## element * chunn.copland.ppd.FR.sampleprint.2016.04.25_23.14.00
+
+## FIT101544739(J)(Mac)
+## Covers: 
+## Spec : copland-1_0-J_101916_042734
+
+## FIT101576358(Liszt)(Mac)
+## Covers: 
+## Spec : liszt-1.0-RD_101916_042722
+
+## FIT101576359(R)(Mac)
+## Covers: 
+## Spec : copland-1_0-RDSc_111516_135445
+
+## FIT101449561(J)
+## Covers: FIT101639460(R)
+## Modifies: auth_groups.xml, auth_rights.xml, auth_users.xml
+## Prereqs: None
+## Obsoletes: None
+## These files were corrupted on the problematic system. So, these files are captured from GM build and are patched in this defect.
+
+## FIT101356802(J)
+## Covers:
+## Modifies: factsvrhlp.dll
+## Prereqs: FIT101273172(R)
+## Obsoletes: FIT100897089(R)
+element * wenjunzh.copland.factsvrhlp.err.handle.for.print.range.20_SEP_16
+
+## FIT101558214(R)
+## Covers: FIT101588752(Liszt)
+## Modifies: dlc.dll, pdl.dll, chinook.exe, duckpdf.exe
+## Prereqs: FIT100868801(R), FIT101017078(LisztR), FIT101031021(J), FIT101076816(J), FIT101123704(J), FIT101126518(R), FIT101308068(R), FIT101293929(R)
+##          FIT101415600(J), FIT101416472(R)            
+## Obsoletes: FIT101365569(Liszt), FIT101006158(J), FIT101056883(J), FIT101467442(Liszt), FIT101309065(J), FIT101292249(J), FIT101318672(J), FIT101203394(J), 
+##            FIT101100149(J), FIT101003217(J)
+element * davidy.ECOPLANDR-2328_braster_c_completed_PCL_update.09_NOV_2016 
+element * davidy.EPINEWOODR-575_omit_dlcapi_c_dlc_AddClip_float.18_OCT_2016 
+element * M_PDLCORE_PCL.20161109 
+element * davidy.Ricoh8110_PCL5_support_EMULATEHP1200C_EV.07_JUL_2016
+
+## FIT101537243(J)
+## Covers:
+## Modifies: CBDatabase, fcap_prod.jmf
+## Prereqs: None
+## Obsoletes: FIT101212066(J)
+element * chunn.copland.FIT101537243.cb.28.SEP.2016
+element * chunn.copland.FIT101537243.fcap_prod.jmf.14.NOV.2016
+
+## FIT101463852(R) - Customer specific 
+## Covers:
+## Modifies:vdp_cache.dll, vdp_globj.dll
+## Prereqs: FIT101362133(R)-FR
+## Obsoletes: FIT101019786(J)
+## Note: This is customer specific patch and it was logged while testing  FIT101362133(R)-FR. Hence, it is a part of this FR.
+## element * sergeib.storePE.no.force.2016-10-28
+## element * sergeib.ff.restore.Rip.2016-10-28
+
+## FIT101566432(R)
+## Covers: FIT101566434(J), FIT101566435(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100884265(r), FIT100918770(r), FIT101135696(r) - fr - fuser setting, FIT101396207(liszt), FIT101183864(r) - composite patch
+## Obsoletes: FIT101028785(r), FIT100978408(r), FIT100884278(r), FIT100963451(r), FIT100896202(r), FIT101079459(r),
+##           FIT101076869(r), FIT101098759(r), FIT101148455(r), FIT101077903(j), FIT101155413(r), FIT101135703(r)-fr,
+##           FIT101262844(liszt), FIT101135703(r), FIT101273060(r), FIT101182279(r),  FIT101315880(r), FIT101318694(r),
+##           FIT101310516(r), FIT101349534(r), FIT101451365(j), FIT101422964(j), FIT101451381(r) - fr, FIT101416912(J)
+element * rinjus.coplad.mixplex.blank.FR.28Oct2016
+
+## FIT101464968(R) - ER
+## Covers: FIT101589691(J), FIT101589687(Liszt)
+## Modifies: kvf.sys, kvf.inf, kvf.cat
+## Prereqs: None
+## Obsoletes: None
+element * vasub.kvf.merge.markfo.vx600.wait_pending_int_deasserted_before_automode.14_OCT_2016 
+
+## FIT101537243(J) - NG
+## Covers: 
+## Modifies: CBDatabase
+## Prereqs: None
+## Obsoletes: None
+## element * chunn.copland.FIT101537243.cb.28.SEP.2016
+
+## FIT101439481(J) - FR - Under discussion
+## Covers:
+## Modifies: video.dll, PPDs, net/attr_vidKeys, lcdstr/UTF8/lcd_<lang>.dct, SPECIALITYTONERS, info/ICCNCHGC, info/ICCNCHGS, profiles/ICCNCHGS
+## Prereqs: FIT100884265(r), FIT100918770(r), FIT101135696(r) - fr - fuser setting, FIT101396207(liszt), FIT101183864(r) - composite patch, FIT101376756(R)
+## Obsoletes: FIT101028785(r), FIT100978408(r), FIT100884278(r), FIT100963451(r), FIT100896202(r), FIT101079459(r), FIT101076869(r), FIT101098759(r), FIT101148455(r)
+##            FIT101077903(j), FIT101155413(r), FIT101135703(r)-fr, FIT101262844(liszt), FIT101135703(r), FIT101273060(r), FIT101182279(r),  FIT101315880(r), 
+##            FIT101318694(r), FIT101310516(r), FIT101349534(r), FIT101451365(j), FIT101422964(j), FIT101451381(r) - fr, FIT101416912(J) 
+## MAC and WIN drivers (same spec):
+## copland-1_0-RDSc_092116_122648
+## liszt-1.0-RD_092116_131052
+## copland-1_0-J_092216_114605
+## element * vasub.copland.FifthColorUICorrectionFR.26Sep2016
+## element * deant.global_icc.add_clear_to_special_ncprofile.20160912
+## element * vasub.copland.FifthColorUICorrectionFR.05Sep2016
+## element * vasub.copland.FifthColorUICorrectionFR.31Aug2016
+## element * vasub.copland.FifthColorUICorrectionFR.29Aug2016
+## element * deant.global_icc.copland.hide_Clear_specialtytoner.20160826
+## element * deant.taurus2.support_Special_as_Clear_toner.20160720
+
+## FIT101467442(Liszt), FIT101489660(R) - Re-release
+## Covers: FIT101499183(R), FIT101499181(J), FIT101509299(J), FIT101509298(Liszt)
+## Modifies: dlc.dll
+## Prereqs: FIT101126518(R), FIT101076816(J), FIT101017078(LisztR), FIT101123704(J), FIT101031021(J), FIT101415600(J), FIT101416472(R), FIT101183864(R)
+## Obsoletes: FIT101003217(J), FIT101008436(R), FIT101100149(J), FIT101163448(R), FIT101163451(LisztR), FIT101203394(J), FIT101212310(R), FIT101212312(Liszt), 
+##            FIT101292239(R), FIT101293929(R), FIT101318672(J), FIT101292249(J), FIT101309065(J)
+element * belinda.dlc.dlist.FIT101467442.ie.interpoate.fix.10_AUG_2016
+
+## FIT101439481(J) - FR - NG
+## Covers:
+## Prereqs:
+## Obsoletes: 
+## 
+## MAC and WIN drivers (same spec): 
+## liszt-1.0-RD_090616_091301
+## copland-1_0-RDSc_090616_093434
+## copland-1_0-J_090616_094308
+## element * vasub.copland.FifthColorUICorrectionFR.05Sep2016
+#element * vasub.copland.FifthColorUICorrectionFR.31Aug2016
+#element * vasub.copland.FifthColorUICorrectionFR.29Aug2016
+#element * deant.global_icc.copland.hide_Clear_specialtytoner.20160826
+#element * deant.taurus2.support_Special_as_Clear_toner.20160720
+
+## FIT101416912(J)
+## covers: FIT101527767(R), FIT101527766(Liszt)
+## modifies: video.dll
+## prereqs: FIT100884265(r), FIT100918770(r), FIT101135696(r) - fr - fuser setting, FIT101396207(liszt), FIT101183864(r) - composite patch
+## obsoletes: FIT101028785(r), FIT100978408(r), FIT100884278(r), FIT100963451(r), FIT100896202(r), FIT101079459(r),
+##           FIT101076869(r), FIT101098759(r), FIT101148455(r), FIT101077903(j), FIT101155413(r), FIT101135703(r)-fr,
+##           FIT101262844(liszt), FIT101135703(r), FIT101273060(r), FIT101182279(r),  FIT101315880(r), FIT101318694(r),
+##           FIT101310516(r), FIT101349534(r), FIT101451365(j), FIT101422964(j), FIT101451381(r) - fr
+element * ruiqis.ricoh.copland.sust.rushprint.fix.20160826
+
+## FIT101468059(R)
+## Covers: FIT101468058, FIT101468056(J)
+## Modifies: commonlcd.exe
+## Prereqs: FIT101261941(R) - FR, FIT101355485(J), FIT100884265(R)
+## Obsoletes: None
+element * luf.Ricoh.Copland.AdjustPrint.override.for.5th.station.20160830
+
+##FIT101378567(R)- Customer Specific
+## Driver: copland-1_0-RDSc_051216_092454
+
+## FIT101378429(R)- Customer Specific
+## Covers: 
+## Modifies: video.dll, PPD's
+## Prereqs: FIT101183864(R) - Composite patch - re-release
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451(R), FIT100896202(R), FIT101079459(R),
+##           FIT101076869(R), FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101135703(R)-FR,
+##           FIT101262844(Liszt), FIT101135703(R), FIT101273060(R), FIT101182279(R), FIT101315880(R), FIT101318694(R),
+##           FIT101310516(R), FIT101349534(R), FIT101451365(J), FIT101422964(J), FIT101451381(R) - FR
+## element * chunn.copland.ppd.FR.FIT101378429.2016.05.05_19.04.42
+## element * avinasku.copland.ExpandtrimmingPB_FR_25Aug2016
+
+## FIT101414766(R)
+## Covers: FIT101504204(J), FIT101504208(Liszt)
+## Modifies: updateService.exe
+## Prereqs: None
+## Obsoletes: FIT101160711(R) 
+element * wen.updateService.check.patch.bat.05_AUG_16
+
+## FIT101183864(R) - Composite patch - re-release
+## Covers: FIT101183865(J), FIT101183863(Liszt)
+## List of patches included
+## FIT100868801 FIT101087873 FIT100884278 FIT100884265 FIT100884283 FIT100897089 FIT100918770 FIT100935357 FIT100969038 FIT100963451 FIT100959682 
+## FIT101008436 FIT100978408 FIT100933505 FIT101003217 FIT101006158 FIT101017078 FIT101031021 FIT101019786 FIT101028785 FIT101076816 FIT101056883
+## FIT101056018 FIT101079459 FIT101103168 FIT100884272 FIT101076869 FIT101098759 FIT101123704 FIT101126518 FIT101121275 FIT101212066 FIT101077903
+## FIT101183648 FIT101100149 FIT101191255 FIT101155413 FIT101167828 FIT101203394 FIT101193608 FIT101262844 FIT101308068 FIT101301564
+ 
+## FIT101445685(J)
+## Covers: 
+## Modifies: PDFToPS.dll
+## Prereqs: FIT101309008(J)
+## Obsoletes: None
+element * dchen.adobe.47296.082216
+
+## FIT101467442 - NG
+## Covers: 
+## Modifies: dlc.dll, trpc_jobm.dll
+## Prereqs: FIT101126518(R), FIT101076816(J), FIT101017078(LisztR), FIT101123704(J), FIT101031021(J),FIT101416472(R), FIT101076816(J)
+## Obsoletes: FIT101003217(J), FIT101008436(R), FIT101100149(J), FIT101163448(R), FIT101163451(LisztR), FIT101203394(J), FIT101212310(R), FIT101212312(Liszt), FIT101292239(R), FIT101293929(R),FIT101325951(R)
+## Note: L2B tool listed trpc_jobm.dll while creating the patch and this caused configuration page issue on Copland1.0J. 
+## element * belinda.dlc.dlist.FIT101467442.ie.interpoate.fix.10_AUG_2016
+
+## FIT101451381(R) - FR
+## Covers: FIT101451379(J), FIT101451384(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R), FIT101135696(R) - FR - Fuser setting, FIT101396207(Liszt)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451(R), FIT100896202(R), FIT101079459(R),
+##           FIT101076869(R), FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101135703(R)-FR,
+##           FIT101262844(Liszt), FIT101135703(R), FIT101273060(R), FIT101182279(R),  FIT101315880(R), FIT101318694(R),
+##           FIT101310516(R), FIT101349534(R), FIT101451365(J), FIT101422964(J)
+element * vasub.FR.FIT101451381.ChangeMinDuplexSizeTo200MM.08Aug2016
+
+## FIT101456386(J)
+## Covers: 
+## Modifies: dbpro_core.dll
+## Prereqs: None
+## Obsoletes: FIT101193608(J), FIT101394103(J)
+element * rajeevsi.F5.FIT101456386.09_AUG_16
+
+## FIT101443479(J)
+## Covers: 
+## Modifies: CompositeOverprint
+## Prereqs: FIT101126518(R)-Multipass white  patch
+## Obsoletes: FIT100969038(J)
+element * tingz.Copland.sepAll.2colormapping.fix.20160719
+
+## FIT101422964(J)
+## Covers: FIT101439713(R), FIT101439712(Liszt)
+## Modules: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R), FIT101135696(R) - FR - Fuser setting, FIT101396207(Liszt)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451(R), FIT100896202(R), FIT101079459(R),
+##           FIT101076869(R), FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101135703(R)-FR,
+##           FIT101262844(Liszt), FIT101135703(R), FIT101273060(R), FIT101182279(R),  FIT101315880(R), FIT101318694(R),
+##           FIT101310516(R), FIT101349534(R), FIT101451365(J)
+element * avinasku.copland.foldJamRecovery.finishing.set.done.28JUL2016
+element * avinasku.copland.jamRecovery.finishing.set.done.fix.30Jun2016
+
+## FIT101451365(J)
+## Covers: FIT101467368(R), FIT101467370(Liszt)
+## Modules: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R), FIT101135696(R) - FR - Fuser setting, FIT101396207(Liszt)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451(R), FIT100896202(R), FIT101079459(R),
+##           FIT101076869(R), FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101135703(R)-FR, 
+##           FIT101262844(Liszt), FIT101135703(R), FIT101273060(R), FIT101182279(R),  FIT101315880(R), FIT101318694(R),
+##           FIT101310516(R), FIT101349534(R)
+element * vasub.copland.HonorMixMediaSettingsForInputTray.22Jul2016
+
+## FIT101416472(R)
+## Covers: 
+## Modifies: dlc.dll, alib.dll
+## Prereqs: FIT101126518(R), FIT101076816(J), FIT101017078(LisztR), FIT101123704(J), FIT101031021(J)
+## Obsoletes: FIT101003217(J), FIT101008436(R), FIT101100149(J), FIT101163448(R), FIT101163451(LisztR), FIT101203394(J), FIT101212310(R), FIT101212312(Liszt), FIT101292239(R), FIT101293929(R), FIT101318672(J), FIT101292249(J), FIT101309065(J), FIT101293929(R)
+element * victork.dlc.copland.12_JUL_16
+
+## FIT101406438(J)
+## Covers: FIT101441379(R), FIT101441378(Liszt)
+## Modifies: trpc_jobm.dll
+## Prereqs: FIT101076816(J), FIT101123704(J)
+## Obsoletes: FIT101325951(R)
+element * shekarh.coplandj.jmi.pad.printing.ECOPLANDJ-658.28_JUN_16
+
+## FIT101422964(J) - NG
+## Covers:
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R), FIT101135696(R) - FR - Fuser setting, FIT101396207(Liszt)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451(R), FIT100896202(R), FIT101079459(R), FIT101076869(R), FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101135703(R)-FR, FIT101262844(Liszt), FIT101135703(R), FIT101273060(R), FIT101182279(R),  FIT101315880(R), FIT101318694(R), FIT101310516(R), FIT101349534(R)
+## element * avinasku.copland.jamRecovery.finishing.set.done.fix.30Jun2016
+
+## FIT101362133(R)
+## Covers:
+## Details: SPECIFIC CUSTOMER, ONLY ROMAN
+## Modifies: PPDs, dequeue.dll
+## Prereqs: FIT101126518(R), FIT101135696(R)-FR, FIT101308068(R)
+## Obsoletes: FIT101291033(J), FIT101121275(J)
+## Driver spec: 
+## FIT101425994: MAC: copland-1_0-RDSc_061616_153151
+## FIT101425993: WIN: copland-1_0-RDSc_080116_185619 (255 FF entries, 254 FF + None)
+## element * ckong.ff.upto1000_flmae4.5_june13_16
+## element * vasub.Copland.FIT101362133.IncreaseFreeFormTo1000.23Apr2016
+
+## FIT101261941(R) - FR, FIT101355485(J)
+## Covers: FIT101261944(J), FIT101261948(Liszt)
+## Details: ALL Customers, ALL LANGUAGES
+## Modifies: commonlcd.exe, gui.dll, pspages
+## Prereqs: FIT100884265(R)
+## Obsolstes: FIT101183648(R)
+element * luf.Ricoh.AdjustPrint.folding.bypass.constraint.checking.20160617
+element * luf.Ricoh.AdjustPrint.20160527
+element * luf.lcd.Copland.Bernstein.add.page.sizes.20160209
+element * luf.Richo.AdjustPrint.pages.20151214
+element * luf.Richo.AdjustPrint.pages3.20151105
+element * luf.Richo.AdjustPrint.pages2.20151105
+element * luf.Richo.AdjustPrint.pages.20151105
+
+## FIT101415597(J)
+## Covers: 
+## Modifies: GraphicsObjects.dll, JP2AP30.dll, libiomp5md.dll, TrappingPort.dll, ACE_APPE30.dll, ACR.dll, ACRStd.dll, AdobePDFL_APPE30.dll, AdobeXMP_APPE30.dll, AGM_APPE30.dll, ARE_APPE30.dll, AXE8SharedExpat_APPE30.dll, AXE16SharedExpat_APPE30.dll, BIB_APPE30.dll, BIBUtils_APPE30.dll, CoolType_APPE30.dll, Graphics.dll  
+## Prereqs: FIT100959682(J)
+## Obsoletes: None
+element * dchen.adobe.monza30.rel.050516
+
+## FIT101415600(J), FIT101415599(J)
+## Covers: 
+## Modifies: dlc.dll, marker.dll
+## Prereqs: FIT101197948(J),FIT101308068(R), FIT101311993(J), FIT101126518(R), FIT101076816(J), FIT101017078(LisztR), FIT101123704(J), FIT101031021(J)
+## Obsoletes: FIT101003217(J), FIT101008436(R), FIT101100149(J), FIT101163448(R), FIT101163451(LisztR), FIT101203394(J), FIT101212310(R), FIT101212312(Liszt), FIT101292239(R), FIT101293929(R), FIT101318672(J), FIT101292249(J), FIT101309065(J)
+element * belinda.dlc.marker.copland.15_JUN_2016
+
+## FIT101394103(J)
+## Covers: 
+## Modifies: dbpro_core.dll
+## Prereqs: None
+## Obsoletes: FIT101193608(J)
+element * rajeevsi.Edison12.FIT101309067.18_FEB_16
+
+## FIT101365569(Liszt)
+## Covers: FIT101463670(R), FIT101463667(J)
+## Modifies: pdl.dll
+## Prereqs: FIT101308068(R), FIT101076816(J), FIT101039009(J)
+## Obsoletes: FIT101056883(J), FIT101006158(J)
+element * ckong.vpageToSurfaceMap_Flame4.5_june08_16
+
+## FIT101273172(R)
+## Covers: FIT101350540(J), FIT101350543(Liszt)
+## Modifies: factsvrhlp.dll, eticket.dll, jticket.dll
+## Prereqs: None
+## Obsoletes: FIT100897089(R)
+element * rahulpat.fact.FIT101273172.6.9.2016
+element * rahulpat.fact.FIT101273172.5.18.2016
+element * rahulpat.tkt.FIT101273172.MAR_16_2016
+
+## FIT101349534(R)
+## Covers:
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R), FIT101135696(R) - FR - Fuser setting, FIT101396207(Liszt)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451(R), FIT100896202(R), FIT101079459(R), FIT101076869(R), FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101135703(R)-FR, FIT101262844(Liszt), FIT101135703(R), FIT101273060(R), FIT101182279(R),  FIT101315880(R), FIT101318694(R), FIT101310516(R)
+element * avinasku.copland.purge_ineffective_paperforStaple.fix.03Jun2016
+
+## FIT101261941(R) - FR, FIT101355485(J) - NG
+## Covers: FIT101261944(J), FIT101261948(Liszt)
+## Details: ALL Customers, ALL LANGUAGES
+## Modifies: commonlcd.exe, gui.dll, pspages
+## Prereqs: FIT100884265(R)
+## Obsolstes: FIT101183648(R)
+## element * luf.Ricoh.AdjustPrint.20160527
+## element * luf.lcd.Copland.Bernstein.add.page.sizes.20160209
+## element * luf.Richo.AdjustPrint.pages.20151214
+## element * luf.Richo.AdjustPrint.pages3.20151105
+## element * luf.Richo.AdjustPrint.pages2.20151105
+## element * luf.Richo.AdjustPrint.pages.20151105
+
+## FIT101362133(R) - FR - FreeForm
+## Covers:
+## SPECIFIC CUSTOMER, COPLAND R ONLY
+## Modifies: PPDs
+## Prereqs: FIT101126518(R), FIT101396207(Liszt)
+## Obsoletes: None
+## MAC Driver: copland-1_0-RDSc_052316_173205 
+## WIN Driver: copland-1_0-RDSc_052316_174049
+## element * vasub.Copland.FIT101362133.IncreaseFreeFormTo1000.23Apr2016
+
+## FIT101396207(Liszt)
+## Covers:
+## Modifies: PPDs, video.dll
+## Prereqs: FIT101126518(R)
+## Obsoletes: FIT101121275(J), FIT101291033(J), FIT101135696(R)-FR
+## Notes: This takes care of H35C_FAMILY of Liszt. Also club FIT101135696, FIT101291033 & FIT101396207 in this patch.
+element * vasub.Copland.FIT101135696.FuserSetting.27Jan2016
+
+##FIT101338179(J)
+## Covers: 
+## Modifies: sp.dll, video.1.cfg
+## Prereqs: FIT100918770 
+## Obsoletes: None
+element * markfo.f45.videoman.add_reuse_rasters_cfg.05_MAY_2016
+element * avinasku.copland.videoConfiguration.add_reuse_raster.10_May_16
+
+## FIT101309065(J)
+## Covers: 
+## Modifies: dlc.dll
+## Prereqs: FIT101126518(R), FIT101076816(J), FIT101017078(LisztR), FIT101123704(J), FIT101031021(J)
+## Obsoletes: FIT101003217(J), FIT101008436(R), FIT101100149(J), FIT101163448(R), FIT101163451(LisztR), FIT101203394(J), FIT101212310(R), FIT101212312(Liszt),
+##            FIT101292239(R), FIT101293929(R), FIT101318672(J), FIT101292249(J)
+element * avinasku.Copland.FIT101309065.13May2016
+element * avinasku.Copland.FIT101309065.PortVictorFixFromFlame5.27April2016
+
+## FIT101292249(J)
+## Covers: 
+## Modifies: dlc.dll
+## Prereqs: FIT101126518(R), FIT101076816(J), FIT101017078(LisztR), FIT101123704(J), FIT101031021(J)
+## Obsoletes: FIT101003217(J), FIT101008436(R), FIT101100149(J), FIT101163448(R), FIT101163451(LisztR), FIT101203394(J), FIT101212310(R), FIT101212312(Liszt),
+##            FIT101292239(R), FIT101293929(R), FIT101318672(J)
+element * belinda.dlc.copland.racemap.fix.13_APR_2016
+
+
+## FIT101273576(Liszt)
+## Covers: 
+## Modifies: cfscore.dll, configuration.txt, fierycsiatom.exe, fierycsiatom_libFNP.dll, iconv.dll, xerces-c_3_1.dll, atom.lic, atomsettings.ini, CSIAtom.db3, FieryRulesTemplate.xml, JDFCWSSetting.xml, JDFFeatureSet.dat, MasterDevCapFile.xml, MediaMatchingFile.med
+## Prereqs: None
+## Obsoletes: None
+## Since it's a module label we are commenting it
+## element * M_CSIATOM_RTW4.4_R1_05_00_22.03_MAR_2016
+
+## FIT101058248(R) - TcK language Support patch
+## Covers:
+## Modifies: T Chinese/Korean PPDS, efipc-locl.kr.xml, efipc-locl.zh_TW.xml, sysconfig.xml
+##           ko-KR/L10N-DictStrings.utf8, ko-KR/L10N-MiscStrings.utf8, zh-TW/L10N-DictStrings.utf8,
+##           zh-TW/L10N-MiscStrings.utf8, encoding.info, locale.info, attr_vidKeys.ko-KR, attr_vidKeys.zh-TW,
+##           locl.conf, mapping_langs.conf, static_attrs.ppd.ko-KR, static_attrs.ppd.zh-TW, trpc_netcfg.ko-KR,
+##           trpc_netcfg.zh-TW, trpc_locl.dll, trpc_server.dll, trpc_server_server.dll
+## Prereqs: FIT101308068(R) 
+## Obsoletes: FIT101167828(R)-LOGS
+## element * shekarh.copland.FLP.TcK.patch.21_MAR_16
+## element * jfaas.F5.L10N.l10n.05_NOV_2014
+## element * jfaas.PC.F5.MergeToMainLine.1.01_JUN_2015
+## element * jfaas.F5.LOCL.19_NOV_2014
+## element * jfaas.F5.TRPC.LOCL.19_NOV_2014
+## element * shekarh.f5.static_attr.ppd.add.korean.chinese.locales.20_OCT_14
+
+## FIT101135696(R) - FR - Fuser setting
+## Covers: FIT101182276(J), FIT101277838(Liszt)
+## Modifies: video.dll, PPDs
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451(R), FIT100896202(R), FIT101079459(R), FIT101076869(R),
+##            FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101135703(R)-FR, FIT101262844(Liszt),
+##            FIT101135703(R), FIT101273060(R), FIT101182279(R), FIT101315880(R), FIT101318694(R), FIT101310516(R), FIT101121275(J), FIT101291033(J), FIT101283753(J)
+## Driver specs
+## FIT101280473 (MAC) : liszt-1.0-RD_040116_142202
+## FIT101280472 (WIN) : liszt-1.0-RD_040116_142623
+## Copland1.0R
+## FIT101280475 (MAC) : copland-1_0-RDSc_040116_143547
+## FIT101188051 (WIN) : copland-1_0-RDSc_040116_144728
+## Copland 1.0J
+## FIT101280474 (MAC) : copland-1_0-J_040116_145335
+## FIT101280471 (WIN) : copland-1_0-J_040116_150313
+element * vasub.copland.MergeOldFixesToBranch.31Mar2016
+element * vasub.Copland.MergeAndMarkOldFixesToBranch.31Mar2016
+element * tamdo.copland.support.fuser.setting.20150904
+element * vasub.Copland.FIT101135696.FuserSetting.27Jan2016
+
+## FIT101310516(R)
+## Covers:
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451(R), FIT100896202(R), FIT101079459(R), FIT101076869(R), FIT101098759(R), FIT101148455(R), 
+##            FIT101077903(J), FIT101155413(R), FIT101135703(R)-FR, FIT101262844(Liszt), FIT101135703(R), FIT101273060(R), FIT101182279(R), FIT101315880(R),FIT101318694(R)
+element * avinasku.copland_wrong_tray_fix_FIT101310516.30_Mar_2016
+
+## FIT101318672(J)
+## Covers: FIT101351355(R), FIT101351354(Liszt)
+## Modifies: dlc.dll
+## Prereqs: FIT101126518(R), FIT101076816(J), FIT101017078(LisztR), FIT101123704(J), FIT101031021(J)
+## Obsoletes: FIT101003217(J), FIT101008436(R), FIT101100149(J), FIT101163448(R), FIT101163451(LisztR), FIT101203394(J), FIT101212310(R), FIT101212312(Liszt),
+##            FIT101292239(R), FIT101293929(R)
+element * victork.dlc.copland.23_MAR_16
+
+## FIT101318694(R)
+## Covers: FIT101365255(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451(R), FIT100896202(R), FIT101079459(R), FIT101076869(R), FIT101098759(R), FIT101148455(R), 
+##            FIT101077903(J), FIT101155413(R), FIT101135703(R)-FR, FIT101262844(Liszt), FIT101135703(R), FIT101273060(R), FIT101182279(R), FIT101315880(R)
+element * manoharm.copland.plockmatic.err.before.resume.18mar2016
+
+## FIT101325951(R)
+## Covers: FIT101342628(J), FIT101342639(Listz)
+## Modifies: trpc_jobm.dll
+## Prereqs: FIT101076816(J), FIT101123704(J)
+## Obsoletes: None
+element * shekarh.copland.jmi.print.and.delete.fix.ECOPLANDRD-2214.16_MAR_16
+
+## FIT101318647(R)
+## Covers: FIT101338132(J), FIT101338130(Listz)
+## Modifies: cpsi.dll, appe.dll
+## Prereqs: FIT100959682(J), FIT100935357(R), FIT101308068(R)
+## Obsoletes: None
+element * tingz.copland.specialty.range.fix.20160309
+
+## FIT101318828(R)
+## Covers: FIT101333376(Listz), FIT101333378(J)
+## Modifies: AGM_3020.dll
+## Prereqs: FIT101309008(J)
+## Obsoletes: None
+element * dchen.adobe.46015.020916
+
+## FIT101291033(J), FIT101283753(J) - REDO
+## Covers: FIT101310500(R), FIT101310506(Liszt), FIT101292147(R), FIT101292146(Liszt)
+## Modifies: PPDs
+## Prereqs: FIT101126518(R)
+## Obsoletes: FIT101121275(J)
+element * vasub.Copland.FIT101291033.IncludeFIT101291033AndFIT101283753_PPDUIConstraints.11mar2016
+
+## FIT101301564(R)
+## Covers: FIT101312993(J), FIT101311464(Liszt)
+## Modifies: lcd.dll, l10n/default
+## Prereqs: None
+## Obsoletes: None
+element * luf.lcd.init_others.c.bypass.L10N_setDefaultLocale.20141205
+
+## FIT101323768(R)
+## Covers: FIT101337808(J), FIT101337809(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451(R), FIT100896202(R), FIT101079459(R), FIT101076869(R),
+##            FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101135703(R)-FR, FIT101262844(Liszt),
+##            FIT101135703(R), FIT101273060(R), FIT101182279(R), FIT101315880(R)
+element * vasub.FIT101323768.FixUserAuthCounterIssue.10Mar2016
+
+## FIT101293929(R)
+## Covers: FIT101321159(J), 
+## Modifies: dlc.dll, alib.dll
+## Prereqs: FIT101126518(R), FIT101076816(J), FIT101017078(LisztR), FIT101123704(J), FIT101031021(J)
+## Obsoletes: FIT101003217(J), FIT101008436(R), FIT101100149(J), FIT101163448(R), FIT101163451(LisztR), FIT101203394(J), FIT101212310(R), FIT101212312(Liszt), FIT101292239(R)
+element * victork.copland.ff.clear.24_FEB_16
+
+## FIT101292239(R)
+## Covers: FIT101321342(J), FIT101321339(Liszt)
+## Modifies: dlc.dll
+## Prereqs: FIT101126518(R), FIT101076816(J), FIT101017078(LisztR), FIT101123704(J), FIT101031021(J)
+## Obsoletes: FIT101003217(J), FIT101008436(R), FIT101100149(J), FIT101163448(R), FIT101163451(LisztR), FIT101203394(J), FIT101212310(R), FIT101212312(Liszt)
+element * belinda.dlc.copland.ie.stitch.fix.24_FEB_2016
+
+## FIT101297019(J)
+## Covers: FIT101321225(Listz), FIT101321223(R)
+## Modifies: startup.ps
+## Prereqs: None
+## Obsoletes: FIT101185633(J)
+element * dchen.adobe.45919.f45.branch.022316
+
+## FIT101315880(R)
+## Covers: FIT101327810(J), FIT101327806(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451(R), FIT100896202(R), FIT101079459(R), FIT101076869(R),
+##            FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101135703(R)-FR, FIT101262844(Liszt),
+##            FIT101135703(R), FIT101273060(R), FIT101182279(R)
+## NOTE: While creating this patch, labels of Fuser setting FR were commented out because of the delay in approval of this FR.
+element * coryfasb.FIT100917136.update.for.cover.page.07_Apr_2015
+
+## FIT101308068(R), FIT101311993(J)
+## Covers: FIT101318490(J), FIT101318488(Liszt)
+## Modifies: pdl.dll, FieryXJ, freeform.ps, color_bundle_map.ps, vdp.ps, split2record.ps, ecs.dll, translib.dll, trpc_l10n.dll, trpc_locl.dll, trpc_server_server.dll
+## dequeue.dll, appe.dll, marker.dll, flamingo.dll
+## Prereqs: FIT101076816(J), FIT101039009(J), FIT100959682(J), FIT100935357(R)
+## Obsoletes: FIT101006158(J), FIT101056883(J), FIT101167828(R), FIT101197948(J), FIT101218381(R) 
+## NOTE: Since language pack wasn't released to the the field, the patch FIT101195690 had a dependency in the translib module and hence caused an issue with Impose 
+## workflow. So, rebuild the modules as mentioned in the Modifies field without including Tck Labels. 
+element * ckong.vdp.imgshift.aug06_2015 
+element * ckong.simplified.optimizedPS.flame4.5_Oct24_14 
+element * jorge.Fl4.5.FieryXJ.color_bundle_map.ps.unify.tab.media.handling.auto-centering.13_AUG_14
+
+## FIT101309008(J)
+## Covers:FIT101314824(Liszt), FIT101314820(R)
+## Modifies: CoolType_3020.dll, icudt36.dll, JP23020.dll, ARE_3020.dll, BIBUtils_3020.dll, PDFToPS.dll, ACE_3020.dll, AGM_3020.dll, BIB_3020.dll, PDFSupport, icucnv36.dll
+## Prereqs: None
+## Obsoletes: None
+element * dchen.adobe.46040.020216
+element * dchen.adobe.pdftops.060315
+
+## FIT101261941(R) - FR-NG
+## Covers: FIT101261944(J), FIT101261948(Liszt)
+## Details: ALL Customers, ALL LANGUAGES
+## Modifies: commonlcd.exe, gui.dll, pspages
+## Prereqs: FIT100884265(R)
+## Obsolstes: FIT101183648(R)
+##element * luf.lcd.Copland.Bernstein.add.page.sizes.20160209
+##element * luf.Richo.AdjustPrint.pages.20151214
+##element * luf.Richo.AdjustPrint.pages3.20151105
+##element * luf.Richo.AdjustPrint.pages2.20151105
+##element * luf.Richo.AdjustPrint.pages.20151105
+
+## FIT101303946(R)
+## Covers: FIT101318650(J), FIT101318651(Liszt)
+## Modifies: joblog.dll
+## Prereqs: None
+## Obsoletes: None
+element * deepakpa.f50.joblog.fix.FIT000230837.25_MARCH_2015
+
+## FIT101197948(J)
+## Covers: FIT101218988(R), FIT101218987(Liszt)
+## Modifies: appe.dll, flamingo.dll, marker.dll
+## Prereqs: FIT100959682(J), FIT100935357(R)
+## Obsoletes: None
+element * tingz.f45.sust.specialty.color.dontprint.20160204
+element * tingz.f4.5.transparency.specailty.color.fix.20151124
+
+## FIT101182279(R)
+## Covers: FIT101312000(Liszt), FIT101311998(J)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(R), FIT101076869(R),
+##            FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101135703(R) - FR, FIT101262844(Liszt),
+##            FIT101135703(R), FIT101273060 (R)
+element * vasub.Copland1.0.FIT101182279.PaperEndrecoveryFromCANAL.03Feb2016
+element * vasub.Copland1.0.FIT101148455.FIT101182279.AddLogsAndCheckIfSetForPBTray2.03Feb2016
+
+## FIT101291033(J) - NG
+## Covers: FIT101310500(R), FIT101310506(Liszt) 
+## Modifies: PPDs
+## Prereqs: FIT101183864(R)- Composite patch
+## Obsoletes: None
+## element * vasub.Copland1.0.FIT101291033.RemoveTrayAlignmentAndInterposerTrayPPDUIConstraints.02Feb2016
+
+## FIT101283753(J) - NG
+## Covers: 
+## Modifies: PPDs
+## Prereqs: FIT101183864(R)- Composite patch
+## Obsoletes: None
+## element * avinasku.copland.ppd.update.FIT101283753.21_Jan_2016
+
+## FIT101276366(Liszt) - Customer specific fix
+## Covers: FIT101314405(J), FIT101314401(R)
+## Modifies: video.2.cfg
+## Prereqs: FIT101183864(R) - Composite patch
+## Obsoletes: None
+## element * vasub.Liszt1.0.FIT101276366.ChangeRasterBufferSize.28Jan2016
+
+## FIT101185633(J)
+## Covers: FIT101310588(Listz), FIT101310583(R)
+## Modifies: startup.ps
+## Prereqs: None
+## Obsoletes: None
+element * dchen.adobe.45919.012616
+
+## FIT101261941(R) - NG
+## Covers: FIT101261944(J), FIT101261948(Liszt)
+## Details: ALL Customers, ALL LANGUAGES
+## Modifies: commonlcd.exe, gui.dll, pspages
+## Prereqs: FIT100884265(R)
+## Obsolstes: None 
+## element * luf.Richo.AdjustPrint.pages.20151214
+## element * luf.Richo.AdjustPrint.pages3.20151105
+## element * luf.Richo.AdjustPrint.pages2.20151105
+## element * luf.Richo.AdjustPrint.pages.20151105
+
+## Remove FIT101117501 
+## Composite patch:- Re-release - NG
+## FIT101183864(R)
+## Covers: FIT101183865(J), FIT101183863(Liszt)
+## Prereqs: None
+## Obsoletes: None
+## List of defects included:
+## FIT100868801, FIT101087873, FIT100884278, FIT100884265, FIT100884283, FIT100897089, FIT100918770, FIT100935357
+## FIT100969038, FIT100963451, FIT100959682, FIT101008436, FIT100978408, FIT100933505, FIT101003217, FIT101006158
+## FIT101017078, FIT101031021, FIT101019786, FIT101028785, FIT101076816, FIT101056883, FIT101056018, FIT101079459
+## FIT101103168, FIT100884272, FIT101076869, FIT101098759, FIT101123704, FIT101126518, FIT101135602, FIT101121275
+## FIT101117501, FIT101100149, FIT101212066, FIT101077903, FIT101183648, FIT101117501, FIT101100149, FIT101191255,
+## FIT101155413, FIT101167828, FIT101203394, FIT101193608, FIT101195690
+
+## FIT101273060(R)
+## Covers: FIT101280419(J), FIT101280418(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(R), FIT101076869(R),
+##            FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101135703(R) - FR, FIT101262844(Liszt)
+element * roopah.supported_customSize.list.12Jan16
+
+## FIT101274810(J) - FR
+## Covers: N/A
+## Details: SPECIFIC CUSTOMERS, ONLY JAPANESE
+## Modifies: commonlcd.exe, gui.dll
+## Prereqs: FIT100884265(R)
+## Obsoletes: FIT101183648(R) 
+## element * luf.lcd.copland.branch.handle.stop.start.buttons.20151015
+
+## FIT101135703(R) - FR
+## Covers: FIT101156991(J), FIT101156993(Liszt)
+## Details : ALL CUSTOMERS, ALL LANGUAGES
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(R), FIT101076869(R),
+##            FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101262844(Liszt), 
+element * yaoqiu.Copland.TrayACustom.JAN_06_2015
+element * vasub.Copland.FR.FIT101135703.Merge.MIB.Fixes.09Dec2015
+element * yaoqiu.Copland.InputAndPunchConstraint.SPE_10_2015
+
+## FIT101135696(R)-FR - On hold - RCL needs sometime to work on the specs
+## Details : ALL CUSTOMERS, ALL LANGUAGES
+## Covers: FIT101182276(J)
+## Modifies: video.dll, PPDs
+## Prereqs: FIT100884265(R), FIT100918770(R), FIT101126518(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(R), FIT101076869(R)
+##            FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101262844(Liszt), FIT100933505(R)
+##            FIT101212066(J)
+## Drivers specs
+## Liszt 1.0R
+## FIT101280473 (MAC) : liszt-1.0-RD_011816_095346
+## FIT101280472 (WIN) : liszt-1.0-RD_011816_094350
+## Copland1.0R
+## FIT101280475 (MAC) : copland-1_0-RDSc_011816_104731
+## FIT101188051 (WIN) : copland-1_0-RDSc_011816_111600
+## Copland 1.0J
+## FIT101280474 (MAC) : copland-1_0-J_011816_103506
+## FIT101280471 (WIN) : copland-1_0-J_011816_110408
+## NOTE: Comment out the label from Tam Do and the PPD label from Chun. The other two labels need to be present.
+element /vobs/fiery/vw/mvid/ricoh/recsa/src/recsa/include/recsa_commands.h avinasku.copland.booklet_jam_fix_FIT101148455.27_OCT_2015
+element /vobs/fiery/vw/mvid/ricoh/recsa/src/recsa/src/recsa_commands.cpp avinasku.copland.booklet_jam_fix_FIT101148455.27_OCT_2015
+## element * tamdo.copland.support.fuser.setting.20150904
+## element * chunn.copland.update.ppd.2015.09.17_19.33.51
+
+## FIT101218381(R)
+## Covers: FIT101272124(J), FIT101272129(Liszt)
+## Modifies: dequeue.dll
+## Prereqs: None
+## Obsoletes: None
+element * wenjunzh.flame45.mixedmedia.duplex.different.color.pages.together.25_MAR_15
+element * wenjunzh.flame45.mixedmedia.back.cover.appe.FIT220259.28_JUL_14
+
+## FIT101262844(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(R), FIT101076869(R),
+##            FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R), FIT101135703(R) - FR
+element * vasub.Copland1.0.FIT101262845.FixBookletRotationIssue.21Dec2015
+
+## FIT101135703(R) - FR - NG
+## Covers: FIT101156991(J), FIT101156993(Liszt)
+## Details : ALL CUSTOMERS, ALL LANGUAGES
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(R), FIT101076869(R),
+##            FIT101098759(R), FIT101148455(R), FIT101077903(J), FIT101155413(R)
+## element * vasub.Copland.FR.FIT101135703.Merge.MIB.Fixes.09Dec2015
+## element * yaoqiu.Copland.InputAndPunchConstraint.SPE_10_2015
+
+## FIT101169642(R)
+## additional logging patch
+## Modifies: video.dll
+
+## FIT101197948(J) - NG
+## Covers: FIT101218988(R), FIT101218987(Liszt)
+## Modifies: appe.dll, marker.dll, flamingo.dll
+## Prereqs: FIT100959682(J), FIT100935357(R)
+## Obsoletes: None
+## element * tingz.f4.5.transparency.specailty.color.fix.20151124
+
+## FIT101195690(J) - NG
+## Covers: FIT101218993(R), FIT101219562(Liszt)
+## Modifies: pdl.dll, FieryXJ, freeform.ps, color_bundle_map.ps, vdp.ps, split2record.ps
+## Prereqs: FIT101076816(J)
+## Obsoletes: FIT101006158(J), FIT101011581(J), FIT101056883(J)
+## element * ckong.vdp.imgshift.aug06_2015
+## element * ckong.simplified.optimizedPS.flame4.5_Oct24_14
+## element * jorge.Fl4.5.FieryXJ.color_bundle_map.ps.unify.tab.media.handling.auto-centering.13_AUG_14
+
+## FIT101212066(J)
+## Covers:
+## Modifies: fcap_prod.jmf
+## Prereqs: FIT101126518(R), FIT101121275(J)
+## Obsoletes: None
+element * vasub.Copland1.0.FIT101212066.SetDuplexAsTopTopForKanjiSystem.26Nov2015
+
+## FIT101193608(J)
+## Covers: FIT101217673(R), FIT101217666(Liszt)
+## Modifies: dbpro_core.dll
+## Prereqs: None
+## Obsoletes: None
+element * rajeevsi.Copland.FIT101193608.20_NOV_15
+
+## FIT101204626(J)
+## MAC Driver 
+## copland-1_0-J_121515_143447
+## copland-1_0-RDSc_111915_120619
+
+## FIT101203394(J)
+## Covers: FIT101212310(R), FIT101212312(Liszt)
+## Modifies: dlc.dll
+## Prereqs: FIT101126518(R), FIT101076816(J), FIT101017078(LisztR), FIT101123704(J), FIT101031021(J)
+## Obsoletes: FIT101003217(J), FIT101008436(R), FIT101100149(J), FIT101163448(R), FIT101163451(LisztR)
+element * belinda.dlc.12.bit.smoothing.fix.15_AUG_2014
+
+## FIT101155413(R)
+## Covers: FIT101213054(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(R), FIT101076869(R), FIT101098759(R), FIT101148455(R), FIT101077903(J)
+element * vasub.Copland1.0.FIT101155413.fix_sendStackerReq_command.17Nov2015
+
+## FIT101077903(J)- [LOGS]
+## Covers: FIT101200316(R), FIT101200314(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)  
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(R), FIT101076869(R), FIT101098759(R), FIT101148455(R)
+element * vasub.Copland1.0.FIT101077903.check_and_update_paper_size_values_when_TraySetAttributeReq_is_sent.06Nov2015
+
+## FIT101160711(R)
+## Covers: FIT101160710(J), FIT101160714(Liszt)
+## Modifies: updateService.exe
+## Prereqs: None
+## Obsoletes: None
+element * wen.f4.systemupdates.dep.check.17_FEB_2015
+
+## FIT101183648(R)
+## Covers: FIT101197659(J), FIT101197660(Liszt)
+## Modifies: gui.dll
+## Prereqs: FIT100884265(R)
+## Obsoletes: None
+element * luf.lcd.copland.merge.pagesizes.20151103
+
+## FD5.0 Windows drivers:
+## liszt-1.0-RD_100715_134741
+## copland-1_0-J_092415_144712
+## copland-1_0-RDSc_092415_143431
+
+## FD5.0 MACOSX 10.11 drivers:
+## Liszt1.0R: liszt-1.0-RD_103015_165945
+## Copland1.0R: copland-1_0-RDSc_091515_070851
+## Copland1.0J: copland-1_0-J_091515_071342
+
+## FIT101148455(R)
+## Covers: FIT101148451(J), FIT101148450(Liszt)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(R), FIT101076869(R), FIT101098759(R)
+element * avinasku.copland.booklet_jam_fix_FIT101148455.27_OCT_2015
+
+## FIT101167828(R)-LOGS
+## Covers: FIT101223579(J), FIT101223581(Liszt)
+## Modifies: trpc_locl.dll
+## Prereqs: None
+## Obsoletes: None
+element * davidwe.f45.locl.merge.close_session.list.corruption.fix.20141217
+
+## FIT101058248- TcK language support patch - Not released to field
+## Modifies: ecs.dll, translib.dll, trpc_l10n.dll, trpc_locl.dll, pdl.dll, trpc_server_server.dll, ecs_configuration.xml, dev0\Chinese_traditional, dev0\Korean, 
+## efipc-locl.kr.xml, efipc-locl.zh_TW.xml, sysconfig.xml, lang.Chinese_Traditional, lang.Korean, FieryLocalization\ko-KR, FieryLocalization\zh-TW, encoding.info
+## locale.info, lcd_ko-KR.dct, lcd_zh-TW.dct, attr_vidKeys.ko-KR, attr_vidKeys.zh-TW, csiatom_static_attrs.ppd.ko-KR, csiatom_static_attrs.ppd.zh-TW,
+## locl.conf, mapping_langs.conf, static_attrs.ppd.chinese_GBK, static_attrs.ppd.ko-KR, static_attrs.ppd.zh-TW, trpc_netcfg.ko-KR, trpc_netcfg.zh-TW
+## locl.ko-KR, locl.zh-TW, duckpdf.exe
+## Fix of FIT101167828(R) is not available in this patch
+## element pdfblizzard.c /main/_pdlcore/69 
+## element pdfstate.h /main/_pdlcore/123 
+## element * deepakpa.f45.zh_TW.ko_KR.support.04Sept2015 
+## element * jfaas.F5.L10N.l10n.05_NOV_2014 
+## element * jfaas.F5.L10N.PC.05_NOV_2014 
+## element * shekarh.f45.locl.mapping.update.10_NOV_14 
+## element * shekarh.f5.static.trpc.net.ppd.jobnumber.20_OCT_14 
+## element * shekarh.f5.static_attr.ppd.add.korean.chinese.locales.20_OCT_14 
+## element * shekarh.f5.add.locales.zh_TW.ko_KR.20_OCT_14
+## element * M_TRANSLIB.20141204 
+## element * M_CYCLONE.20141204 
+## element * M_CSL.20141204
+
+## FIT101135696(R)- RICOH REQUESTED TO DELAY THE RELEASE
+## Covers: 
+## Modifies: video.dll, PPDs
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(R), FIT101076869(R), FIT101098759(R)
+## element * tamdo.copland.support.fuser.setting.20150904
+## element * chunn.copland.update.ppd.2015.09.17_19.33.51
+
+## Composite patch:- NG
+## FIT101183864(R)
+## Covers: FIT101183865(J), FIT101183863(Liszt)
+## Prereqs: None
+## Obsoletes: None
+## List of defects included:
+## FIT100868801, FIT101087873, FIT100884278, FIT100884265, FIT100884283, FIT100897089, FIT100918770, FIT100935357
+## FIT100969038, FIT100963451, FIT100959682, FIT101008436, FIT100978408, FIT100933505, FIT101003217, FIT101006158
+## FIT101017078, FIT101031021, FIT101019786, FIT101028785, FIT101076816, FIT101056883, FIT101056018, FIT101079459
+## FIT101103168, FIT100884272, FIT101076869, FIT101098759, FIT101123704, FIT101126518, FIT101135602, FIT101121275
+## FIT101117501, FIT101100149, FIT101212066
+
+## FIT101100149(J)
+## Covers: FIT101163448(R), FIT101163451(LisztR)
+## Modifies: dlc.dll
+## Prereqs: FIT101126518(R), FIT101076816(J), FIT101017078(LisztR), FIT101123704(J), FIT101031021(J)
+## Obsoletes: FIT101003217(J), FIT101008436(R)
+## Note: labels are same as of FIT101123704(J) defect. Since, there was no mention of MPW patch FIT101126518(R) as the prereq for FIT101123704(J) defect. We have to
+## recreate the same binaries of FIT101123704(J). trpc_jobm.dll and chinook.exe are removed here because it caused "Thumbnail Extraction error" while launching 
+## ImageViewer in newer CWS versions. These two aren't required and not sure how L2B listed them.
+element * belinda.dlc.scanimage.load.invert.fix.29_SEP_2014
+
+## FIT101121275(J)
+## Covers:
+## Modifies: PPDs
+## Prereqs: FIT100933505(R), FIT101126518(R)
+## Obsoletes: None
+## No labels, Update correct PPDs (PPDs from FIT101126518(R) are taken here)
+
+## FIT101117501(J) - Patch removed from GRAD
+## Covers: FIT101173274(LisztR), FIT101173273(R)
+## Modifies: lcd.dll, l10n/default
+## Prereqs: None
+## Obsoletes: None
+## element * luf.lcd.init_others.c.bypass.L10N_setDefaultLocale.20141205
+
+## FIT101135602(R)
+## Covers:
+## Modifies: Acrobat_Patch_rev1.exe
+## Prereqs: None
+## Obsoletes: None
+## No labels
+
+## FIT101026944
+## Covers: FIT101096141, FIT101027085, FIT101032177, FIT101032152
+## Modifies: video.dll, pqmlibparse.dll, paper.cnf
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(R), FIT101076869(R)
+element * vasub.copland.FIT101032177.port_ruiqis_fix.18Aug2015
+element * chunn.FIT101027085.PCL.paper.cnf.26.May.2015
+element * shekarh.f45.pqmlibparse.pcl.title.name.EFIERYDFIV-855.23_JUN_15
+
+## FIT101123704(J)
+## Covers: FIT101132580(R), FIT101132579(LisztR), FIT101100149(J)
+## Modifies: dlc.dll,trpc_jobm.dll,chinook.exe
+## Prereqs: FIT101017078(LisztR),FIT101076816(J)
+## Obsoletes: FIT101008436(R), FIT101003217(J), FIT101031021(J)
+element * belinda.dlc.scanimage.load.invert.fix.29_SEP_2014
+
+## FIT101126518(R)-Multipass white  patch
+## Covers: FIT101146538(J), FIT101146539(LisztR)
+## Modifies: alib.dll, dlc.dll, CompositeOverprint, multipass.app, exists.php, multiPassControl.php, viewer/*.dll, viewer.exe, action.override.json, PPDs
+## Prereqs: FIT101017078(LisztR), FIT101076816(J)
+## Obsoletes: FIT100933505(R), FIT100969038(J), FIT101003217(J), FIT101012690(R),  FIT101008436(R)/FIT100969305(J)
+## Also refer #MPC_03102014  below, dlls were rebuilt and used in this MPW patch
+element * gordons.copland.MPW.remove_face_up.04_AUG_15
+element * gordons.copland.MPW.FIT101059553.no_white_no_jobs.28_MAY_15
+element * gordons.copland.MPW.FIT101042185.PB_jobs.13_MAY_15
+element * gordons.copland.MPW.FIT101040803.11_MAY_15
+element * gordons.copland.MPW.no_finishing_jobs.22_APR_14
+element * gordons.copland.MPW.local_W_toner_detection.07_APR_14
+element * gordons.copland.MPW.no_white_no_job.19_MAR_15
+element * gordons.copland.MPW.white_toner_detection.11_MAR_15
+element * gordons.copland.MPW.FIT100909704.Pass_SimpCh_fix.26_FEB_15
+element * gordons.copland.MPW.FIT100913763.no_local_strings_during_reload.13_FEB_15
+element * gordons.copland.MPW.FIT100911902.polish_strings_fix.13_FEB_15
+element * gordons.copland.MPW.FIT100907473.SPCh_string.12_FEB_15
+
+## FIT101098759(R)
+## Covers: FIT101132584(J), FIT101132586(LisztR)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(R), FIT101076869(R)
+element * vasub.copland.FIT101098759.CANAL_DUPLO_Issue_Fixed.13Aug2015
+
+## FIT101077903(J)
+## Modfies: video.dll
+## additional log in rseq_print_job.cpp
+
+
+## FIT100884272(R) - Re-release
+## Covers: FIT100978394(J), FIT100978400(LisztR)
+## Modifies: 1200_hybrid.tt, 1200_270line.tt, 1200_200line.tt, 1200_175line.tt, 1200_175dot.tt, 1200_200dot.tt, video.2.cfg
+## Prereqs: None
+## Obsoletes: None
+element * johnb.copland.screen.patch.21_JUL_15
+element * coryfasb.FIT100884272.remove.noise.final.fix.15_May_2015
+element * johnb.copland.screen.patch.15_MAY_15
+
+## FIT101103168(LisztR)
+## Covers:
+## Modifies: removememory in BCD
+## Prereqs: None
+## Obsoletes: None
+## No labels
+
+## FIT101076869(Copland1.0RD)
+## Covers: FIT101110965(LisztR)
+## Modifies: video.dll
+## Prereqs:  FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R), FIT101079459(Copland1.0RD)
+element * rinjus.copland.plockmatic.bookleterrer.recovery.fix.16Jul2015
+
+## FIT101079459(Copland1.0RD)
+## Covers: FIT101095930(LisztR)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R)
+element * rinjus.copland.sust.plockmatic.recovery.page.fix.2Jul2015
+
+## FIT101056018(Copland1.0RD)
+## Covers:
+## [15308 : EFI_Sinatra 2.0 J]
+## [15304 : EFI_Sinatra 2.0 RDSc]
+## [12401 : EFI_Copland 1.0 RD]
+## [12710 : EFI_Ravel 1.0 RD]
+## [12707 : EFI_Liszt 1.0 RD]
+## [12801 : EFI_Copland 1.0 J ]
+## [12709 : EFI_Bernstein 1.0 J]
+## [12708 : EFI_Bernstein 1.0 RD]
+## Modifies:
+## Apache - updated from 2.2.29 to 2.2.29
+## OpenSSL-Apache/PrintMeConnect - updated from 0.9.8zb to 1.0.1m
+## OpenSSL-OFA/System Update/Efislp/Netsnmp and other Fiery modules - updated from 0.9.8zb to 0.9.8zf
+## PHP - updated from 5.3.29 to 5.6.7
+## Samba - updated from 3.5.22 to 3.5.22(Vulnerabilities fixes)
+## Prereqs: None
+## Obsoletes: None
+element * manjunat.use.sha2.with.rsa.self.signed.cert.f45.20_FEB_15 
+element * manjunat.disbale.sslv2v3.from.trpc.secure.ports.13_APR_15
+element * hanumasa.32_bit_openssl-0.9.8ze_libs.02_MAR_15
+element * hanumasa.64_bit_openssl_0.9.8ze_libs.02_MAR_15
+element * hanumasa.printMeConnect_openssl_libs_upgrade_to_1.0.1l.02_MAR_15
+element * hanumasa.Win_apache_2.2.29_openssl_1.0.1_php_5.6.6.02_MAR_15
+
+## FIT101056883(J)
+## Covers: FIT101085327(R), FIT101085329(LisztR)
+## Modifies: pdl.dll
+## Prereqs: FIT101076816(J)
+## Obsoletes: FIT101006158(J), FIT101011581(J)
+element * ckong.collapse.vpage.pe.clip_june18_15
+
+## [Feature Request] FIT101068102(R) -- REDO
+## Covers: FIT101068105(J), FIT101068106(LisztR)
+## Modifies: video.dll, ric.xml
+## Prereqs: FIT100884265(R), FIT100918770(R)
+## Obsoletes: FIT101028785(R), FIT100978408(R), FIT100884278(R), FIT100963451 (R), FIT100896202(R)
+## element * santoshp.copland_replace_press_roller_errmsg_alert_feature_fremont.25thJune2015
+## element * santoshp.copland_replace_press_roller_errmsg_alert_feature_fremont.18thJune2015
+## element * santoshp.copland_replace_press_roller_errmsg_alert_feature_idc.18thJune2015
+
+## FIT101076816(J)
+## Covers: FIT101076815(R), FIT101076817(LisztR)
+## Modifies:  pdl.dll, dlc.dll, trpc_jobm.dll, vfwrap.dll, ripdll.dll
+## Prereqs: FIT101017078(LisztR)
+## Obsoletes: FIT101008436(R), FIT101003217(J), FIT101031021(J)
+element * victork.copland.01_JUN_15
+
+## FIT101028785(R)
+## Covers: FIT101074541(J), FIT101074538(LisztR)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R)/FIT100884269(R), FIT100918770(R)/FIT100917136(J)
+## Obsoletes: FIT100978408(R)/FIT101012656(J)/FIT101012659(LisztR)
+##            FIT100884278(R), FIT100963451 (R)/FIT100969219(R), FIT100896202(R)
+element *  manoharm.copland.haicfix.12Jun2015
+
+## FIT101028638(R)- customer specific patch
+## Covers:
+## Modifies: dbpro_core.dll, sysdict
+## Prereqs: None
+## Obsoletes: None
+## element * rajeevsi.Copland.SameAsJPforGangup.2.04_JUN_15
+## element * manoharm.copland.impose.sysdict.05Jun2015
+
+## FIT101019786(J)
+## Covers: FIT101062307(R), FIT101071024(LisztR)
+## Modifies: vdp_cache.dll
+## Prereqs: None
+## Obsoletes: None
+element * ckong.ps.rect.clip.larger.1pixel_nov18_14
+
+## [SR-LOGS] FIT101039009(J)
+## Covers:
+## Modifies: pdl.dll, ripdll.dll, dlc.dll, trpc_jobm.dll, vfwrap.dll
+## Prereqs: FIT101017078(LisztR)/FIT101033451(R)/FIT101033450(J)
+## Obsoletes: FIT101031021(J), FIT101012690(R), FIT101025982(R), FIT101026064(R), FIT101052608(R), FIT101052605(J)
+element * victork.copland.01_JUN_15
+element * victork.vfwrap.11_MAY_15
+
+## FIT101031021(J), FIT101012690(R), FIT101025982(R), FIT101026064(R), FIT101052608(R), FIT101052605(J)
+## Covers: FIT101046197(R)/FIT101046198(LisztR), FIT101025975(J)/FIT101025974(LisztR), FIT101033097(J)/FIT101033095(LisztR),
+##         FIT101025975(J)/FIT101025974(LisztR)
+## Modifies: dlc.dll, trpc_jobm.dll
+## Prereqs: FIT101017078(LisztR)/FIT101033451(R)/FIT101033450(J)
+## Obsoletes: FIT101008436(R)/FIT100969305(J), FIT101003217(J)/FIT101022282(R)/FIT101022285(LisztR)
+element * belinda.tiannino.copland.image.enhance.clip.11_MAY_2015
+element * belinda.dlc.port.victork.ect.fix.26_MAY_2015
+
+## FIT100884272(R)- NG
+## Covers: FIT100978394(J), FIT100978400(LisztR)
+## Modifies: 1200_hybrid.tt, 1200_270line.tt, 1200_200line.tt, 1200_175line.tt, 1200_175dot.tt, 1200_200dot.tt, video.2.cfg
+## Prereqs: None
+## Obsoletes: None
+element * coryfasb.FIT100884272.remove.noise.final.fix.15_May_2015
+element * johnb.copland.screen.patch.15_MAY_15
+
+## FIT101017078(LisztR)
+## Covers: FIT101033451(R)/FIT101033450(J)
+## Modifies: dlc.dll, alib.dll, vfwrap.dll
+## Prereqs: None
+## Obsoletes:  FIT101008436(R)/FIT100969305(J), FIT101003217(J)/FIT101022282(R)/FIT101022285(LisztR),
+##             FIT101012690(R)/FIT101025975(J)/FIT101025974(LisztR)
+element * victork.copland.29_APR_15
+
+## FIT101006158(J), FIT101011581(J)
+## Covers: FIT101014345(R), FIT101014478(LisztR)
+## Modifies: pdl.dll
+## Prereqs: None
+## Obsoletes: None
+element * ckong.skipMarking.and.Nup.appe_august12_14
+
+## FIT101003217(J), FIT101012690(R)
+## Covers: FIT101022282(R), FIT101022285(LisztR), FIT101025974(LisztR), FIT101025975(J) 
+## Modifies: dlc.dll
+## Prereqs: None
+## Obsoletes: FIT101008436(R)/FIT100969305(J)
+element * belinda.dlc.flame45.xpimage.skip.over.missing.runs.13_APR_2015
+
+## FIT100933505(R) - Obsoleted above
+## Covers: FIT100933501(J), FIT100933498(LisztR)
+## Modifies: PPDs
+## Prereqs: None
+## Obsoletes: None
+element * chunn.copland.update.ppd.2015.03.26_20.45.43
+
+## FIT100978408(R)
+## Covers: FIT101012656(J), FIT101012659(LisztR)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R)/FIT100884269(R), FIT100918770(R)/FIT100917136(J)
+## Obsoletes: FIT100884278(R), FIT100963451 (R)/FIT100969219(R), FIT100896202(R)
+element * coryfasb.FIT100978408.update.08_Apr_2015
+
+## FIT100896202(R)
+## Covers:
+## Modifies: video.dll
+## Prereqs: FIT100884265(R)/FIT100884269(R), FIT100918770(R)/FIT100917136(J)
+## Obsoletes: FIT100884278(R), FIT100963451 (R)/FIT100969219(R)
+element * isaoa.copland.counter.calibration.page.02_Mar_2015
+
+## FIT100959682(J)
+## Covers: FIT101007032(R), FIT101007031(LisztR)
+## Modifies: appe.dll ACR.dll ACRStd.dll AdobePDFL_APPE30.dll Graphics.dll GraphicsObject.dll TrappingPort.dll  ACRSetup.text ACRTraceExample.xml ACRExampleSetup.txt
+## Prereqs: FIT100935357(R)/FIT100893974(J)/FIT100935362(LisztR)
+## Obsoletes: None
+element * taotaoy.appe30.44567.SDL_fix.20150323
+element * taotaoy.Flame4.5.Copland.FIT100959682.20150401
+element * dchen.appe.latest.libs.to.flame4.5.032315
+
+## FIT101008436(R)
+## Covers: FIT100969305(J)
+## Modifies: dlc.dll
+## Prereqs: None
+## Obsoletes: None
+element * belinda.dlc.copland.remove.xpimage.mask_or.26_MAR_2015
+
+## FIT100963451 (R), FIT100963459 (LisztR)
+## Covers: FIT100969289(LisztR), FIT100969219(R), FIT100969290(J), FIT100969222(J)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R)/FIT100884269(R), FIT100918770(R)/FIT100917136(J)
+## Obsoletes: FIT100884278(R)
+element * tamdo.copland.WrongRotation.MAR_16_2015
+
+## FIT100969038(J)
+## Covers: FIT100978360(R), FIT100978373(LisztR)
+## Modifies: CompositeOverprint
+## Prereqs: None
+## Obsoletes: None
+element * jorge.CompositeOverprint.Copland.fix.invalidaccess.err.30_JAN_15
+
+## FIT100884272(R) - NG
+## Covers: FIT100978394(J), FIT100978400(LisztR)
+## Modifies: video.2.cfg
+## Prereqs: None
+## Obsoletes: None
+element * coryfasb.FIT100884272.temp.fix.10_Mar_2015
+
+## FIT100935357(R)
+## Covers: FIT100893974(J), FIT100935362(LisztR)
+## Modifies: appe.dll, eficmm.dll
+## Prereqs: None
+## Obsoletes: None
+element * tingz.appe.TonerReduceToEficmm.F4.5.20150223
+element * tingz.eficmm.setTonerReduce.F4.5.20150223
+
+## FIT100897089(R)
+## Covers: FIT100917142(J), FIT100918614(LisztR)
+## Modifies: factsvrhlp.dll
+## Prereqs: None
+## Obsoletes: None
+element * wenjunzh.copland.factsvrhlp.route.mm.booklet.jobs.to.cpsi.FIT100897089.12_FEB_15
+
+## FIT100884283(R)
+## Covers: FIT100924840(J), FIT100924836(LisztR)
+## Modifies: pc_fiery_api.dll
+## Prereqs: None
+## Obsoletes: None
+element * M_PAPERCATALOG_FLAME4.5.05_FEB_2015
+
+## FIT100963459 (LisztR)
+## Covers: FIT100969289(LisztR), FIT100969219(R), FIT100969290(J), FIT100969222(J)
+## Modifies: video.dll
+## Prereqs: FIT100884265(R)/FIT100884269(R), FIT100918770(R)/FIT100917136(J)
+## Obsoletes: FIT100884278(R)
+element * tamdo.copland.WrongRotation.MAR_16_2015
+
+## FIT100918770(R)
+## Covers: FIT100917136(J), FIT100921761(LisztR)
+## Modifies: video.dll, video.1.cfg
+## Prereqs: FIT100884265(R)/FIT100884269(R)
+## Obsoletes: FIT100884278(R)
+element * coryfasb.FIT100917136.fix.5th.color.speed.20_Feb_2015
+
+## FIT100884265(R), FIT100884269(R)
+## Covers: FIT100911536(J), FIT100911572(J), FIT100911540(LisztR), FIT100911584(LisztR)
+## Modifies:commonlcd.exe, gui.dll, video.dll
+## Prereqs: None
+## Obsoletes: FIT100884278(R)
+element * luf.lcd.copland.merge.20150209
+
+## FIT100884278(R)
+## Modifies: video.dll
+## Prereqs: None
+## Obsoletes: None
+element * gordons.copland.FIT000227627.brandName_2_byte_chars_support.07_JAN_14
+
+#MPC_03102014 
+element * jorge.CompositeOverprint.Copland.fix.invalidaccess.err.30_JAN_15
+element * gordons.ricoh.MultiPassWhite_tool.13_JAN_14
+element * jorge.Copland.DriverOps.FieryOverride.fix.flip.with.autoscale.14_NOV_14
+element * chunn.copland.update.ppd.2014.11.24_15.46.57
+element * victork.dlc.copland.23_SEP_14
+element * victork.copland.31_MAR_15
+
+#######################################################################################
+
+#yes patch #9
+#video
+element * isaoa.br.fix.binder.state.16_Dec_2014
+element * isaoa.cl.print.insert.missing.binder.16_Dec_2014
+#alib
+element * victork.acs.14_NOV_2014
+#flamingo
+element * takashi.colorwise.combseps.element.specialty.toner.spot.F4.5.20141031
+element * takashi.colorwise.combseps.element.specialty.toner.object.type.basis.F4.5.20141030
+element * tingz.specialty.color.masks.in.colorsnap.20141016
+element * tingz.color.specialty.color.via.job.setting.20140905
+
+#yes Patch #8
+element * isaoa.cl.workaround.binder.list.15_Dec_2014
+
+#yes patch 7
+element * coryfasb.FIT000228148.600dpi.dsv.jobs.03_Dec_2014
+
+#yes patch #6a
+element * tamdo.cl.port_ruiqis_fix_from_main.sysmvidifc.20_nov_2014
+
+element * tamdo.cl.resume_printing_after_error_event.19_nov_2014
+
+# patch FIT100756814 config spec everything below
+
+#yes Patch #5
+element * coryfasb.br.FIT100600974.EngineCatalogInstructions-ru_RU.14_Nov_2014
+element * tamdo.cl.tray_moving_err_cause_crash.14_nov_2014
+element * tamdo.cl.toner_end.print_one_side.cancel_the_other.13_nov_2014
+element * tamdo.cl.port_tray_moving_fix.fix_dead_end_attempt_to_print.13_nov_2014
+element * tamdo.copland.weird_punch_rotation.13_nov_2014
+element * jshi.ricoh.br.FIT100600974.ru-pdf.20141113
+element * tamdo.copland.port_cancelReason_fix_from_bersntein.11_nov_2014
+element * yaoqiu.copland.FPChinese.06_NOV_2014
+element * yaoqiu.copland.PaperCatalog16K.06_NOV_2014
+element * yaoqiu.copland.ForcePrintCustomSize.06_NOV_2014
+
+#
+# Yes Patch #4 Nov 5
+#
+#pageman.dll
+element * coryfasb.FIT000227138.port.changes.to.copland.05_Nov_2014
+#factsvrhlp.dll
+element * rahulpat.Copland.FACT.ftkt_template.read.only.04_NOV_2014
+#video.dll
+element * coryfasb.FIT000225277.fix.vir.printers.04_Nov_2014
+#alib.dll
+element * victork.acs.29_OCT_14
+
+#
+# Yes Patch #3 Oct 30
+#
+element * coryfasb.YES.patch.3.30_OCT_2014
+element * luf.aegis_lcd.handle.STR.to.POWER_CUT.20141030
+element * isaoa.cl.port.notifiy.conn.lost.27_Oct_2014
+
+#
+# skipping since it jumps 5 versions of the file ect_merge.c
+#
+#element * victork.acs.29_OCT_14
+
+element * coryfasb.FIT000227136.fix.RB.message.29_Oct_2014
+element * tamdo.copland.weird_rotation_pcl.28_oct_2014
+element * tamdo.brcl.job_seq_resume_timing.fix.27_oct_2014
+element * tamdo.copland.job_seq_resume_timing.27_oct_2014
+element * tamdo.copland.pb_trim_rounding.27_oct_2014
+
+#
+# Yes Patch #2 Oct 24 update only video.dll from last patch
+#
+element * coryfasb.lcd.apip.log.fix.15_Oct_2014
+element * tamdo.copland.pb_trim_typo.15_oct_2014
+element * luf.aegis_lcd.allow.shutdown.P.engine.without.cleanup.FIT000226200.20141009
+element * isaoa.cl.get.eng.status.reset.22_Sep_2014
+element * coryfasb.lcd.apip.log2.15_Oct_2014
+
+# Yes Bugs #1 patching video.dll and sp.dll and ric.xml
+#
+element * coryfasb.lcd.apip.log.15_Oct_2014
+element * vibhashk.copland.mib.FIT000225298.FIT100225880.15_OCT_2014
+element * yaoqiu.copland.CRoverwrite.14_OCT_2014
+element * coryfasb.FIT000226016.increase.log.level.14_Oct_2014
+element * coryfasb.fix.mvid.iterator.14_Oct_2014
+element * tamdo.copland.print_stop_printing_show_forever.7_oct_2014
+element * tamdo.copland.code_review_adjustment.1_oct_2014
+element * tamdo.copland.early_cancel.29_sep_2014
+element * tamdo.copland.tray_cover_popup_block_jam_clear_popup.26_sep_2014
+element * tamdo.copland.mvidDownload_crash.wrong_set.canceling_forever.25_sep_2014
+element * tamdo.copland.b5_fold_constraint_clarified.19_sep_2014
+element * victork.dither.17_SEP_14
+element * victork.dither.16_SEP_2014
+element * victork.dither.16_SEP_14
+element * isaoa.cl.get.eng.status.reset.22_Sep_2014
+element * B_FLAME4.5_COPLAND.GM
